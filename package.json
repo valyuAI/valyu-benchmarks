@@ -1,0 +1,38 @@
+{
+  "name": "valyu-benchmarking",
+  "version": "1.0.0",
+  "description": "Comprehensive benchmarking system comparing Valyu API against Google, Exa, and Parallel AI across three evaluation frameworks",
+  "type": "module",
+  "scripts": {
+    "install-all": "npm install"
+  },
+  "keywords": [
+    "benchmark",
+    "valyu",
+    "ai",
+    "search",
+    "evaluation"
+  ],
+  "dependencies": {
+    "@ai-sdk/amazon-bedrock": "^3.0.22",
+    "@ai-sdk/anthropic": "^2.0.17",
+    "@ai-sdk/google": "latest",
+    "@ai-sdk/google-vertex": "^3.0.27",
+    "@ai-sdk/openai": "^2.0.30",
+    "@anthropic-ai/vertex-sdk": "^0.13.2",
+    "@perplexity-ai/perplexity_ai": "^0.6.0",
+    "@types/node": "^24.5.0",
+    "ai": "^5.0.44",
+    "dotenv": "^17.2.2",
+    "exa-js": "^1.9.3",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2",
+    "valyu-js": "^2.1.0",
+    "zod": "^3.23.8"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}

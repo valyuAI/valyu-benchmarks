@@ -1,0 +1,3280 @@
+{
+  "dataset_info": {
+    "name": "Finance QA Benchmark",
+    "version": "1.0",
+    "description": "Finance dataset",
+    "total_questions": 120,
+    "created_date": "2025-09-18T12:37:56.225691",
+    "modified_date": 1759851638.0912364
+  },
+  "questions": [
+    {
+      "id": "retrieval_customer_advances",
+      "question": "What was the value of customer advances for CF Industries Holdings in Q1 2023?",
+      "answer": "284",
+      "source_dataset": "sec",
+      "answer_type": "number",
+      "unit": "USD millions",
+      "difficulty": "easy",
+      "category": "Retrieval",
+      "evaluation": {
+        "method": "exact",
+        "tolerance": 0.0,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "provenance": {
+          "company": "CF Industries Holdings, Inc.",
+          "filing_type": "10-Q",
+          "filed_date": "2023-05-02",
+          "section": "Item 1",
+          "year": 2023,
+          "fiscal_year_score": 0.0
+        },
+        "custom_fields": {
+          "evidence_refs": [
+            {
+              "table_id": null,
+              "row": null,
+              "col": null,
+              "fact_id": "customer_advances",
+              "snippet": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "retrieval_long_term_investments",
+      "question": "What was the value of Edwards Lifesciences Corp's long-term investments in fixed-rate debt securities in fiscal year 2017?",
+      "answer": "552200000",
+      "source_dataset": "sec",
+      "answer_type": "number",
+      "unit": "USD",
+      "difficulty": "easy",
+      "category": "Retrieval",
+      "evaluation": {
+        "method": "exact",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "provenance": {
+          "company": "Edwards Lifesciences Corp",
+          "filing_type": "10-K",
+          "filed_date": "2018-02-16",
+          "section": "Item 7a",
+          "year": 2017,
+          "fiscal_year_score": 2.0
+        },
+        "custom_fields": {
+          "evidence_refs": [
+            {
+              "table_id": null,
+              "row": null,
+              "col": null,
+              "fact_id": "long_term_investments",
+              "snippet": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "retrieval-investment-portfolio",
+      "question": "What was Amgen's investment portfolio fair value in 2008?",
+      "answer": "9400000000",
+      "source_dataset": "sec",
+      "answer_type": "number",
+      "unit": "USD",
+      "difficulty": "easy",
+      "category": "Retrieval",
+      "evaluation": {
+        "method": "exact",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "provenance": {
+          "company": "AMGEN INC",
+          "filing_type": "10-K",
+          "filed_date": "2009-02-27",
+          "section": "Item 7a",
+          "year": 2008,
+          "fiscal_year_score": 2.0
+        },
+        "custom_fields": {
+          "evidence_refs": [
+            {
+              "table_id": null,
+              "row": null,
+              "col": null,
+              "fact_id": "investment-portfolio-value",
+              "snippet": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "retrieval_diluted_eps",
+      "question": "What was Lincoln National Corp's diluted earnings per share for the period?",
+      "answer": "1.65",
+      "source_dataset": "sec",
+      "answer_type": "number",
+      "unit": "USD",
+      "difficulty": "easy",
+      "category": "Retrieval",
+      "evaluation": {
+        "method": "exact",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "provenance": {
+          "company": "LINCOLN NATIONAL CORP",
+          "filing_type": "10-Q",
+          "filed_date": "2015-10-29",
+          "section": "Item 1",
+          "year": 2015,
+          "fiscal_year_score": 0.0
+        },
+        "custom_fields": {
+          "evidence_refs": [
+            {
+              "table_id": null,
+              "row": null,
+              "col": null,
+              "fact_id": "diluted_earnings_per_share",
+              "snippet": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "retrieval_net_income_2023",
+      "question": "What was Visa Inc.'s net income in fiscal year 2023?",
+      "answer": "14957",
+      "source_dataset": "sec",
+      "answer_type": "number",
+      "unit": "USD millions",
+      "difficulty": "easy",
+      "category": "Retrieval",
+      "evaluation": {
+        "method": "exact",
+        "tolerance": 0.0,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "provenance": {
+          "company": "VISA INC.",
+          "filing_type": "10-K",
+          "filed_date": "2023-11-15",
+          "section": "Item 8",
+          "year": 2023,
+          "fiscal_year_score": 0.0
+        },
+        "custom_fields": {
+          "evidence_refs": [
+            {
+              "table_id": "income_statement",
+              "row": "Net Income",
+              "col": "Value",
+              "fact_id": null,
+              "snippet": null
+            },
+            {
+              "table_id": null,
+              "row": null,
+              "col": null,
+              "fact_id": "net_income_2023",
+              "snippet": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "net_earnings_continuing_ops",
+      "question": "What were Danaher Corporation's net earnings from continuing operations in fiscal year 2019?",
+      "answer": "2432.3",
+      "source_dataset": "sec",
+      "answer_type": "number",
+      "unit": "USD millions",
+      "difficulty": "easy",
+      "category": "Retrieval",
+      "evaluation": {
+        "method": "numeric",
+        "tolerance": 0.01,
+        "tolerance_type": "relative",
+        "additional_params": null
+      },
+      "source_metadata": {
+        "provenance": {
+          "company": "DANAHER CORP /DE/",
+          "filing_type": "10-K",
+          "filed_date": "2020-02-21",
+          "section": "Item 8",
+          "year": 2019,
+          "fiscal_year_score": 5.0
+        },
+        "custom_fields": {
+          "evidence_refs": [
+            {
+              "table_id": null,
+              "row": null,
+              "col": null,
+              "fact_id": "net_earnings_continuing_ops",
+              "snippet": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "retrieval_long_term_investments",
+      "question": "What was the value of Edwards Lifesciences Corp's long-term investments in fixed-rate debt securities in fiscal year 2015?",
+      "answer": "351700000",
+      "source_dataset": "sec",
+      "answer_type": "number",
+      "unit": "USD",
+      "difficulty": "easy",
+      "category": "Retrieval",
+      "evaluation": {
+        "method": "exact",
+        "tolerance": 0.0,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "provenance": {
+          "company": "Edwards Lifesciences Corp",
+          "filing_type": "10-K",
+          "filed_date": "2016-02-19",
+          "section": "Item 7a",
+          "year": 2015,
+          "fiscal_year_score": 2.0
+        },
+        "custom_fields": {
+          "evidence_refs": [
+            {
+              "table_id": null,
+              "row": null,
+              "col": null,
+              "fact_id": "long_term_investments",
+              "snippet": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "liquidity_cash_flow_operations",
+      "question": "What was Home Depot's cash flow from operations in fiscal year 2009?",
+      "answer": "5100000000",
+      "source_dataset": "sec",
+      "answer_type": "number",
+      "unit": "USD",
+      "difficulty": "easy",
+      "category": "Liquidity",
+      "evaluation": {
+        "method": "numeric",
+        "tolerance": 0.01,
+        "tolerance_type": "relative",
+        "additional_params": null
+      },
+      "source_metadata": {
+        "provenance": {
+          "company": "HOME DEPOT, INC.",
+          "filing_type": "10-K",
+          "filed_date": "2010-03-25",
+          "section": "Item 7",
+          "year": 2009,
+          "fiscal_year_score": 5.0
+        },
+        "custom_fields": {
+          "evidence_refs": [
+            {
+              "table_id": null,
+              "row": null,
+              "col": null,
+              "fact_id": "cash_flow_operations",
+              "snippet": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "retrieval_net_income_q1_2015",
+      "question": "What was Cisco Systems' net income for the first quarter of 2015?",
+      "answer": "2430",
+      "source_dataset": "sec",
+      "answer_type": "number",
+      "unit": "USD millions",
+      "difficulty": "easy",
+      "category": "Retrieval",
+      "evaluation": {
+        "method": "exact",
+        "tolerance": 0.0,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "provenance": {
+          "company": "CISCO SYSTEMS, INC.",
+          "filing_type": "10-Q",
+          "filed_date": "2015-11-19",
+          "section": "Item 1",
+          "year": 2015,
+          "fiscal_year_score": 0.0
+        },
+        "custom_fields": {
+          "evidence_refs": [
+            {
+              "table_id": "income_statement",
+              "row": "Net Income",
+              "col": "Three Months Ended",
+              "fact_id": null,
+              "snippet": null
+            },
+            {
+              "table_id": null,
+              "row": null,
+              "col": null,
+              "fact_id": "net_income_2015_q1",
+              "snippet": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "retrieval_fair_value_impact_1",
+      "question": "What was Regeneron Pharmaceuticals' estimated fair value decrease from a 1% interest rate change in 2019?",
+      "answer": "48600000",
+      "source_dataset": "sec",
+      "answer_type": "number",
+      "unit": "USD",
+      "difficulty": "easy",
+      "category": "Retrieval",
+      "evaluation": {
+        "method": "exact",
+        "tolerance": 0.0,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "provenance": {
+          "company": "REGENERON PHARMACEUTICALS, INC.",
+          "filing_type": "10-K",
+          "filed_date": "2020-02-07",
+          "section": "Item 7a",
+          "year": 2019,
+          "fiscal_year_score": 5.0
+        },
+        "custom_fields": {
+          "evidence_refs": [
+            {
+              "table_id": null,
+              "row": null,
+              "col": null,
+              "fact_id": "interest_rate_impact_2019",
+              "snippet": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "liquidity_3",
+      "question": "What was the total amount of capital expenditures for Phillips 66 in the period?",
+      "answer": "1213000000",
+      "source_dataset": "sec",
+      "answer_type": "number",
+      "unit": "USD",
+      "difficulty": "easy",
+      "category": "Liquidity",
+      "evaluation": {
+        "method": "exact",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "provenance": {
+          "company": "Phillips 66",
+          "filing_type": "10-Q",
+          "filed_date": "2015-07-31",
+          "section": "Item 2",
+          "year": 2015,
+          "fiscal_year_score": -1.0
+        },
+        "custom_fields": {
+          "evidence_refs": [
+            {
+              "table_id": null,
+              "row": null,
+              "col": null,
+              "fact_id": "capital_expenditures",
+              "snippet": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "retrieval_eps_basic_2020",
+      "question": "What was Nucor Corporation's basic earnings per share in fiscal year 2020?",
+      "answer": "2.37",
+      "source_dataset": "sec",
+      "answer_type": "number",
+      "unit": "USD",
+      "difficulty": "easy",
+      "category": "Retrieval",
+      "evaluation": {
+        "method": "exact",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "provenance": {
+          "company": "NUCOR CORP",
+          "filing_type": "10-K",
+          "filed_date": "2021-02-26",
+          "section": "Item 8",
+          "year": 2020,
+          "fiscal_year_score": 2.0
+        },
+        "custom_fields": {
+          "evidence_refs": [
+            {
+              "table_id": null,
+              "row": null,
+              "col": null,
+              "fact_id": "eps_basic_2020",
+              "snippet": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "retrieval_tax_rate",
+      "question": "What was Eli Lilly's effective tax rate in fiscal year 2014?",
+      "answer": "20.3",
+      "source_dataset": "sec",
+      "answer_type": "number",
+      "unit": "percent",
+      "difficulty": "easy",
+      "category": "Retrieval",
+      "evaluation": {
+        "method": "numeric",
+        "tolerance": 0.1,
+        "tolerance_type": "absolute",
+        "additional_params": null
+      },
+      "source_metadata": {
+        "provenance": {
+          "company": "ELI LILLY & Co",
+          "filing_type": "10-K",
+          "filed_date": "2015-02-19",
+          "section": "Item 6",
+          "year": 2014,
+          "fiscal_year_score": 3.0
+        },
+        "custom_fields": {
+          "evidence_refs": [
+            {
+              "table_id": null,
+              "row": null,
+              "col": null,
+              "fact_id": "effective_tax_rate_2014",
+              "snippet": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "retrieval_eps",
+      "question": "What was Microsoft's diluted earnings per share in fiscal year 2023?",
+      "answer": "7.02",
+      "source_dataset": "sec",
+      "answer_type": "number",
+      "unit": "USD",
+      "difficulty": "easy",
+      "category": "Retrieval",
+      "evaluation": {
+        "method": "exact",
+        "tolerance": 0.0,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "provenance": {
+          "company": "MICROSOFT CORP",
+          "filing_type": "10-Q",
+          "filed_date": "2023-04-25",
+          "section": "Item 1",
+          "year": 2023,
+          "fiscal_year_score": 0.0
+        },
+        "custom_fields": {
+          "evidence_refs": [
+            {
+              "table_id": null,
+              "row": null,
+              "col": null,
+              "fact_id": "earnings_per_share",
+              "snippet": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "copper_sales_volume_2020",
+      "question": "What was Newmont's copper sales volume in 2020?",
+      "answer": "12000000",
+      "source_dataset": "sec",
+      "answer_type": "number",
+      "unit": "pounds",
+      "difficulty": "easy",
+      "category": "Retrieval",
+      "evaluation": {
+        "method": "exact",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "provenance": {
+          "company": "NEWMONT Corp /DE/",
+          "filing_type": "10-K",
+          "filed_date": "2021-02-18",
+          "section": "Item 7a",
+          "year": 2020,
+          "fiscal_year_score": 2.0
+        },
+        "custom_fields": {
+          "evidence_refs": [
+            {
+              "table_id": null,
+              "row": null,
+              "col": null,
+              "fact_id": "copper_sales_2020",
+              "snippet": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "retrieval_diluted_eps_2021",
+      "question": "What was Nucor Corporation's diluted earnings per share for the year ended December 31, 2021?",
+      "answer": "23.16",
+      "source_dataset": "sec",
+      "answer_type": "number",
+      "unit": "USD",
+      "difficulty": "easy",
+      "category": "Retrieval",
+      "evaluation": {
+        "method": "exact",
+        "tolerance": 0.0,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "provenance": {
+          "company": "NUCOR CORP",
+          "filing_type": "10-K",
+          "filed_date": "2022-02-28",
+          "section": "Item 8",
+          "year": 2021,
+          "fiscal_year_score": 2.0
+        },
+        "custom_fields": {
+          "evidence_refs": [
+            {
+              "table_id": null,
+              "row": null,
+              "col": null,
+              "fact_id": "eps_diluted_2021",
+              "snippet": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "retrieval_raw_material_impact",
+      "question": "What is the total raw material inventory impact for Nucor Corp in 2009?",
+      "answer": "420000000",
+      "source_dataset": "sec",
+      "answer_type": "number",
+      "unit": "USD",
+      "difficulty": "easy",
+      "category": "Retrieval",
+      "evaluation": {
+        "method": "numeric",
+        "tolerance": 0.0,
+        "tolerance_type": "absolute",
+        "additional_params": null
+      },
+      "source_metadata": {
+        "provenance": {
+          "company": "NUCOR CORP",
+          "filing_type": "10-K",
+          "filed_date": "2010-02-25",
+          "section": "Item 7a",
+          "year": 2009,
+          "fiscal_year_score": 5.0
+        },
+        "custom_fields": {
+          "evidence_refs": [
+            {
+              "table_id": null,
+              "row": null,
+              "col": null,
+              "fact_id": "raw_material_impact",
+              "snippet": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "hormel_net_earnings_change_2024",
+      "question": "By what percentage did Hormel Foods' net earnings change in fiscal year 2024?",
+      "answer": "1",
+      "source_dataset": "sec",
+      "answer_type": "number",
+      "unit": "%",
+      "difficulty": "easy",
+      "category": "YoY_Change",
+      "evaluation": {
+        "method": "exact",
+        "tolerance": 0.0,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "provenance": {
+          "company": "HORMEL FOODS CORP /DE/",
+          "filing_type": "10-K",
+          "filed_date": "2024-12-05",
+          "section": "Item 7",
+          "year": 2024,
+          "fiscal_year_score": 2.0
+        },
+        "custom_fields": {
+          "evidence_refs": [
+            {
+              "table_id": null,
+              "row": null,
+              "col": null,
+              "fact_id": "net_earnings_change",
+              "snippet": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "retrieval_metals_unrealized_loss",
+      "question": "What was Steel Dynamics' unrealized loss on metal contracts in 2008?",
+      "answer": "38400000",
+      "source_dataset": "sec",
+      "answer_type": "number",
+      "unit": "USD",
+      "difficulty": "easy",
+      "category": "Retrieval",
+      "evaluation": {
+        "method": "exact",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "provenance": {
+          "company": "STEEL DYNAMICS INC",
+          "filing_type": "10-K",
+          "filed_date": "2009-02-27",
+          "section": "Item 7a",
+          "year": 2008,
+          "fiscal_year_score": 2.0
+        },
+        "custom_fields": {
+          "evidence_refs": [
+            {
+              "table_id": null,
+              "row": null,
+              "col": null,
+              "fact_id": "metals_unrealized_loss",
+              "snippet": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "retrieval_q1",
+      "question": "What were Home Depot's net sales for the three months ended July 31, 2016?",
+      "answer": "26472",
+      "source_dataset": "sec",
+      "answer_type": "number",
+      "unit": "USD million",
+      "difficulty": "easy",
+      "category": "Retrieval",
+      "evaluation": {
+        "method": "exact",
+        "tolerance": 0.0,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "provenance": {
+          "company": "HOME DEPOT, INC.",
+          "filing_type": "10-Q",
+          "filed_date": "2016-08-23",
+          "section": "Item 1",
+          "year": 2016,
+          "fiscal_year_score": 0.0
+        },
+        "custom_fields": {
+          "evidence_refs": [
+            {
+              "table_id": "income_statement",
+              "row": "Net Sales",
+              "col": "Three Months Ended July 31",
+              "fact_id": null,
+              "snippet": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "retrieval_loans_over_100k",
+      "question": "What was the total value of loans over $100,000 for Zions Bancorporation in 2008?",
+      "answer": "4548009",
+      "source_dataset": "sec",
+      "answer_type": "number",
+      "unit": "USD",
+      "difficulty": "easy",
+      "category": "Retrieval",
+      "evaluation": {
+        "method": "exact",
+        "tolerance": 0.0,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "provenance": {
+          "company": "ZIONS BANCORPORATION, NATIONAL ASSOCIATION /UT/",
+          "filing_type": "10-Q",
+          "filed_date": "2008-05-09",
+          "section": "Item 1",
+          "year": 2008,
+          "fiscal_year_score": 0.0
+        },
+        "custom_fields": {
+          "evidence_refs": [
+            {
+              "table_id": "loans_over_100k",
+              "row": "Loans $100,000 and over",
+              "col": "Amount",
+              "fact_id": null,
+              "snippet": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "retrieval_fixed_rate_investments",
+      "question": "What was Edwards Lifesciences Corp's total investments in fixed-rate debt securities in fiscal year 2017?",
+      "answer": "1100000000",
+      "source_dataset": "sec",
+      "answer_type": "number",
+      "unit": "USD",
+      "difficulty": "easy",
+      "category": "Retrieval",
+      "evaluation": {
+        "method": "exact",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "provenance": {
+          "company": "Edwards Lifesciences Corp",
+          "filing_type": "10-K",
+          "filed_date": "2018-02-16",
+          "section": "Item 7a",
+          "year": 2017,
+          "fiscal_year_score": 2.0
+        },
+        "custom_fields": {
+          "evidence_refs": [
+            {
+              "table_id": null,
+              "row": null,
+              "col": null,
+              "fact_id": "investments_fixed_rate",
+              "snippet": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ABT_EMERGING_MARKETS_GROWTH_2022",
+      "question": "What was Abbott Laboratories' sales growth in emerging markets in 2022?",
+      "answer": "5.6",
+      "source_dataset": "sec",
+      "answer_type": "number",
+      "unit": "percent",
+      "difficulty": "easy",
+      "category": "Percentage_Change",
+      "evaluation": {
+        "method": "numeric",
+        "tolerance": 0.5,
+        "tolerance_type": "absolute",
+        "additional_params": null
+      },
+      "source_metadata": {
+        "provenance": {
+          "company": "ABBOTT LABORATORIES",
+          "filing_type": "10-K",
+          "filed_date": "2023-02-17",
+          "section": "Item 7",
+          "year": 2022,
+          "fiscal_year_score": 3.0
+        },
+        "custom_fields": {
+          "evidence_refs": [
+            {
+              "table_id": null,
+              "row": null,
+              "col": null,
+              "fact_id": "emerging_markets_sales_growth",
+              "snippet": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "retrieval_diluted_eps",
+      "question": "What was Gilead Sciences' diluted earnings per share in fiscal year 2022?",
+      "answer": "3.64",
+      "source_dataset": "sec",
+      "answer_type": "number",
+      "unit": "USD",
+      "difficulty": "easy",
+      "category": "Retrieval",
+      "evaluation": {
+        "method": "exact",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "provenance": {
+          "company": "GILEAD SCIENCES, INC.",
+          "filing_type": "10-K",
+          "filed_date": "2023-02-22",
+          "section": "Item 8",
+          "year": 2022,
+          "fiscal_year_score": 5.0
+        },
+        "custom_fields": {
+          "evidence_refs": [
+            {
+              "table_id": null,
+              "row": null,
+              "col": null,
+              "fact_id": "diluted_eps",
+              "snippet": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "retrieval_advertising_expense_2024",
+      "question": "How much did Eli Lilly spend on advertising in fiscal year 2024?",
+      "answer": "1440.0",
+      "source_dataset": "sec",
+      "answer_type": "number",
+      "unit": "USD millions",
+      "difficulty": "easy",
+      "category": "Retrieval",
+      "evaluation": {
+        "method": "numeric",
+        "tolerance": 0.01,
+        "tolerance_type": "relative",
+        "additional_params": null
+      },
+      "source_metadata": {
+        "provenance": {
+          "company": "ELI LILLY & Co",
+          "filing_type": "10-K",
+          "filed_date": "2025-02-19",
+          "section": "Item 8",
+          "year": 2024,
+          "fiscal_year_score": 3.0
+        },
+        "custom_fields": {
+          "evidence_refs": [
+            {
+              "table_id": null,
+              "row": null,
+              "col": null,
+              "fact_id": "advertising_expense_2024",
+              "snippet": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "liquidity_credit_agreement",
+      "question": "How much credit was available to Edwards Lifesciences Corp under its credit agreement in fiscal year 2017?",
+      "answer": "750000000",
+      "source_dataset": "sec",
+      "answer_type": "number",
+      "unit": "USD",
+      "difficulty": "easy",
+      "category": "Liquidity",
+      "evaluation": {
+        "method": "exact",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "provenance": {
+          "company": "Edwards Lifesciences Corp",
+          "filing_type": "10-K",
+          "filed_date": "2018-02-16",
+          "section": "Item 7a",
+          "year": 2017,
+          "fiscal_year_score": 2.0
+        },
+        "custom_fields": {
+          "evidence_refs": [
+            {
+              "table_id": null,
+              "row": null,
+              "col": null,
+              "fact_id": "credit_agreement",
+              "snippet": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "retrieval_total_revenue",
+      "question": "What was NVIDIA's total revenue in fiscal year 2019?",
+      "answer": "2220",
+      "source_dataset": "sec",
+      "answer_type": "number",
+      "unit": "USD millions",
+      "difficulty": "easy",
+      "category": "Retrieval",
+      "evaluation": {
+        "method": "exact",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "provenance": {
+          "company": "NVIDIA CORP",
+          "filing_type": "10-Q",
+          "filed_date": "2019-05-16",
+          "section": "Item 1",
+          "year": 2019,
+          "fiscal_year_score": 0.0
+        },
+        "custom_fields": {
+          "evidence_refs": [
+            {
+              "table_id": null,
+              "row": null,
+              "col": null,
+              "fact_id": "total_revenue",
+              "snippet": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ret_eps_2020",
+      "question": "What was Bank of America's earnings per share in fiscal year 2020?",
+      "answer": "1.88",
+      "source_dataset": "sec",
+      "answer_type": "number",
+      "unit": "USD",
+      "difficulty": "easy",
+      "category": "Retrieval",
+      "evaluation": {
+        "method": "numeric",
+        "tolerance": 0.01,
+        "tolerance_type": "absolute",
+        "additional_params": null
+      },
+      "source_metadata": {
+        "provenance": {
+          "company": "BANK OF AMERICA CORP /DE/",
+          "filing_type": "10-K",
+          "filed_date": "2021-02-24",
+          "section": "Item 7a",
+          "year": 2020,
+          "fiscal_year_score": 2.0
+        },
+        "custom_fields": {
+          "evidence_refs": [
+            {
+              "table_id": null,
+              "row": null,
+              "col": null,
+              "fact_id": "earnings_per_share_2020",
+              "snippet": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "retrieval_operating_margin",
+      "question": "What was Starbucks' operating margin in fiscal year 2014?",
+      "answer": "18.7",
+      "source_dataset": "sec",
+      "answer_type": "number",
+      "unit": "percent",
+      "difficulty": "easy",
+      "category": "Retrieval",
+      "evaluation": {
+        "method": "exact",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "provenance": {
+          "company": "STARBUCKS CORP",
+          "filing_type": "10-K",
+          "filed_date": "2014-11-14",
+          "section": "Item 7",
+          "year": 2014,
+          "fiscal_year_score": 2.0
+        },
+        "custom_fields": {
+          "evidence_refs": [
+            {
+              "table_id": null,
+              "row": null,
+              "col": null,
+              "fact_id": "operating_margin",
+              "snippet": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "liquidity_001",
+      "question": "What was Medtronic plc's cash and cash equivalents balance in fiscal year 2024?",
+      "answer": "1284",
+      "source_dataset": "sec",
+      "answer_type": "number",
+      "unit": "USD millions",
+      "difficulty": "easy",
+      "category": "Liquidity",
+      "evaluation": {
+        "method": "exact",
+        "tolerance": 0.0,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "provenance": {
+          "company": "Medtronic plc",
+          "filing_type": "10-K",
+          "filed_date": "2024-06-20",
+          "section": "Item 8",
+          "year": 2024,
+          "fiscal_year_score": 0.0
+        },
+        "custom_fields": {
+          "evidence_refs": [
+            {
+              "table_id": null,
+              "row": null,
+              "col": null,
+              "fact_id": "cash_and_equivalents",
+              "snippet": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "HD_floating_rate_debt_2020",
+      "question": "What was Home Depot's floating rate debt principal in 2020?",
+      "answer": "4700000000",
+      "source_dataset": "sec",
+      "answer_type": "number",
+      "unit": "USD",
+      "difficulty": "easy",
+      "category": "Retrieval",
+      "evaluation": {
+        "method": "exact",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "provenance": {
+          "company": "HOME DEPOT, INC.",
+          "filing_type": "10-K",
+          "filed_date": "2021-03-24",
+          "section": "Item 7a",
+          "year": 2020,
+          "fiscal_year_score": 2.0
+        },
+        "custom_fields": {
+          "evidence_refs": [
+            {
+              "table_id": null,
+              "row": null,
+              "col": null,
+              "fact_id": "floating_rate_debt_2020",
+              "snippet": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "retrieval_operating_income",
+      "question": "What was Starbucks Corporation's operating income in fiscal year 2010?",
+      "answer": "1026.3",
+      "source_dataset": "sec",
+      "answer_type": "number",
+      "unit": "USD millions",
+      "difficulty": "easy",
+      "category": "Retrieval",
+      "evaluation": {
+        "method": "numeric",
+        "tolerance": 0.1,
+        "tolerance_type": "absolute",
+        "additional_params": null
+      },
+      "source_metadata": {
+        "provenance": {
+          "company": "STARBUCKS CORP",
+          "filing_type": "10-K",
+          "filed_date": "2010-11-22",
+          "section": "Item 6",
+          "year": 2010,
+          "fiscal_year_score": 0.0
+        },
+        "custom_fields": {
+          "evidence_refs": [
+            {
+              "table_id": "financial_summary",
+              "row": "Operating Income",
+              "col": "Value",
+              "fact_id": null,
+              "snippet": null
+            },
+            {
+              "table_id": null,
+              "row": null,
+              "col": null,
+              "fact_id": "operating_income",
+              "snippet": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "retrieval_net_sales_2010_q1",
+      "question": "What were J M SMUCKER Co's net sales for the three months ended July 31, 2010?",
+      "answer": "1051.5",
+      "source_dataset": "sec",
+      "answer_type": "number",
+      "unit": "USD millions",
+      "difficulty": "easy",
+      "category": "Retrieval",
+      "evaluation": {
+        "method": "numeric",
+        "tolerance": 0.1,
+        "tolerance_type": "absolute",
+        "additional_params": null
+      },
+      "source_metadata": {
+        "provenance": {
+          "company": "J M SMUCKER Co",
+          "filing_type": "10-Q",
+          "filed_date": "2010-09-09",
+          "section": "Item 2",
+          "year": 2010,
+          "fiscal_year_score": 0.0
+        },
+        "custom_fields": {
+          "evidence_refs": [
+            {
+              "table_id": "quarterly_financial_summary",
+              "row": "Net Sales",
+              "col": "Value",
+              "fact_id": null,
+              "snippet": null
+            },
+            {
+              "table_id": null,
+              "row": null,
+              "col": null,
+              "fact_id": "net_sales_2010_q1",
+              "snippet": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "retrieval_eps_diluted",
+      "question": "What was Conagra Brands' diluted earnings per share in fiscal year 2021?",
+      "answer": "0.49",
+      "source_dataset": "sec",
+      "answer_type": "number",
+      "unit": "USD",
+      "difficulty": "easy",
+      "category": "Retrieval",
+      "evaluation": {
+        "method": "numeric",
+        "tolerance": 0.01,
+        "tolerance_type": "relative",
+        "additional_params": null
+      },
+      "source_metadata": {
+        "provenance": {
+          "company": "CONAGRA BRANDS INC.",
+          "filing_type": "10-Q",
+          "filed_date": "2021-10-07",
+          "section": "Item 1",
+          "year": 2021,
+          "fiscal_year_score": 0.0
+        },
+        "custom_fields": {
+          "evidence_refs": [
+            {
+              "table_id": null,
+              "row": null,
+              "col": null,
+              "fact_id": "eps_diluted",
+              "snippet": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "hormel_effective_tax_rate_2024",
+      "question": "What was Hormel Foods' effective tax rate in fiscal year 2024?",
+      "answer": "20.5",
+      "source_dataset": "sec",
+      "answer_type": "number",
+      "unit": "%",
+      "difficulty": "easy",
+      "category": "Retrieval",
+      "evaluation": {
+        "method": "exact",
+        "tolerance": 0.0,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "provenance": {
+          "company": "HORMEL FOODS CORP /DE/",
+          "filing_type": "10-K",
+          "filed_date": "2024-12-05",
+          "section": "Item 7",
+          "year": 2024,
+          "fiscal_year_score": 2.0
+        },
+        "custom_fields": {
+          "evidence_refs": [
+            {
+              "table_id": null,
+              "row": null,
+              "col": null,
+              "fact_id": "effective_tax_rate",
+              "snippet": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "retrieval_net_income_loss",
+      "question": "What was Conagra Brands' diluted loss per share in fiscal year 2015?",
+      "answer": "-0.6",
+      "source_dataset": "sec",
+      "answer_type": "number",
+      "unit": "USD per share",
+      "difficulty": "easy",
+      "category": "Retrieval",
+      "evaluation": {
+        "method": "numeric",
+        "tolerance": 0.01,
+        "tolerance_type": "absolute",
+        "additional_params": null
+      },
+      "source_metadata": {
+        "provenance": {
+          "company": "CONAGRA BRANDS INC.",
+          "filing_type": "10-K",
+          "filed_date": "2015-07-17",
+          "section": "Item 7",
+          "year": 2015,
+          "fiscal_year_score": 0.0
+        },
+        "custom_fields": {
+          "evidence_refs": [
+            {
+              "table_id": null,
+              "row": null,
+              "col": null,
+              "fact_id": "net_income_loss",
+              "snippet": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "retrieval_available_for_sale_investments_2021",
+      "question": "What was the fair value of Amgen Inc's available-for-sale investments in fiscal year 2021?",
+      "answer": "7.3",
+      "source_dataset": "sec",
+      "answer_type": "number",
+      "unit": "billion USD",
+      "difficulty": "easy",
+      "category": "Retrieval",
+      "evaluation": {
+        "method": "numeric",
+        "tolerance": 0.01,
+        "tolerance_type": "relative",
+        "additional_params": null
+      },
+      "source_metadata": {
+        "provenance": {
+          "company": "AMGEN INC",
+          "filing_type": "10-K",
+          "filed_date": "2023-02-09",
+          "section": "Item 7a",
+          "year": 2021,
+          "fiscal_year_score": 1.0
+        },
+        "custom_fields": {
+          "evidence_refs": [
+            {
+              "table_id": null,
+              "row": null,
+              "col": null,
+              "fact_id": "available_for_sale_investments_2021",
+              "snippet": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "LNC-2017-deferred-compensation",
+      "question": "What was Lincoln National Corp's deferred compensation mark-to-market adjustment in 2017?",
+      "answer": "-7",
+      "source_dataset": "sec",
+      "answer_type": "number",
+      "unit": "million USD",
+      "difficulty": "easy",
+      "category": "Retrieval",
+      "evaluation": {
+        "method": "exact",
+        "tolerance": 0.0,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "provenance": {
+          "company": "LINCOLN NATIONAL CORP",
+          "filing_type": "10-K",
+          "filed_date": "2018-02-22",
+          "section": "Item 6",
+          "year": 2017,
+          "fiscal_year_score": 3.0
+        },
+        "custom_fields": {
+          "evidence_refs": [
+            {
+              "table_id": null,
+              "row": null,
+              "col": null,
+              "fact_id": "deferred-compensation-adjustment-2017",
+              "snippet": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "retrieval_interest_rate_swap_notional",
+      "question": "What is the notional amount of Steel Dynamics' interest rate swap in 2008?",
+      "answer": "185000000",
+      "source_dataset": "sec",
+      "answer_type": "number",
+      "unit": "USD",
+      "difficulty": "easy",
+      "category": "Retrieval",
+      "evaluation": {
+        "method": "exact",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "provenance": {
+          "company": "STEEL DYNAMICS INC",
+          "filing_type": "10-K",
+          "filed_date": "2009-02-27",
+          "section": "Item 7a",
+          "year": 2008,
+          "fiscal_year_score": 2.0
+        },
+        "custom_fields": {
+          "evidence_refs": [
+            {
+              "table_id": null,
+              "row": null,
+              "col": null,
+              "fact_id": "interest_rate_swap_notional",
+              "snippet": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "retrieval_net_income",
+      "question": "What was Lincoln National Corp's net income in fiscal year 2010?",
+      "answer": "980",
+      "source_dataset": "sec",
+      "answer_type": "number",
+      "unit": "USD millions",
+      "difficulty": "easy",
+      "category": "Retrieval",
+      "evaluation": {
+        "method": "exact",
+        "tolerance": 0.0,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "provenance": {
+          "company": "LINCOLN NATIONAL CORP",
+          "filing_type": "10-K",
+          "filed_date": "2011-02-25",
+          "section": "Item 8",
+          "year": 2010,
+          "fiscal_year_score": 2.0
+        },
+        "custom_fields": {
+          "evidence_refs": [
+            {
+              "table_id": null,
+              "row": null,
+              "col": null,
+              "fact_id": "net_income",
+              "snippet": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "finance_000770",
+      "question": "What is the reason that the figures for capital employed and invested capital are identical?",
+      "answer": "This is a consequence of the fundamental principle that financial accounts must always balance.",
+      "source_dataset": "finance",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": "medium",
+      "category": "discussion",
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "filepath": "/tmp/temp_xml_downloadsqq1wlodo/124211829933632_vernimmenc13.xml",
+        "section_title": "",
+        "custom_fields": {
+          "section_id": "",
+          "exercise_id": "",
+          "answer_place": "chapter"
+        }
+      }
+    },
+    {
+      "id": "finance_000702",
+      "question": "Why are offshore bank accounts a feature in the majority of insider trading cases brought to light by the U.S. Securities and Exchange Commission? Should the nations that host these financial accounts bear any responsibility, and what is the reasoning for or against their culpability?",
+      "answer": "The success of insider trading hinges on secrecy. The large-scale financial maneuvers and potential leverage involved must remain confidential, as do the resulting profits during and after the transactions. For this reason, the use of offshore accounts through channels designed specifically for secrecy is almost universal. Authorities, like the Securities and Exchange Commission in the United States, are typically alerted to questionable trades by brokers, and the agency then determines if an investigation is necessary. When a large ring is discovered, prosecutors can effectively dismantle it by offering leniency to peripheral members in exchange for their cooperation. This step is then followed by official requests to foreign financial authorities to provide information relevant to the criminal probe.",
+      "source_dataset": "finance",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": "medium",
+      "category": "analysis",
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "filepath": "/tmp/temp_xml_downloadsqq1wlodo/124212041745984_c15.xml",
+        "section_title": "Discussion Questions",
+        "custom_fields": {
+          "section_id": "",
+          "exercise_id": "",
+          "answer_place": ""
+        }
+      }
+    },
+    {
+      "id": "finance_000780",
+      "question": "What is Warren Buffett's ideal duration for holding an investment: 5 years, 10 years, 25 years, or forever?",
+      "answer": "Provided that a business's prospective return on equity capital is adequate, its management is both competent and trustworthy, and its valuation in the market is not excessive, Buffett is willing to own a security for an indefinite period.",
+      "source_dataset": "finance",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": "medium",
+      "category": "discussion",
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "filepath": "/tmp/temp_xml_downloadsqq1wlodo/124212836566592_c04.xml",
+        "section_title": "Multiple‐Choice Questions",
+        "custom_fields": {
+          "section_id": "",
+          "exercise_id": "",
+          "answer_place": "back"
+        }
+      }
+    },
+    {
+      "id": "finance_000724",
+      "question": "Imagine you have capital in two separate hedge funds, Alpha and Omega. Annually, there is a 60% chance that Alpha will yield a positive return, and a 70% chance that Omega will. Assuming the performance of each fund does not affect the other, what is the likelihood that both will provide positive returns in the same year? What is the corresponding likelihood that both funds will incur losses?",
+      "answer": "The likelihood of both funds providing positive returns is the product of their individual probabilities: 60% * 70%, which is 42%. The likelihood of both funds incurring losses is calculated by multiplying their respective probabilities of not generating a positive return: (100% - 60%) * (100% - 70%), which simplifies to 40% * 30%, resulting in 12%.",
+      "source_dataset": "finance",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": "medium",
+      "category": "calculation",
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "filepath": "/tmp/temp_xml_downloadsqq1wlodo/124211850905152_9781118170625c02.xml",
+        "section_title": "Problems",
+        "custom_fields": {
+          "section_id": "",
+          "exercise_id": "",
+          "answer_place": "back"
+        }
+      }
+    },
+    {
+      "id": "finance_000745",
+      "question": "When valuing the equity of a minority shareholder, what type of discount is applied against its financial worth? Please contrast the application of this discount for a publicly traded company versus a privately held one.",
+      "answer": "The sole discount applied is for liquidity. In a private company, the liquidity challenge for a minority shareholder is substantially more acute, as it is unlikely any party would want to acquire this small stake, with the possible exception of the majority shareholder. For a minority shareholder in a listed company, the stock market provides a degree of liquidity, even if it is not perfect.",
+      "source_dataset": "finance",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": "medium",
+      "category": "discussion",
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "filepath": "/tmp/temp_xml_downloadsqq1wlodo/124211639092800_c31.xml",
+        "section_title": "Questions",
+        "custom_fields": {
+          "section_id": "",
+          "exercise_id": "",
+          "answer_place": ""
+        }
+      }
+    },
+    {
+      "id": "finance_000709",
+      "question": "For a company that is expanding, is it more likely for its margins to increase or decline?",
+      "answer": "Theoretically, margins ought to rise as the firm should benefit from a scale effect. In reality, the opposite is frequently observed because, within expanding markets, acquiring market share is accomplished by sacrificing margins through price reductions. Additional questions await you at www.vernimmen.com.",
+      "source_dataset": "finance",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": "medium",
+      "category": "discussion",
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "filepath": "/tmp/temp_xml_downloadsqq1wlodo/124212826080832_c09.xml",
+        "section_title": "Questions",
+        "custom_fields": {
+          "section_id": "",
+          "exercise_id": "",
+          "answer_place": ""
+        }
+      }
+    },
+    {
+      "id": "finance_000766",
+      "question": "What are the key distinctions between the neoclassical finance perspective and the behavioral finance perspective when it comes to modeling capital markets?",
+      "answer": "Neoclassical financial theory is built upon several strong, though often unrealistic, assumptions. These assumptions are indispensable for deriving the necessary mathematical formulas. Typically, neoclassical models are quantitative and normative, which makes it possible to test them against market data. Nevertheless, actual market observations frequently show significant deviations from the predictions of neoclassical theory. Conversely, models from behavioral finance are generally more intuitive and less formal. They are descriptive in nature, rendering them difficult to test empirically. Behavioral models are adept at explaining market anomalies after the fact (ex post), but it is challenging to use them for making future predictions (ex ante). In this light, neoclassical and behavioral finance can be viewed as complementary. Neoclassical models provide a benchmark for how markets ought to operate, whereas behavioral models help explain why empirical results differ from these neoclassical forecasts.",
+      "source_dataset": "finance",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": "medium",
+      "category": "analysis",
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "filepath": "/tmp/temp_xml_downloadsqq1wlodo/124213167916608_9780470499115c19.xml",
+        "section_title": "Discussion Questions",
+        "custom_fields": {
+          "section_id": "",
+          "exercise_id": "",
+          "answer_place": "back"
+        }
+      }
+    },
+    {
+      "id": "finance_000725",
+      "question": "What makes it so challenging to assess the performance of private equity funds?",
+      "answer": "The difficulty in evaluating the performance of private equity funds stems from their illiquidity. Due to the lack of genuine secondary markets, regular observations of their value are not available. Consequently, the time-weighted return metrics used in the public market sector cannot be directly used for private equity.",
+      "source_dataset": "finance",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": "medium",
+      "category": "analysis",
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "filepath": "/tmp/temp_xml_downloadsqq1wlodo/124212222101056_c16.xml",
+        "section_title": "Discussion Questions",
+        "custom_fields": {
+          "section_id": "",
+          "exercise_id": "",
+          "answer_place": ""
+        }
+      }
+    },
+    {
+      "id": "finance_000768",
+      "question": "Could you describe the initiative from the United Nations referred to as the “Global Compact”?",
+      "answer": "It's a strategic policy framework for companies dedicated to harmonizing their business activities and plans with ten widely recognized principles related to human rights, labor, the environment, and the prevention of corruption.",
+      "source_dataset": "finance",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": "medium",
+      "category": "discussion",
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "filepath": "/tmp/temp_xml_downloadsqq1wlodo/124212010288704_neck9781118749548c06.xml",
+        "section_title": "Explain ethics as they relate to the five domains of individuals, organizations, stakeholders, government, and the global community.",
+        "custom_fields": {
+          "section_id": "",
+          "exercise_id": "",
+          "answer_place": "chapter"
+        }
+      }
+    },
+    {
+      "id": "finance_000798",
+      "question": "What was the effect of the 1986 Tax Reform Act on how commercial banks invested in municipal securities?",
+      "answer": "Prior to the Tax Reform Act of 1986, commercial banks were counted among the largest buyers of municipal securities. The act's reduction of the maximum corporate tax rate from 46% to 35%, however, caused a considerable drop in their investment in municipal bonds.",
+      "source_dataset": "finance",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": "medium",
+      "category": "calculation",
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "filepath": "/tmp/temp_xml_downloadsqq1wlodo/124211660064320_9780470478356c08.xml",
+        "section_title": "Problems and Questions",
+        "custom_fields": {
+          "section_id": "",
+          "exercise_id": "",
+          "answer_place": "back"
+        }
+      }
+    },
+    {
+      "id": "finance_000699",
+      "question": "For a project with an initial investment of $2,238,600 that is expected to return $1.2 million, $1.5 million, and $2 million after 3, 8, and 12 years respectively, demonstrate that the annual internal rate of return is 10%.",
+      "answer": "The project's Net Present Value (NPV), in millions of dollars, is represented by the equation: NPV = -2.2386 + 1.2(1+i)⁻³ + 1.5(1+i)⁻⁸ + 2(1+i)⁻¹². When the interest rate, i, is set to 0.1, the value of this expression becomes zero. Consequently, this proves that the internal rate of return is 10% per annum.",
+      "source_dataset": "finance",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": "medium",
+      "category": "discussion",
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "filepath": "/tmp/temp_xml_downloadsqq1wlodo/124213058864704_adamsc01.xml",
+        "section_title": "Example 1.8",
+        "custom_fields": {
+          "section_id": "",
+          "exercise_id": "",
+          "answer_place": "back"
+        }
+      }
+    },
+    {
+      "id": "finance_000773",
+      "question": "When comparing four specific option transactions (buying a call, selling a call, buying a put, and selling a put), which one is considered to have the greatest risk exposure, and what is the justification for this assessment?",
+      "answer": "The sale of a call option presents the most significant risk due to its potential for unlimited losses, since the value of the underlying asset can rise indefinitely. The purchase of a put option is also considered highly risky; however, its potential loss is limited to the value of the underlying share less the strike price.",
+      "source_dataset": "finance",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": "medium",
+      "category": "discussion",
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "filepath": "/tmp/temp_xml_downloadsqq1wlodo/124212836566592_vernimmenc29.xml",
+        "section_title": "",
+        "custom_fields": {
+          "section_id": "",
+          "exercise_id": "",
+          "answer_place": "chapter"
+        }
+      }
+    },
+    {
+      "id": "finance_000704",
+      "question": "Could you explain what is meant by the term 'secured debt'?",
+      "answer": "The term *secured debt* describes a loan where the borrower pledges assets as collateral, giving the lender a security interest in some or all of those assets until the loan is fully settled. Secured debt agreements can differ greatly from one another. They can be structured as either recourse or nonrecourse debt. A recourse loan permits the lender to make a claim against the borrower that extends beyond the value of the specific collateral that was pledged. It is possible for a borrower to pledge all of their assets, which would render the recourse distinction irrelevant, or just a portion of their assets. In cases where a borrower pledges their receivables as security, the debt is classified as nonrecourse.",
+      "source_dataset": "finance",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": "medium",
+      "category": "analysis",
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "filepath": "/tmp/temp_xml_downloadsqq1wlodo/124212868023872_9780470569528c18.xml",
+        "section_title": "Discussion Questions",
+        "custom_fields": {
+          "section_id": "",
+          "exercise_id": "",
+          "answer_place": "back"
+        }
+      }
+    },
+    {
+      "id": "finance_000747",
+      "question": "What is meant by the term 'investment due diligence'?",
+      "answer": "Investment due diligence refers to the quantitative and qualitative assessment carried out on an alternative investment fund to evaluate its investment philosophy, strategy, and process, as well as its historical performance record, volatility, drawdowns, and correlations with other asset classes and market indices. There are two primary objectives for conducting investment due diligence. The first goal is to confirm that the manager employs an established, replicable investment method that can generate excess returns (i.e., alpha) and offer diversification advantages for an investor's portfolio. The second goal is to quantitatively substantiate the expected alpha and diversification benefits by reviewing past returns, volatility, correlations, and risk metrics. By assessing the investment process and performance history, investors endeavor to understand the narrative behind the metrics and how the manager generates value. Moreover, investment due diligence serves to show how a potential fund is ranked when compared to its peers.",
+      "source_dataset": "finance",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": "medium",
+      "category": "analysis",
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "filepath": "/tmp/temp_xml_downloadsqq1wlodo/124211819447872_c04.xml",
+        "section_title": "Discussion Questions",
+        "custom_fields": {
+          "section_id": "",
+          "exercise_id": "",
+          "answer_place": ""
+        }
+      }
+    },
+    {
+      "id": "finance_000778",
+      "question": "What is the appropriate hedging strategy for an equity-linked debt security that offers a fixed rate return supplemented by any decline in a market index?",
+      "answer": "To hedge an equity-linked note that provides a fixed rate return plus the value of a market index decline, a dealer would acquire a zero-coupon bond to secure the fixed payment and also purchase a put option, which will generate a return if the index falls.",
+      "source_dataset": "finance",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": "easy",
+      "category": "retrieval",
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "filepath": "/tmp/temp_xml_downloadsqq1wlodo/124213178402368_chance6254c14.xml",
+        "section_title": "Test Your Knowledge",
+        "custom_fields": {
+          "section_id": "",
+          "exercise_id": "",
+          "answer_place": "back"
+        }
+      }
+    },
+    {
+      "id": "finance_000790",
+      "question": "Based on the 1963 framework by Modigliani and Miller, what accounts for the valuation difference between a company that utilizes leverage and one that does not?",
+      "answer": "The variance is the present value of the tax shield generated by the tax-deductibility of financial expenses.",
+      "source_dataset": "finance",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": "medium",
+      "category": "discussion",
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "filepath": "/tmp/temp_xml_downloadsqq1wlodo/124213207762496_c33.xml",
+        "section_title": "Questions",
+        "custom_fields": {
+          "section_id": "",
+          "exercise_id": "",
+          "answer_place": ""
+        }
+      }
+    },
+    {
+      "id": "finance_000792",
+      "question": "Does the firm that sold assets to a Special Purpose Vehicle during a securitization bear the risk if the value of those assets is insufficient to cover the debt obligation?",
+      "answer": "Generally, no, because the SPV typically safeguards itself against such an event by using overcollateralisation or insurance.",
+      "source_dataset": "finance",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": "medium",
+      "category": "discussion",
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "filepath": "/tmp/temp_xml_downloadsqq1wlodo/124212052231744_c21.xml",
+        "section_title": "Questions",
+        "custom_fields": {
+          "section_id": "",
+          "exercise_id": "",
+          "answer_place": ""
+        }
+      }
+    },
+    {
+      "id": "finance_000760",
+      "question": "Which management decision at Wells Fargo might have resulted in unnecessary short-term pressure on the company's stock? Announcing a company restructuring. Revealing an intention to increase lending in California. Persistently reserving funds for bad loans each quarter rather than in a single action. Concentrating excessively on costs while neglecting revenue enhancement.",
+      "answer": "Wells Fargo was notified of the requirement to reserve $1.3 billion for bad loans in 1991, with an additional $1.2 billion needed for the subsequent year. Rather than taking a single charge, the leadership team elected to release this information in a series of separate announcements. As a consequence, investors were left uncertain about when the bank would finally overcome its problem loan issues.",
+      "source_dataset": "finance",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": "medium",
+      "category": "discussion",
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "filepath": "/tmp/temp_xml_downloadsqq1wlodo/124212836566592_c04.xml",
+        "section_title": "Multiple‐Choice Questions",
+        "custom_fields": {
+          "section_id": "",
+          "exercise_id": "",
+          "answer_place": "back"
+        }
+      }
+    },
+    {
+      "id": "finance_000734",
+      "question": "How is Freud's pleasure principle demonstrated within the economy of the United States?",
+      "answer": "Current business operations in America lend support to the contention of Victor Frankl, an Austrian psychiatrist and a key figure in transpersonal psychology, that people will pursue pleasure and evade pain if they lack a transcendent purpose in life. Citing a 2011 report from the American Psychological Association, the most rapidly accelerating environmental and health issues are caused by overconsumption, not by a deficit of resources. This overconsumption largely serves to gratify instant sensory wants, compromising long-term aims like preserving the planet's habitability.",
+      "source_dataset": "finance",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": "medium",
+      "category": "analysis",
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "filepath": "/tmp/temp_xml_downloadsqq1wlodo/124213016921664_c14.xml",
+        "section_title": "Discussion Questions",
+        "custom_fields": {
+          "section_id": "",
+          "exercise_id": "",
+          "answer_place": ""
+        }
+      }
+    },
+    {
+      "id": "finance_000727",
+      "question": "There are three distinct techniques for producing steel: (1) the basic process, which uses coke to make steel ingots; (2) continuous casting; and (3) an electric furnace, which utilizes steel scrap. The table below outlines the average cost per ton of steel associated with each technique. Cost Component Basic Process Continuous Casting Electric Furnace Materials $150 $140 $120 Labor $ 80 $ 75 $ 70 Capital $100 $100 $ 60 Energy $ 20 $ 15 $ 50 Other $ 45 $ 40 $ 25 The electric furnace method, a relatively recent innovation from the late 1970s, has been steadily increasing its share of the total steel market. What is your forecast regarding the future production share for this technique and why? How would a new energy crisis, causing energy costs to triple, influence the production method choices of steel manufacturers? Finally, what impact would a significant drop in the price of steel scrap over the next five years have on the selection of production methods?",
+      "answer": "The electric furnace method of steel production boasts the lowest average cost per ton, which suggests its market share is likely to expand over time. In a scenario where energy prices triple, continuous casting would become the most economical production choice at a cost of $400. A decrease in the cost of steel scrap would benefit the electric furnace process, given that it is the only method that relies on scrap material.",
+      "source_dataset": "finance",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": "medium",
+      "category": "discussion",
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "filepath": "/tmp/temp_xml_downloadsqq1wlodo/124212211615296_samuelson362xc06.xml",
+        "section_title": "",
+        "custom_fields": {
+          "section_id": "",
+          "exercise_id": "",
+          "answer_place": "back"
+        }
+      }
+    },
+    {
+      "id": "finance_000720",
+      "question": "A company's only outstanding debt is a bond issue with a 12-year maturity and a 9.5 percent coupon rate paid semiannually. These bonds are currently trading for $1,200. If the firm's marginal tax rate is 34 percent, what is its after-tax cost of debt? Also, calculate the after-tax cost of debt assuming the bonds were trading at par value.",
+      "answer": "The after-tax cost of debt is 4.63% for the bonds selling at $1,200, and it would be 6.27% if the bonds were selling at par.",
+      "source_dataset": "finance",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": "medium",
+      "category": "discussion",
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "filepath": "/tmp/temp_xml_downloadsqq1wlodo/124212052231744_parrino9781119795438c13.xml",
+        "section_title": "Intermediate",
+        "custom_fields": {
+          "section_id": "",
+          "exercise_id": "",
+          "answer_place": "back"
+        }
+      }
+    },
+    {
+      "id": "finance_000796",
+      "question": "What factors contributed to the controversy surrounding the 1990 investment in Wells Fargo?",
+      "answer": "At the time of Berkshire Hathaway's investment, a recession was applying downward pressure to the value of Wells Fargo's shares. The anxiety stemmed from the fact that Wells Fargo possessed the largest exposure to commercial real estate on the West Coast, and it was feared this would lead to significant loan-related losses.",
+      "source_dataset": "finance",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": "hard",
+      "category": "analysis",
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "filepath": "/tmp/temp_xml_downloadsqq1wlodo/124212836566592_c04.xml",
+        "section_title": "Essay Questions",
+        "custom_fields": {
+          "section_id": "",
+          "exercise_id": "",
+          "answer_place": "back"
+        }
+      }
+    },
+    {
+      "id": "finance_000795",
+      "question": "What was Warren Buffett's rationale for investing in Capital Cities/ABC, considering the deal did not provide the margin of safety he typically requires?",
+      "answer": "Warren Buffett's investment was driven by his strong belief in the management's capacity to execute their plans and grow profits. He placed particular faith in Tom Murphy, stating that without Murphy's involvement, he likely would not have proceeded with the investment.",
+      "source_dataset": "finance",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": "hard",
+      "category": "analysis",
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "filepath": "/tmp/temp_xml_downloadsqq1wlodo/124212836566592_c04.xml",
+        "section_title": "Essay Questions",
+        "custom_fields": {
+          "section_id": "",
+          "exercise_id": "",
+          "answer_place": "back"
+        }
+      }
+    },
+    {
+      "id": "finance_000779",
+      "question": "Why is it essential for the Pareto-optimal boundary to possess a negative slope?",
+      "answer": "… because a positively sloped boundary would indicate the potential for both participants to achieve better results without leaving the feasible set.",
+      "source_dataset": "finance",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": "medium",
+      "category": "calculation",
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "filepath": "/tmp/temp_xml_downloadsqq1wlodo/124211660064320_c06.xml",
+        "section_title": "Review Problems",
+        "custom_fields": {
+          "section_id": "",
+          "exercise_id": "",
+          "answer_place": ""
+        }
+      }
+    },
+    {
+      "id": "finance_000744",
+      "question": "Explain how risk and uncertainty differ. For each concept, please provide a definition, a description, and a specific example.",
+      "answer": "The distinction between risk and uncertainty represents a significant topic within the field of judgment and decision-making. An individual assessing a situation under risk feels certain about the form of the normal distribution curve, which is predicated on the idea that all expected outcomes have been determined. Conversely, a person making a choice under uncertain conditions is not informed about the specific predictions for all potential outcomes, because this individual is unaware of the normal distribution's shape in which the results are established. Risk is something that can be identified, predicted, and is well-understood, whereas uncertainty is not recognizable, not calculable, and not familiar. An illustration of risk is the standard deviation associated with the expected return on a common stock investment. An illustration of uncertainty is the question of whether the stock market will rise or fall during the subsequent trading day.",
+      "source_dataset": "finance",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": "medium",
+      "category": "analysis",
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "filepath": "/tmp/temp_xml_downloadsqq1wlodo/124213188888128_9780470499115c08.xml",
+        "section_title": "Discussion Questions",
+        "custom_fields": {
+          "section_id": "",
+          "exercise_id": "",
+          "answer_place": "back"
+        }
+      }
+    },
+    {
+      "id": "finance_000710",
+      "question": "Is it possible for a single asset to hold more than one value, and what is the reason for this?",
+      "answer": "Yes, it is possible because the value assigned to an asset by an investor or a trade buyer might not be the same as the value it holds within the company that currently owns it.",
+      "source_dataset": "finance",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": "medium",
+      "category": "discussion",
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "filepath": "/tmp/temp_xml_downloadsqq1wlodo/124211639092800_c31.xml",
+        "section_title": "Questions",
+        "custom_fields": {
+          "section_id": "",
+          "exercise_id": "",
+          "answer_place": ""
+        }
+      }
+    },
+    {
+      "id": "finance_000732",
+      "question": "Is bankruptcy possible for a debt-free company? Can such a company erode shareholder value?",
+      "answer": "No, bankruptcy is not possible since the company has no creditors to default on. However, value destruction can occur if the company invests in projects whose returns fall below the shareholders' required rate of return.",
+      "source_dataset": "finance",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": "medium",
+      "category": "discussion",
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "filepath": "/tmp/temp_xml_downloadsqq1wlodo/124211840419392_vernimmenc45.xml",
+        "section_title": "",
+        "custom_fields": {
+          "section_id": "",
+          "exercise_id": "",
+          "answer_place": "chapter"
+        }
+      }
+    },
+    {
+      "id": "finance_000752",
+      "question": "Is a capital increase that includes pre-emptive subscription rights a more powerful indicator of share overvaluation compared to one that lacks such rights?",
+      "answer": "Yes, this is true because the considerable discount acts as a buffer against a steep fall in the market price, and also because the financial institutions involved were reluctant to commit to a procedure that would obligate them to guarantee a price similar to the market's current valuation.",
+      "source_dataset": "finance",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": "medium",
+      "category": "discussion",
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "filepath": "/tmp/temp_xml_downloadsqq1wlodo/124211840419392_c38.xml",
+        "section_title": "Questions",
+        "custom_fields": {
+          "section_id": "",
+          "exercise_id": "",
+          "answer_place": ""
+        }
+      }
+    },
+    {
+      "id": "finance_000777",
+      "question": "Describe the mechanism of contingent convertible (CoCo) bonds and explain what makes them appealing to i) banking institutions and ii) regulatory bodies.",
+      "answer": "Contingent convertible bonds are designed to automatically transform into equity upon a predetermined trigger event that signals the bank's capital is depleted. For banks, their attractiveness lies in not affecting the return on equity before they are converted. From a regulator's perspective, they are appealing because they provide a capital source capable of absorbing losses under strained market situations.",
+      "source_dataset": "finance",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": "medium",
+      "category": "calculation",
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "filepath": "/tmp/temp_xml_downloadsqq1wlodo/124211840419392_c16.xml",
+        "section_title": "Practice Questions and Problems (Answers at End of Book)",
+        "custom_fields": {
+          "section_id": "",
+          "exercise_id": "",
+          "answer_place": ""
+        }
+      }
+    },
+    {
+      "id": "finance_000703",
+      "question": "Applying the King-Fullerton analysis of capital income taxation to owner-occupied housing, and utilizing the same model and numerical values as the text, what would be the impact on the effective tax rate for implicit rent if the U.S. income tax rate were to rise from 0.3 to 0.4?",
+      "answer": "When 0.4 is substituted for both A and m L in the final formula for t, the resulting value for t is 0.12, a change from the previous result of 0.14.",
+      "source_dataset": "finance",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": "medium",
+      "category": "calculation",
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "filepath": "/tmp/temp_xml_downloadsqq1wlodo/124212454884928_mcdonald9780470591482c11.xml",
+        "section_title": "EXERCISES",
+        "custom_fields": {
+          "section_id": "",
+          "exercise_id": "",
+          "answer_place": "back"
+        }
+      }
+    },
+    {
+      "id": "url_000003",
+      "question": "What is the estimated annual revenue gain for Banco Bradesco from its generative AI tool that analyzes central bank communications?",
+      "answer": "4.2 million Brazilian reais (about $818,000)",
+      "source_dataset": "url",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": null,
+      "category": null,
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "title": "Best Financial Innovations 2024",
+        "url": "https://gfmag.com/banking/best-financial-innovations-2024/?utm_source=valyu.network&utm_medium=referral&utm_campaign=ai_pilot&utm_content=ai_query",
+        "publication_date": "2024-06-06",
+        "source_type": "website",
+        "summary": "This article highlights the top financial innovations of 2024 across various categories, including AI, blockchain/digital assets, and cash management/treasury.",
+        "custom_fields": {
+          "source_url": "https://gfmag.com/banking/best-financial-innovations-2024/",
+          "tx_id": "tx_2c6bbde0-246e-473e-b5db-2f5a9a2a73da"
+        }
+      }
+    },
+    {
+      "id": "url_000118",
+      "question": "What was the funding amount for Applied Intuition's Series E funding round?",
+      "answer": "250 million",
+      "source_dataset": "url",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": null,
+      "category": null,
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "title": "2024 Top 50 Venture & Investment Deals",
+        "url": "https://builtworlds.com/insights/2024-top-50-venture-investments-deals/?utm_source=valyu.network&utm_medium=referral&utm_campaign=ai_pilot&utm_content=ai_query",
+        "publication_date": "2025-08-07",
+        "source_type": "website",
+        "summary": "This webpage highlights the top 50 venture and investment deals in the built environment technology sector.",
+        "custom_fields": {
+          "source_url": "https://builtworlds.com/insights/2024-top-50-venture-investments-deals/",
+          "tx_id": "tx_af311983-7df8-48c0-827f-6ed19551a536"
+        }
+      }
+    },
+    {
+      "id": "url_000160",
+      "question": "What are the four key topics affecting the banking industry in 2025 according to Deloitte's 2025 banking regulatory outlook?",
+      "answer": " - Navigating an uncertain regulatory environment\n - Evolving supervisory focus on issue remediation\n - Financial resilience remains top of mind\n - Keeping an eye on non-financial risks and internal controls",
+      "source_dataset": "url",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": null,
+      "category": null,
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "title": "2025 Banking Regulatory Outlook",
+        "url": "https://www.deloitte.com/us/en/services/consulting/articles/banking-regulatory-outlook.html?utm_source=valyu.network&utm_medium=referral&utm_campaign=ai_pilot&utm_content=ai_query",
+        "publication_date": "",
+        "source_type": "website",
+        "summary": "The banking industry faces a dynamic regulatory landscape in 2025, shaped by a new administration and evolving supervisory priorities. Banks should prioritize governance, risk management, and compliance to manage uncertainties and remain competitive.",
+        "custom_fields": {
+          "source_url": "https://www.deloitte.com/us/en/services/consulting/articles/banking-regulatory-outlook.html",
+          "tx_id": "tx_4aced99f-c5b8-4145-aaef-2a11493e2af1"
+        }
+      }
+    },
+    {
+      "id": "url_000145",
+      "question": "What is the projected growth of the global virtual card market from 2021 to 2030?",
+      "answer": "$12 billion to $65 billion",
+      "source_dataset": "url",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": null,
+      "category": null,
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "title": "Hidden Fintech Trends 2025: What Banks Don't Want You to Know",
+        "url": "https://www.netguru.com/blog/fintech-trends-2025?utm_source=valyu.network&utm_medium=referral&utm_campaign=ai_pilot&utm_content=ai_query",
+        "publication_date": "",
+        "source_type": "website",
+        "summary": "This article explores emerging fintech trends that are transforming the financial landscape, including invisible banking infrastructure, virtual cards, and behavioral biometrics.",
+        "custom_fields": {
+          "source_url": "https://www.netguru.com/blog/fintech-trends-2025",
+          "tx_id": "tx_d1be2c3d-9ce1-49b1-9c8c-7c06937781b7"
+        }
+      }
+    },
+    {
+      "id": "url_000026",
+      "question": "What was Alamos Gold's free cash flow in Q2 2025?",
+      "answer": "85 million",
+      "source_dataset": "url",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": null,
+      "category": null,
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "title": "Alamos Gold Achieves Record Cash Flow in Q2 2025 Amid Strong Production and Lower Costs",
+        "url": "https://www.tipranks.com/news/company-announcements/alamos-gold-achieves-record-cash-flow-in-q2-2025-amid-strong-production-and-lower-costs?utm_source=valyu.network&utm_medium=referral&utm_campaign=ai_pilot&utm_content=ai_query",
+        "publication_date": "",
+        "source_type": "website",
+        "summary": "Alamos Gold reported a strong second quarter in 2025, with a 10% increase in production and an 18% reduction in all-in sustaining costs, resulting in record cash flow from operations and substantial free cash flow of $85 million.",
+        "custom_fields": {
+          "source_url": "https://www.tipranks.com/news/company-announcements/alamos-gold-achieves-record-cash-flow-in-q2-2025-amid-strong-production-and-lower-costs",
+          "tx_id": "tx_e8ea9a37-9722-47bc-a4cb-150dd40c5b4a"
+        }
+      }
+    },
+    {
+      "id": "url_000019",
+      "question": "What is the predicted performance of the AUD/USD currency pair according to the Xe Global Currency Outlook - December 2024?",
+      "answer": "AUD/USD could drop below 0.6000",
+      "source_dataset": "url",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": null,
+      "category": null,
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "title": "The Xe Global Currency Outlook",
+        "url": "https://www.xe.com/blog/currency-news/global-currency-outlook-december-2024/?utm_source=valyu.network&utm_medium=referral&utm_campaign=ai_pilot&utm_content=ai_query",
+        "publication_date": "",
+        "source_type": "website",
+        "summary": "The article discusses key trends shaping global FX markets in 2025, including the strengthening US dollar, potential currency depreciation, and the impact of US tariffs on trade.",
+        "custom_fields": {
+          "source_url": "https://www.xe.com/blog/currency-news/global-currency-outlook-december-2024/",
+          "tx_id": "tx_af11686c-4211-4672-a1b4-22e6318b401b"
+        }
+      }
+    },
+    {
+      "id": "url_000138",
+      "question": "What is the estimated US GDP growth rate in 2025 according to Deloitte's baseline scenario?",
+      "answer": "1.5%",
+      "source_dataset": "url",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": null,
+      "category": null,
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "title": "2025 banking and capital markets outlook",
+        "url": "https://www.deloitte.com/us/en/insights/industry/financial-services/financial-services-industry-outlooks/banking-industry-outlook.html?utm_source=valyu.network&utm_medium=referral&utm_campaign=ai_pilot&utm_content=ai_query",
+        "publication_date": "",
+        "source_type": "website",
+        "summary": "This article discusses the potential impacts of macroeconomic shifts on US banks in 2025, including lower economic growth, declining interest rates, and elevated deposit costs. It also explores opportunities for banks to boost noninterest income and manage costs effectively.",
+        "custom_fields": {
+          "source_url": "https://www.deloitte.com/us/en/insights/industry/financial-services/financial-services-industry-outlooks/banking-industry-outlook.html",
+          "tx_id": "tx_7ccd87d4-ce1d-4819-bebe-60503d044f4b"
+        }
+      }
+    },
+    {
+      "id": "url_000055",
+      "question": "What was the total amount of global IPO proceeds in H1 2025 according to PwC UK's Global IPO Watch report?",
+      "answer": "$58.2bn",
+      "source_dataset": "url",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": null,
+      "category": null,
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "title": "Global IPO Watch H1 2025",
+        "url": "https://www.pwc.co.uk/services/audit/insights/global-ipo-watch.html?utm_source=valyu.network&utm_medium=referral&utm_campaign=ai_pilot&utm_content=ai_query",
+        "publication_date": "",
+        "source_type": "website",
+        "summary": "This article provides an overview of the global IPO market performance in the first half of 2025, highlighting key trends, drivers, and outlook.",
+        "custom_fields": {
+          "source_url": "https://www.pwc.co.uk/services/audit/insights/global-ipo-watch.html",
+          "tx_id": "tx_e4d945dd-bc47-46e4-bc79-a3e14e23fbb8"
+        }
+      }
+    },
+    {
+      "id": "url_000130",
+      "question": "What was the total amount of capital raised through global IPOs in the first half of 2025 according to the EY Global IPO Trends Q2 2025 report?",
+      "answer": "US$61.4 billion",
+      "source_dataset": "url",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": null,
+      "category": null,
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "title": "How can you shape uncertainty into opportunity for your IPO?",
+        "url": "https://www.ey.com/en_gl/insights/ipo/trends?utm_source=valyu.network&utm_medium=referral&utm_campaign=ai_pilot&utm_content=ai_query",
+        "publication_date": "",
+        "source_type": "website",
+        "summary": "This report analyzes the global IPO market in the first half of 2025, highlighting key trends and the outlook for the remainder of the year.",
+        "custom_fields": {
+          "source_url": "https://www.ey.com/en_gl/insights/ipo/trends",
+          "tx_id": "tx_1c723b68-dcc9-4761-831e-db78d2ee5a54"
+        }
+      }
+    },
+    {
+      "id": "url_000068",
+      "question": "What was Intuit's total revenue for the fiscal year 2025?",
+      "answer": "18.831 billion",
+      "source_dataset": "url",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": null,
+      "category": null,
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "title": "Intuit Reports Strong Fourth Quarter and Full Year Fiscal 2025 Results; Sets Fiscal 2026 Guidance With Double Digit Revenue Growth and Continued Operating Margin Expansion",
+        "url": "https://investors.intuit.com/news-events/press-releases/detail/1266/intuit-reports-strong-fourth-quarter-and-full-year-fiscal-2025-results-sets-fiscal-2026-guidance-with-double-digit-revenue-growth-and-continued-operating-margin-expansion?utm_source=valyu.network&utm_medium=referral&utm_campaign=ai_pilot&utm_content=ai_query",
+        "publication_date": "2025-08-21",
+        "source_type": "website",
+        "summary": "Intuit announced strong financial results for fiscal year 2025, with revenue growth of 16% and operating income growth of 36%. The company also provided guidance for fiscal year 2026, expecting revenue growth of 12-13% and operating income growth of 17-19%.",
+        "custom_fields": {
+          "source_url": "https://investors.intuit.com/news-events/press-releases/detail/1266/intuit-reports-strong-fourth-quarter-and-full-year-fiscal-2025-results-sets-fiscal-2026-guidance-with-double-digit-revenue-growth-and-continued-operating-margin-expansion",
+          "tx_id": "tx_3e070301-3987-4436-8753-a747abe6a131"
+        }
+      }
+    },
+    {
+      "id": "url_000034",
+      "question": "What were the reported changes in lending standards for commercial and industrial (C&I) loans to large and middle-market firms, and small firms according to the January 2025 Senior Loan Officer Opinion Survey on Bank Lending Practices?",
+      "answer": "Modest and moderate net shares of banks reported having tightened standards on C&I loans to large and middle-market firms and to small firms, respectively.",
+      "source_dataset": "url",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": null,
+      "category": null,
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "title": "The January 2025 Senior Loan Officer Opinion Survey on Bank Lending Practices",
+        "url": "https://www.federalreserve.gov/data/sloos/sloos-202501.htm?utm_source=valyu.network&utm_medium=referral&utm_campaign=ai_pilot&utm_content=ai_query",
+        "publication_date": "",
+        "source_type": "website",
+        "summary": "The January 2025 Senior Loan Officer Opinion Survey on Bank Lending Practices (SLOOS) examines changes in lending standards and demand for loans to businesses and households in the fourth quarter of 2024.",
+        "custom_fields": {
+          "source_url": "https://www.federalreserve.gov/data/sloos/sloos-202501.htm",
+          "tx_id": "tx_ae9931a5-5837-4459-87b0-a3a0d5c669df"
+        }
+      }
+    },
+    {
+      "id": "url_000090",
+      "question": "What was the total volume of the secondary market in 2024 according to the Lazard 2024 Secondary Market Report?",
+      "answer": "152 billion",
+      "source_dataset": "url",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": null,
+      "category": null,
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "title": "Lazard 2024 Secondary Market Report",
+        "url": "https://www.lazard.com/research-insights/lazard-2024-secondary-market-report/?utm_source=valyu.network&utm_medium=referral&utm_campaign=ai_pilot&utm_content=ai_query",
+        "publication_date": "",
+        "source_type": "website",
+        "summary": "The secondary market reached a record $152 billion in volume in 2024, surpassing the previous high set in 2021.  This growth was driven by factors such as limitations on traditional exit markets, increased capital availability, and rising '40 Act fund AUM.",
+        "custom_fields": {
+          "source_url": "https://www.lazard.com/research-insights/lazard-2024-secondary-market-report/",
+          "tx_id": "tx_3ace227d-380d-4daf-aaa8-0ebd155625c1"
+        }
+      }
+    },
+    {
+      "id": "url_000018",
+      "question": "What was U.S. Bancorp's year-to-date stock performance as of the date of the earnings call mentioned in the article?",
+      "answer": "about 20%",
+      "source_dataset": "url",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": null,
+      "category": null,
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "title": "U.S. Bank's new CEO wants to restore investor confidence",
+        "url": "https://www.americanbanker.com/news/u-s-bancorp-earnings-beat-expectations-expenses-decline?utm_source=valyu.network&utm_medium=referral&utm_campaign=ai_pilot&utm_content=ai_query",
+        "publication_date": "2025-04-17",
+        "source_type": "website",
+        "summary": "Gunjan Kedia, the new CEO of U.S. Bancorp, expressed confidence in the company's future and outlined her priorities for improving financial performance, including expense discipline, organic growth, and transforming the payments business.",
+        "custom_fields": {
+          "source_url": "https://www.americanbanker.com/news/u-s-bancorp-earnings-beat-expectations-expenses-decline",
+          "tx_id": "tx_61cce5c0-2ec2-4cf2-b28f-d5fb71e877ba"
+        }
+      }
+    },
+    {
+      "id": "url_000063",
+      "question": "What was the total global venture funding in Q2 2025 according to Crunchbase data?",
+      "answer": "91 billion",
+      "source_dataset": "url",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": null,
+      "category": null,
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "title": "The State Of Startups In Mid-2025 In 8 Charts: Global Funding And M&A Surge As AI Fervor Continues",
+        "url": "https://news.crunchbase.com/venture/state-of-startups-q2-h1-2025-ai-ma-charts-data/?utm_source=valyu.network&utm_medium=referral&utm_campaign=ai_pilot&utm_content=ai_query",
+        "publication_date": "2025-07-24",
+        "source_type": "website",
+        "summary": "Global venture funding reached $91 billion in Q2 2025, marking a tentative recovery in the private markets. North America led the way with $145 billion in funding, driven by AI deals. Asia saw a decline in funding, while Europe remained steady. Latin America saw growth, led by Mexico.",
+        "custom_fields": {
+          "source_url": "https://news.crunchbase.com/venture/state-of-startups-q2-h1-2025-ai-ma-charts-data/",
+          "tx_id": "tx_61b7f124-c52a-40ff-894c-1c5c50343ef6"
+        }
+      }
+    },
+    {
+      "id": "url_000095",
+      "question": "What were the total IPO proceeds raised in Europe in 2024 according to PwC's EMEA IPO Watch report?",
+      "answer": "€14.6bn",
+      "source_dataset": "url",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": null,
+      "category": null,
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "title": "European IPO market rebounds in 2024 with proceeds more than doubling compared to last year, with momentum set to carry on to 2025",
+        "url": "https://www.pwc.co.uk/press-room/press-releases/research-commentary/2024/european-ipo-market-rebounds-in-2024-with-proceeds-more-than-dou.html?utm_source=valyu.network&utm_medium=referral&utm_campaign=ai_pilot&utm_content=ai_query",
+        "publication_date": "",
+        "source_type": "website",
+        "summary": "The European IPO market saw a significant rebound in 2024, with proceeds more than doubling compared to the previous year. This growth was driven by improving macroeconomic conditions, a recovering Europe, and a maturing Middle East market.",
+        "custom_fields": {
+          "source_url": "https://www.pwc.co.uk/press-room/press-releases/research-commentary/2024/european-ipo-market-rebounds-in-2024-with-proceeds-more-than-dou.html",
+          "tx_id": "tx_35c0a75f-9b91-4e28-9531-794e5c6f667e"
+        }
+      }
+    },
+    {
+      "id": "url_000073",
+      "question": "What percentage of the top 50 US banks were open to or actively pursuing acquisitions in 2023?",
+      "answer": "12%",
+      "source_dataset": "url",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": null,
+      "category": null,
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "title": "M&A Is Back in US Banking",
+        "url": "https://www.bain.com/insights/m-and-a-is-back-in-us-banking/?utm_source=valyu.network&utm_medium=referral&utm_campaign=ai_pilot&utm_content=ai_query",
+        "publication_date": "2025-04-14",
+        "source_type": "website",
+        "summary": "This article discusses the resurgence of mergers and acquisitions (M&A) in the US banking sector, driven by regulatory easing, declining unrealized losses, and market consolidation. It highlights three key principles for successful M&A in banking: emphasizing local market leadership, recognizing the cost and complexity of technology integration, and keeping tabs on customer experience.",
+        "custom_fields": {
+          "source_url": "https://www.bain.com/insights/m-and-a-is-back-in-us-banking/",
+          "tx_id": "tx_4a57679d-f288-4a02-abbf-7407afa7415f"
+        }
+      }
+    },
+    {
+      "id": "url_000041",
+      "question": "What was the aggregate deal value of completed bank M&A transactions in 2024 according to S&P Global data?",
+      "answer": "16.3 billion",
+      "source_dataset": "url",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": null,
+      "category": null,
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "title": "Bank M&A Trends and 2025 Outlook",
+        "url": "https://www.cbh.com/insights/reports/bank-ma-trends-and-2025-outlook/?utm_source=valyu.network&utm_medium=referral&utm_campaign=ai_pilot&utm_content=ai_query",
+        "publication_date": "",
+        "source_type": "website",
+        "summary": "The article discusses the trends and challenges in mergers and acquisitions (M&A) activity within the U.S. banking sector. It highlights the impact of macroeconomic factors, regulatory changes, and technological advancements on dealmaking.",
+        "custom_fields": {
+          "source_url": "https://www.cbh.com/insights/reports/bank-ma-trends-and-2025-outlook/",
+          "tx_id": "tx_4745830f-187b-4034-9b6b-9703d607901a"
+        }
+      }
+    },
+    {
+      "id": "url_000113",
+      "question": "What was the gross proceeds amount for Getty Realty's secondary public offering of shares on July 30th, 2024?",
+      "answer": "$101.1 million",
+      "source_dataset": "url",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": null,
+      "category": null,
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "title": "The 3 Best Stocks to Buy Doing Successful Secondary Offerings in 2024",
+        "url": "https://www.nasdaq.com/articles/3-best-stocks-buy-doing-successful-secondary-offerings-2024?utm_source=valyu.network&utm_medium=referral&utm_campaign=ai_pilot&utm_content=ai_query",
+        "publication_date": "",
+        "source_type": "website",
+        "summary": "This article discusses three companies that have conducted successful secondary offerings in 2024: Nasdaq, Permian Resources, and Getty Realty.",
+        "custom_fields": {
+          "source_url": "https://www.nasdaq.com/articles/3-best-stocks-buy-doing-successful-secondary-offerings-2024",
+          "tx_id": "tx_67df6056-b773-4170-bf46-8af821c30317"
+        }
+      }
+    },
+    {
+      "id": "url_000140",
+      "question": "What specific topics does the U.S. SEC's Crypto Task Force invite stakeholders to provide insights and proposals on?",
+      "answer": "The article lists several notable issues the Task Force invites stakeholders to provide their insights and proposals on, including:\n-  Registration and qualification of token offerings under the Securities Act of 1933\n-  Commissioner Peirce's proposed token safe harbor\n-  Regulation of platforms trading crypto assets and tokenized securities\n-  Trading and custody arrangements for crypto assets by broker-dealers, investment advisers, and investment companies\n-  Broker-dealer guidance for supporting crypto assets under the customer protection rule\n-  Investment advisers' fiduciary duty to their clients related to best execution and conflicts of interests for crypto assets\n-  Regulation of various crypto lending services\n-  Listing applications for crypto asset-based exchange-traded products\n-  Market structure for tokenized money market funds, stablecoins, and other types of assets\n-  Establishment of a micro-innovation sandbox for tokenization and blockchain projects",
+      "source_dataset": "url",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": null,
+      "category": null,
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "title": "Engage With the U.S. SEC’s Crypto Task Force and Shape the Future of Crypto Regulation",
+        "url": "https://www.sidley.com/en/insights/newsupdates/2025/02/engage-with-the-secs-crypto-task-force-and-shape-the-future-of-crypto-regulation?utm_source=valyu.network&utm_medium=referral&utm_campaign=ai_pilot&utm_content=ai_query",
+        "publication_date": "",
+        "source_type": "website",
+        "summary": "This article discusses the U.S. Securities and Exchange Commission's (SEC) newly established Crypto Task Force and its invitation for public input on a wide range of issues related to crypto assets and blockchain technology.",
+        "custom_fields": {
+          "source_url": "https://www.sidley.com/en/insights/newsupdates/2025/02/engage-with-the-secs-crypto-task-force-and-shape-the-future-of-crypto-regulation",
+          "tx_id": "tx_fc87fa00-6f02-4184-8d2f-613bd3d7c411"
+        }
+      }
+    },
+    {
+      "id": "url_000181",
+      "question": "What is the estimated size of assets under management (AUM) in Japan according to the article?",
+      "answer": "5 trillion",
+      "source_dataset": "url",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": null,
+      "category": null,
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "title": "10 Asset Management Trends To Know For 2024",
+        "url": "https://www.oliverwyman.com/our-expertise/insights/2024/jan/asset-management-trends-for-2024.html?utm_source=valyu.network&utm_medium=referral&utm_campaign=ai_pilot&utm_content=ai_query",
+        "publication_date": "",
+        "source_type": "website",
+        "summary": "This article outlines ten predictions for the asset management industry in 2024, covering trends like private credit growth, the search for yield, insurance industry expansion, cost optimization, Japan's market potential, the evolution of ESG investing, product innovation, and personalized models for high-net-worth clients.",
+        "custom_fields": {
+          "source_url": "https://www.oliverwyman.com/our-expertise/insights/2024/jan/asset-management-trends-for-2024.html",
+          "tx_id": "tx_ab4a1189-f57f-40ab-a3f7-f07d54006165"
+        }
+      }
+    },
+    {
+      "id": "url_000078",
+      "question": "What is the expected price range for FG Holdings Limited's IPO on NASDAQ?",
+      "answer": "$4.00 - $5.00",
+      "source_dataset": "url",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": null,
+      "category": null,
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "title": "IPO Calendar",
+        "url": "https://stockanalysis.com/ipos/calendar/?utm_source=valyu.network&utm_medium=referral&utm_campaign=ai_pilot&utm_content=ai_query",
+        "publication_date": "",
+        "source_type": "website",
+        "summary": "A list of upcoming IPOs scheduled for this week.",
+        "custom_fields": {
+          "source_url": "https://stockanalysis.com/ipos/calendar/",
+          "tx_id": "tx_9ad415bb-838e-4393-b689-394ad6814d25"
+        }
+      }
+    },
+    {
+      "id": "url_000157",
+      "question": "What is Morningstar's projection for the federal-funds rate target range by the end of 2027?",
+      "answer": "2.25%-2.50%",
+      "source_dataset": "url",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": null,
+      "category": null,
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "title": "How Much Will the Fed Cut Interest Rates?",
+        "url": "https://www.morningstar.com/markets/when-will-fed-start-cutting-interest-rates?utm_source=valyu.network&utm_medium=referral&utm_campaign=ai_pilot&utm_content=ai_query",
+        "publication_date": "2025-06-26",
+        "source_type": "website",
+        "summary": "The article discusses the Federal Reserve's interest rate cuts, the impact of higher interest rates on the economy, and the outlook for future rate cuts.",
+        "custom_fields": {
+          "source_url": "https://www.morningstar.com/markets/when-will-fed-start-cutting-interest-rates",
+          "tx_id": "tx_06092138-4de4-4fec-bacd-658311a4c35b"
+        }
+      }
+    },
+    {
+      "id": "url_000168",
+      "question": "What was the Federal Reserve's target interest rate range after the September 2024 FOMC meeting?",
+      "answer": "4.75% to 5%",
+      "source_dataset": "url",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": null,
+      "category": null,
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "title": "September 2024 Fed Meeting: Fed Cuts Rates by Half Point to Support Economy",
+        "url": "https://www.jpmorgan.com/insights/outlook/economic-outlook/fed-meeting-september-2024?utm_source=valyu.network&utm_medium=referral&utm_campaign=ai_pilot&utm_content=ai_query",
+        "publication_date": "",
+        "source_type": "website",
+        "summary": "The Federal Reserve lowered interest rates by 50 basis points at the September 2024 FOMC meeting, marking the first easing of monetary policy in four years. This decision reflects progress on the Fed's dual mandate and aims to support economic growth and stabilize a slowing labor market.",
+        "custom_fields": {
+          "source_url": "https://www.jpmorgan.com/insights/outlook/economic-outlook/fed-meeting-september-2024",
+          "tx_id": "tx_9da697b0-d721-4d8c-a271-54bf287ed3fd"
+        }
+      }
+    },
+    {
+      "id": "url_000136",
+      "question": "What was Microsoft's revenue for the quarter ended June 30, 2025?",
+      "answer": "76.4 billion",
+      "source_dataset": "url",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": null,
+      "category": null,
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "title": "Fortune Tech: The big bucks",
+        "url": "https://fortune.com/2025/07/31/microsoft-ai-investments-4-trillion-market-cap-earnings-msft-meta/?utm_source=valyu.network&utm_medium=referral&utm_campaign=ai_pilot&utm_content=ai_query",
+        "publication_date": "",
+        "source_type": "website",
+        "summary": "This article discusses Microsoft's strong financial performance in its 2025 fiscal year, driven by cloud and AI services. It highlights the company's market cap surpassing $4 trillion and its robust Azure revenue growth.",
+        "custom_fields": {
+          "source_url": "https://fortune.com/2025/07/31/microsoft-ai-investments-4-trillion-market-cap-earnings-msft-meta/",
+          "tx_id": "tx_3b873ec9-b0e8-4284-8c3b-7aa52a3481a5"
+        }
+      }
+    },
+    {
+      "id": "url_000227",
+      "question": "What is the median forecast for U.S. home price growth in 2024 according to a Reuters poll of property analysts conducted from August 19 to 29, 2024?",
+      "answer": "5.4%",
+      "source_dataset": "url",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": null,
+      "category": null,
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "title": "U.S. home prices forecast to rise modestly as Fed cuts rates",
+        "url": "https://www.reuters.com/markets/us/us-home-prices-forecast-rise-modestly-fed-cuts-rates-2024-08-30/?utm_source=valyu.network&utm_medium=referral&utm_campaign=ai_pilot&utm_content=ai_query",
+        "publication_date": "2024-08-30",
+        "source_type": "website",
+        "summary": "U.S. home prices are expected to rise modestly in 2024 and 2025 despite tight supply and expected U.S. Federal Reserve interest rate cuts.",
+        "custom_fields": {
+          "source_url": "https://www.reuters.com/markets/us/us-home-prices-forecast-rise-modestly-fed-cuts-rates-2024-08-30/",
+          "tx_id": "tx_ca037f75-cb9e-4070-9fc7-e0f43a4a75e9"
+        }
+      }
+    },
+    {
+      "id": "url_000171",
+      "question": "What was the percentage change in the price of gold from October 2023 to the end of October 2024?",
+      "answer": "53%",
+      "source_dataset": "url",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": null,
+      "category": null,
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "title": "How Commodity Prices Can Impact the Market and Inflation",
+        "url": "https://www.usbank.com/investing/financial-perspectives/market-news/commodity-prices-impact-on-the-market.html?utm_source=valyu.network&utm_medium=referral&utm_campaign=ai_pilot&utm_content=ai_query",
+        "publication_date": "2025-04-21",
+        "source_type": "website",
+        "summary": "The article discusses the impact of commodity prices on inflation and market trends. It highlights recent price fluctuations in energy and agricultural commodities, and analyzes the factors influencing these trends.",
+        "custom_fields": {
+          "source_url": "https://www.usbank.com/investing/financial-perspectives/market-news/commodity-prices-impact-on-the-market.html",
+          "tx_id": "tx_618960e6-8d5f-4074-af3e-f9872ef5128f"
+        }
+      }
+    },
+    {
+      "id": "url_000142",
+      "question": "What was Mercury's valuation after its Series C funding round in 2024?",
+      "answer": "3.5 billion",
+      "source_dataset": "url",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": null,
+      "category": null,
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "title": "Fintech Mercury lands $300M in Sequoia-led Series C, doubles valuation to $3.5B",
+        "url": "https://techcrunch.com/2025/03/26/fintech-mercury-lands-300m-in-sequoia-led-series-c-doubles-valuation-to-3-5b/?utm_source=valyu.network&utm_medium=referral&utm_campaign=ai_pilot&utm_content=ai_query",
+        "publication_date": "2025-03-26",
+        "source_type": "website",
+        "summary": "Digital banking startup Mercury has raised $300 million in funding, doubling its valuation to $3.5 billion.",
+        "custom_fields": {
+          "source_url": "https://techcrunch.com/2025/03/26/fintech-mercury-lands-300m-in-sequoia-led-series-c-doubles-valuation-to-3-5b/",
+          "tx_id": "tx_5be9f4b1-8f58-4284-8631-7e5eae54dbaa"
+        }
+      }
+    },
+    {
+      "id": "url_000077",
+      "question": "What percentage of world merchandise imports did the United States account for in 2024 according to the International Monetary Fund?",
+      "answer": "13.5%",
+      "source_dataset": "url",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": null,
+      "category": null,
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "title": "Market Briefs & Economic Outlook: Key Insights and Topics",
+        "url": "https://www.privatebank.bankofamerica.com/articles/washington-update.html?utm_source=valyu.network&utm_medium=referral&utm_campaign=ai_pilot&utm_content=ai_query",
+        "publication_date": "",
+        "source_type": "website",
+        "summary": "This article discusses the potential impacts of U.S. tariffs on the economy and investors, exploring both the potential benefits and risks.",
+        "custom_fields": {
+          "source_url": "https://www.privatebank.bankofamerica.com/articles/washington-update.html",
+          "tx_id": "tx_8babeb78-f124-42ba-a29b-d0c8fdcc1683"
+        }
+      }
+    },
+    {
+      "id": "url_000170",
+      "question": "What was the average annual homeowners’ insurance premium paid by an average borrower in August 2024 according to the article?",
+      "answer": "1761",
+      "source_dataset": "url",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": null,
+      "category": null,
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "title": "Economic, Housing and Mortgage Market Outlook – December 2024",
+        "url": "https://www.freddiemac.com/research/forecast/20241220-us-economy-remains-robust-with-strong-q3-growth?utm_source=valyu.network&utm_medium=referral&utm_campaign=ai_pilot&utm_content=ai_query",
+        "publication_date": "",
+        "source_type": "website",
+        "summary": "The U.S. economy remains robust with strong Q3 growth driven by consumer spending. Rebounding mortgage rates weighed on housing and mortgage activity. Homeowners were able to lock themselves into low mortgage rates and shield themselves from rising interest rates and house prices, whereas renters did not have the same advantage.",
+        "custom_fields": {
+          "source_url": "https://www.freddiemac.com/research/forecast/20241220-us-economy-remains-robust-with-strong-q3-growth",
+          "tx_id": "tx_3ac596b1-503a-46ad-9d8c-b047c31afa36"
+        }
+      }
+    },
+    {
+      "id": "url_000027",
+      "question": "What is the blended earnings growth rate for the fourth quarter of 2024 for the S&P 500 according to FactSet's John Butters' February 7, 2025 earnings update?",
+      "answer": "16.4%",
+      "source_dataset": "url",
+      "answer_type": "text",
+      "unit": null,
+      "difficulty": null,
+      "category": null,
+      "evaluation": {
+        "method": "semantic",
+        "tolerance": null,
+        "tolerance_type": null,
+        "additional_params": null
+      },
+      "source_metadata": {
+        "title": "S&P 500 Earnings Season Update: February 7, 2025",
+        "url": "https://insight.factset.com/sp-500-earnings-season-update-february-7-2025?utm_source=valyu.network&utm_medium=referral&utm_campaign=ai_pilot&utm_content=ai_query",
+        "publication_date": "",
+        "source_type": "website",
+        "summary": "This article provides an update on the S&P 500 earnings season for Q4 2024, highlighting strong earnings results, positive earnings surprises, and year-over-year growth.",
+        "custom_fields": {
+          "source_url": "https://insight.factset.com/sp-500-earnings-season-update-february-7-2025",
+          "tx_id": "tx_c8978d66-afd2-4874-a0e2-9cb9b2a03120"
+        }
+      }
+    },
+    {
+      "question": "What was Apple's stock price data from June 3-14, 2022?",
+      "answer": "[\n  {\n    \"datetime\": \"2022-06-14\",\n    \"open\": 243.86,\n    \"high\": 245.74001,\n    \"low\": 241.50999,\n    \"close\": 244.49001,\n    \"volume\": 28651500\n  },\n  {\n    \"datetime\": \"2022-06-13\",\n    \"open\": 245.11,\n    \"high\": 249.020004,\n    \"low\": 241.53,\n    \"close\": 242.25999,\n    \"volume\": 46135800\n  },\n  {\n    \"datetime\": \"2022-06-10\",\n    \"open\": 260.57999,\n    \"high\": 260.57999,\n    \"low\": 252.53,\n    \"close\": 252.99001,\n    \"volume\": 31422800\n  },\n  {\n    \"datetime\": \"2022-06-09\",\n    \"open\": 267.78,\n    \"high\": 272.70999,\n    \"low\": 264.63,\n    \"close\": 264.79001,\n    \"volume\": 26439700\n  },\n  {\n    \"datetime\": \"2022-06-08\",\n    \"open\": 271.70999,\n    \"high\": 273,\n    \"low\": 269.60999,\n    \"close\": 270.41,\n    \"volume\": 17372300\n  },\n  {\n    \"datetime\": \"2022-06-07\",\n    \"open\": 266.64001,\n    \"high\": 273.13,\n    \"low\": 265.94,\n    \"close\": 272.5,\n    \"volume\": 22860700\n  },\n  {\n    \"datetime\": \"2022-06-06\",\n    \"open\": 272.059998,\n    \"high\": 274.17999,\n    \"low\": 267.22,\n    \"close\": 268.75,\n    \"volume\": 22400300\n  },\n  {\n    \"datetime\": \"2022-06-03\",\n    \"open\": 270.31,\n    \"high\": 273.45001,\n    \"low\": 268.41,\n    \"close\": 270.019989,\n    \"volume\": 28059000\n  }\n]",
+      "source_dataset": "stocks",
+      "answer_type": "array",
+      "unit": "USD",
+      "difficulty": "easy",
+      "category": "finance",
+      "id": "hbrpoig8f1cb"
+    },
+    {
+      "question": "Can you show me Tesla's daily stock prices from March 8, 2023 to March 20, 2023?",
+      "answer": "[\n  {\n    \"datetime\": \"2023-03-17\",\n    \"open\": 184.52,\n    \"high\": 186.22,\n    \"low\": 177.33,\n    \"close\": 180.13,\n    \"volume\": 133197100\n  },\n  {\n    \"datetime\": \"2023-03-16\",\n    \"open\": 180.37,\n    \"high\": 185.81,\n    \"low\": 178.84,\n    \"close\": 184.13,\n    \"volume\": 121136800\n  },\n  {\n    \"datetime\": \"2023-03-15\",\n    \"open\": 180.8,\n    \"high\": 182.34,\n    \"low\": 176.029999,\n    \"close\": 180.45,\n    \"volume\": 145995600\n  },\n  {\n    \"datetime\": \"2023-03-14\",\n    \"open\": 177.31,\n    \"high\": 183.8,\n    \"low\": 177.14,\n    \"close\": 183.25999,\n    \"volume\": 143717900\n  },\n  {\n    \"datetime\": \"2023-03-13\",\n    \"open\": 167.46001,\n    \"high\": 177.35001,\n    \"low\": 163.91,\n    \"close\": 174.48,\n    \"volume\": 167790300\n  },\n  {\n    \"datetime\": \"2023-03-10\",\n    \"open\": 175.13,\n    \"high\": 178.28999,\n    \"low\": 168.44,\n    \"close\": 173.44,\n    \"volume\": 191488900\n  },\n  {\n    \"datetime\": \"2023-03-09\",\n    \"open\": 180.25,\n    \"high\": 185.17999,\n    \"low\": 172.50999,\n    \"close\": 172.92,\n    \"volume\": 170023800\n  },\n  {\n    \"datetime\": \"2023-03-08\",\n    \"open\": 185.039993,\n    \"high\": 186.5,\n    \"low\": 180,\n    \"close\": 182,\n    \"volume\": 151897800\n  }\n]",
+      "source_dataset": "stocks",
+      "answer_type": "array",
+      "unit": "USD",
+      "difficulty": "easy",
+      "category": "finance",
+      "id": "fno6b9m80o2r"
+    },
+    {
+      "question": "What were Amazon's weekly stock prices between September 12, 2022 and November 24, 2022?",
+      "answer": "[\n  {\n    \"datetime\": \"2022-11-21\",\n    \"open\": 93.97,\n    \"high\": 95.019997,\n    \"low\": 90.59,\n    \"close\": 93.41,\n    \"volume\": 241025600\n  },\n  {\n    \"datetime\": \"2022-11-14\",\n    \"open\": 98.77,\n    \"high\": 103.79,\n    \"low\": 92.48,\n    \"close\": 94.14,\n    \"volume\": 453874300\n  },\n  {\n    \"datetime\": \"2022-11-07\",\n    \"open\": 91.95,\n    \"high\": 101.19,\n    \"low\": 85.87,\n    \"close\": 100.79,\n    \"volume\": 542000700\n  },\n  {\n    \"datetime\": \"2022-10-31\",\n    \"open\": 103.56,\n    \"high\": 104.87,\n    \"low\": 88.040001,\n    \"close\": 90.98,\n    \"volume\": 654167800\n  },\n  {\n    \"datetime\": \"2022-10-24\",\n    \"open\": 119.98,\n    \"high\": 121.32,\n    \"low\": 97.66,\n    \"close\": 103.41,\n    \"volume\": 522007200\n  },\n  {\n    \"datetime\": \"2022-10-17\",\n    \"open\": 110.11,\n    \"high\": 119.59,\n    \"low\": 110.089996,\n    \"close\": 119.32,\n    \"volume\": 280043100\n  },\n  {\n    \"datetime\": \"2022-10-10\",\n    \"open\": 115.099998,\n    \"high\": 116.25,\n    \"low\": 105.35,\n    \"close\": 106.9,\n    \"volume\": 299106000\n  },\n  {\n    \"datetime\": \"2022-10-03\",\n    \"open\": 113.58,\n    \"high\": 123,\n    \"low\": 112.45,\n    \"close\": 114.56,\n    \"volume\": 258903800\n  },\n  {\n    \"datetime\": \"2022-09-26\",\n    \"open\": 113.3,\n    \"high\": 118.7,\n    \"low\": 112.84,\n    \"close\": 113,\n    \"volume\": 297031100\n  },\n  {\n    \"datetime\": \"2022-09-19\",\n    \"open\": 122.16,\n    \"high\": 124.71,\n    \"low\": 112.059998,\n    \"close\": 113.78,\n    \"volume\": 273832900\n  },\n  {\n    \"datetime\": \"2022-09-12\",\n    \"open\": 134.10001,\n    \"high\": 136.49001,\n    \"low\": 120.7,\n    \"close\": 123.53,\n    \"volume\": 340392700\n  }\n]",
+      "source_dataset": "stocks",
+      "answer_type": "array",
+      "unit": "USD",
+      "difficulty": "easy",
+      "category": "finance",
+      "id": "ak1vrjnvgfyg"
+    },
+    {
+      "question": "Can we get Coca-Cola's monthly stock prices between August 2021 and November 2022? ",
+      "answer": "[\n  {\n    \"datetime\": \"2022-11-01\",\n    \"open\": 60.029999,\n    \"high\": 63.68,\n    \"low\": 58.099998,\n    \"close\": 63.61,\n    \"volume\": 269992796\n  },\n  {\n    \"datetime\": \"2022-10-01\",\n    \"open\": 56.36,\n    \"high\": 60.91,\n    \"low\": 54.014999,\n    \"close\": 59.85,\n    \"volume\": 325964526\n  },\n  {\n    \"datetime\": \"2022-09-01\",\n    \"open\": 61.58,\n    \"high\": 62.88,\n    \"low\": 55.91,\n    \"close\": 56.02,\n    \"volume\": 317560910\n  },\n  {\n    \"datetime\": \"2022-08-01\",\n    \"open\": 64.089996,\n    \"high\": 65.47,\n    \"low\": 61.7,\n    \"close\": 61.71,\n    \"volume\": 223179466\n  },\n  {\n    \"datetime\": \"2022-07-01\",\n    \"open\": 63.12,\n    \"high\": 64.45,\n    \"low\": 60.79,\n    \"close\": 64.17,\n    \"volume\": 275808130\n  },\n  {\n    \"datetime\": \"2022-06-01\",\n    \"open\": 63.42,\n    \"high\": 63.77,\n    \"low\": 58.2528,\n    \"close\": 62.91,\n    \"volume\": 353200933\n  },\n  {\n    \"datetime\": \"2022-05-01\",\n    \"open\": 65.28,\n    \"high\": 66.38,\n    \"low\": 59.66,\n    \"close\": 63.38,\n    \"volume\": 459881921\n  },\n  {\n    \"datetime\": \"2022-04-01\",\n    \"open\": 62.33,\n    \"high\": 67.2,\n    \"low\": 61.72,\n    \"close\": 64.61,\n    \"volume\": 319601926\n  },\n  {\n    \"datetime\": \"2022-03-01\",\n    \"open\": 62.14,\n    \"high\": 63.02,\n    \"low\": 57.5,\n    \"close\": 62,\n    \"volume\": 426925354\n  },\n  {\n    \"datetime\": \"2022-02-01\",\n    \"open\": 60.91,\n    \"high\": 62.895,\n    \"low\": 59.22,\n    \"close\": 62.24,\n    \"volume\": 396001369\n  },\n  {\n    \"datetime\": \"2022-01-01\",\n    \"open\": 58.82,\n    \"high\": 61.45,\n    \"low\": 58.375,\n    \"close\": 61.0099983,\n    \"volume\": 407920987\n  },\n  {\n    \"datetime\": \"2021-12-01\",\n    \"open\": 52.98,\n    \"high\": 59.35,\n    \"low\": 52.28,\n    \"close\": 59.21,\n    \"volume\": 426820167\n  },\n  {\n    \"datetime\": \"2021-11-01\",\n    \"open\": 56.39,\n    \"high\": 57.16,\n    \"low\": 52.44,\n    \"close\": 52.45,\n    \"volume\": 286684466\n  },\n  {\n    \"datetime\": \"2021-10-01\",\n    \"open\": 52.78,\n    \"high\": 56.465,\n    \"low\": 52.4,\n    \"close\": 56.37,\n    \"volume\": 331813380\n  },\n  {\n    \"datetime\": \"2021-09-01\",\n    \"open\": 56.38,\n    \"high\": 57.029999,\n    \"low\": 52.43,\n    \"close\": 52.47,\n    \"volume\": 334514126\n  },\n  {\n    \"datetime\": \"2021-08-01\",\n    \"open\": 57.2,\n    \"high\": 57.555,\n    \"low\": 55.45,\n    \"close\": 56.31,\n    \"volume\": 220336603\n  }\n]",
+      "source_dataset": "stocks",
+      "answer_type": "array",
+      "unit": "USD",
+      "difficulty": "easy",
+      "category": "finance",
+      "id": "wwqc38hyf9sx"
+    },
+    {
+      "question": "Show me JPMorgan Chase's daily stock prices from February 18, 2024 to March 2, 2024",
+      "answer": "[\n  {\n    \"datetime\": \"2024-03-01\",\n    \"open\": 185.7,\n    \"high\": 186.44,\n    \"low\": 185.10001,\n    \"close\": 185.28999,\n    \"volume\": 6311800\n  },\n  {\n    \"datetime\": \"2024-02-29\",\n    \"open\": 185.66,\n    \"high\": 186.42999,\n    \"low\": 183.85001,\n    \"close\": 186.059998,\n    \"volume\": 9643000\n  },\n  {\n    \"datetime\": \"2024-02-28\",\n    \"open\": 183.42999,\n    \"high\": 185.2,\n    \"low\": 182.96001,\n    \"close\": 184.38,\n    \"volume\": 6131600\n  },\n  {\n    \"datetime\": \"2024-02-27\",\n    \"open\": 183.31,\n    \"high\": 183.53999,\n    \"low\": 182.24001,\n    \"close\": 183.45,\n    \"volume\": 5717100\n  },\n  {\n    \"datetime\": \"2024-02-26\",\n    \"open\": 183.75,\n    \"high\": 184.46001,\n    \"low\": 182.48,\n    \"close\": 183.36,\n    \"volume\": 7145400\n  },\n  {\n    \"datetime\": \"2024-02-23\",\n    \"open\": 183.81,\n    \"high\": 185.2,\n    \"low\": 183.19,\n    \"close\": 183.99001,\n    \"volume\": 7105800\n  },\n  {\n    \"datetime\": \"2024-02-22\",\n    \"open\": 181.82001,\n    \"high\": 183.42,\n    \"low\": 181.24001,\n    \"close\": 183.070007,\n    \"volume\": 9296500\n  },\n  {\n    \"datetime\": \"2024-02-21\",\n    \"open\": 179.95,\n    \"high\": 180.99001,\n    \"low\": 178.52,\n    \"close\": 180.89999,\n    \"volume\": 7027900\n  },\n  {\n    \"datetime\": \"2024-02-20\",\n    \"open\": 179.19,\n    \"high\": 180.46001,\n    \"low\": 178.41,\n    \"close\": 179.73,\n    \"volume\": 9668000\n  }\n]",
+      "source_dataset": "stocks",
+      "answer_type": "array",
+      "unit": "USD",
+      "difficulty": "easy",
+      "category": "finance",
+      "id": "mecosfogyr3x"
+    },
+    {
+      "question": "What was the EUR/USD exchange rate from March 5, 2023 to March 12, 2023?",
+      "answer": "[\n  {\n    \"datetime\": \"2023-03-10\",\n    \"open\": 1.05847,\n    \"high\": 1.069862,\n    \"low\": 1.057574,\n    \"close\": 1.05847\n  },\n  {\n    \"datetime\": \"2023-03-09\",\n    \"open\": 1.054953,\n    \"high\": 1.058649,\n    \"low\": 1.053852,\n    \"close\": 1.054953\n  },\n  {\n    \"datetime\": \"2023-03-08\",\n    \"open\": 1.055075,\n    \"high\": 1.057328,\n    \"low\": 1.052665,\n    \"close\": 1.055075\n  },\n  {\n    \"datetime\": \"2023-03-07\",\n    \"open\": 1.068833,\n    \"high\": 1.069633,\n    \"low\": 1.057161,\n    \"close\": 1.068833\n  },\n  {\n    \"datetime\": \"2023-03-06\",\n    \"open\": 1.06262,\n    \"high\": 1.069381,\n    \"low\": 1.062304,\n    \"close\": 1.06262\n  }\n]",
+      "source_dataset": "forex",
+      "answer_type": "array",
+      "unit": "USD",
+      "difficulty": "easy",
+      "category": "finance",
+      "id": "kxwnrek8pk3y"
+    },
+    {
+      "question": "Can you show me the GBP/USD conversion rates between September 18, 2005 and September 25, 2005?",
+      "answer": "[\n  {\n    \"datetime\": \"2005-09-23 00:00:00\",\n    \"open\": 1.79199,\n    \"high\": 1.79321,\n    \"low\": 1.77551,\n    \"close\": 1.77569\n  },\n  {\n    \"datetime\": \"2005-09-22 00:00:00\",\n    \"open\": 1.80229,\n    \"high\": 1.81501,\n    \"low\": 1.78849,\n    \"close\": 1.79179\n  },\n  {\n    \"datetime\": \"2005-09-20 00:00:00\",\n    \"open\": 1.80291,\n    \"high\": 1.8077,\n    \"low\": 1.79759,\n    \"close\": 1.79769\n  },\n  {\n    \"datetime\": \"2005-09-19 00:00:00\",\n    \"open\": 1.80132,\n    \"high\": 1.8062,\n    \"low\": 1.79769,\n    \"close\": 1.80291\n  }\n]",
+      "source_dataset": "forex",
+      "answer_type": "array",
+      "unit": "USD",
+      "difficulty": "easy",
+      "category": "finance",
+      "id": "r9oudocuzren"
+    },
+    {
+      "question": "What were the USD/JPY exchange rates from November 14, 2017 to November 21, 2017?",
+      "answer": "[\n  {\n    \"datetime\": \"2017-11-20 00:00:00\",\n    \"open\": 112.080002,\n    \"high\": 112.72,\n    \"low\": 111.88,\n    \"close\": 112.62\n  },\n  {\n    \"datetime\": \"2017-11-17 00:00:00\",\n    \"open\": 113.050003,\n    \"high\": 113.16,\n    \"low\": 111.94,\n    \"close\": 112.080002\n  },\n  {\n    \"datetime\": \"2017-11-16 00:00:00\",\n    \"open\": 112.88,\n    \"high\": 113.34,\n    \"low\": 112.73,\n    \"close\": 113.059998\n  },\n  {\n    \"datetime\": \"2017-11-15 00:00:00\",\n    \"open\": 113.47,\n    \"high\": 113.5,\n    \"low\": 112.47,\n    \"close\": 112.88\n  },\n  {\n    \"datetime\": \"2017-11-14 00:00:00\",\n    \"open\": 113.62,\n    \"high\": 113.92,\n    \"low\": 113.31,\n    \"close\": 113.45\n  }\n]",
+      "source_dataset": "forex",
+      "answer_type": "array",
+      "unit": "USD",
+      "difficulty": "easy",
+      "category": "finance",
+      "id": "un5z3jqip98q"
+    },
+    {
+      "question": "Can you provide the EUR/CHF (Euro to Swiss Franc) conversion rates between August 7, 2022 and August 14, 2022?",
+      "answer": "[\n  {\n    \"datetime\": \"2022-08-12 00:00:00\",\n    \"open\": 0.97060001,\n    \"high\": 0.97245002,\n    \"low\": 0.96520001,\n    \"close\": 0.96560001\n  },\n  {\n    \"datetime\": \"2022-08-11 00:00:00\",\n    \"open\": 0.97065002,\n    \"high\": 0.9734,\n    \"low\": 0.96939999,\n    \"close\": 0.97049999\n  },\n  {\n    \"datetime\": \"2022-08-10 00:00:00\",\n    \"open\": 0.97415,\n    \"high\": 0.97649997,\n    \"low\": 0.97039998,\n    \"close\": 0.97030002\n  },\n  {\n    \"datetime\": \"2022-08-09 00:00:00\",\n    \"open\": 0.97404999,\n    \"high\": 0.97689998,\n    \"low\": 0.97250003,\n    \"close\": 0.97359997\n  },\n  {\n    \"datetime\": \"2022-08-08 00:00:00\",\n    \"open\": 0.97845,\n    \"high\": 0.97984999,\n    \"low\": 0.9716,\n    \"close\": 0.97359997\n  }\n]",
+      "source_dataset": "forex",
+      "answer_type": "array",
+      "unit": "USD",
+      "difficulty": "easy",
+      "category": "finance",
+      "id": "1zxoi65fdhjk"
+    },
+    {
+      "question": "What was the AUD/CAD (Australian Dollar to Canadian Dollar) exchange rate from April 10, 2023 to April 17, 2023?",
+      "answer": "[\n  {\n    \"datetime\": \"2023-04-14 00:00:00\",\n    \"open\": 0.90439999,\n    \"high\": 0.90549999,\n    \"low\": 0.89569998,\n    \"close\": 0.89670002\n  },\n  {\n    \"datetime\": \"2023-04-13 00:00:00\",\n    \"open\": 0.89920002,\n    \"high\": 0.90695,\n    \"low\": 0.89889997,\n    \"close\": 0.9048\n  },\n  {\n    \"datetime\": \"2023-04-12 00:00:00\",\n    \"open\": 0.89590001,\n    \"high\": 0.90350002,\n    \"low\": 0.89529997,\n    \"close\": 0.89960003\n  },\n  {\n    \"datetime\": \"2023-04-11 00:00:00\",\n    \"open\": 0.89725,\n    \"high\": 0.90109998,\n    \"low\": 0.89569998,\n    \"close\": 0.89609998\n  },\n  {\n    \"datetime\": \"2023-04-10 00:00:00\",\n    \"open\": 0.89969999,\n    \"high\": 0.90140003,\n    \"low\": 0.89644998,\n    \"close\": 0.89714998\n  }\n]",
+      "source_dataset": "forex",
+      "answer_type": "array",
+      "unit": "USD",
+      "difficulty": "easy",
+      "category": "finance",
+      "id": "1eyy37q9ah8r"
+    },
+    {
+      "question": "Who was the top most active insider trader at Microsoft between January 2023 and June 2023, and what was his/her total transaction volume?",
+      "answer": "Based on the Microsoft insider trading data from January 2023 to June 2023, Judson Althoff was the most active insider trader by transaction volume, with a single massive transaction worth $9,182,700.",
+      "source_dataset": "insider_transactions",
+      "answer_type": "text",
+      "unit": "shares",
+      "difficulty": "easy",
+      "category": "finance",
+      "id": "vhs1k3aq6l6g"
+    },
+    {
+      "question": "Which Apple executive had the largest insider transaction by dollar value in Q2 2022?",
+      "answer": "Jeffrey E. Williams, Apple's Chief Operating Officer, had the largest insider transaction by dollar value with a sale worth $18,824,389.",
+      "source_dataset": "insider_transactions",
+      "answer_type": "text",
+      "unit": "shares",
+      "difficulty": "easy",
+      "category": "finance",
+      "id": "t6mjxk87au5b"
+    },
+    {
+      "question": "According to insider transaction data, what was the biggest single insider sale at Tesla in 2023?",
+      "answer": "Kimbal Musk (Tesla Director and Elon Musk's brother) had the biggest single insider sale at Tesla in 2023, with a transaction worth $19,573,464.",
+      "source_dataset": "insider_transactions",
+      "answer_type": "text",
+      "unit": "shares",
+      "difficulty": "easy",
+      "category": "finance",
+      "id": "hxtpdpff5e8i"
+    },
+    {
+      "question": "who sold the most shares at Netflix during September 2023?",
+      "answer": "Reed Hastings sold the most shares at Netflix during September 2023. According to the SEC insider trading data, Hastings, who served as Officer and Director at the time, sold 17,969 shares valued at $7,917,198 on September 1, 2023",
+      "source_dataset": "insider_transactions",
+      "answer_type": "text",
+      "unit": "shares",
+      "difficulty": "easy",
+      "category": "finance",
+      "id": "i49kq71n8mtz"
+    },
+    {
+      "question": "Who was the top most active insider trader at Microsoft between January 2023 and June 2023, and what was his/her total transaction volume?",
+      "answer": "Jeffrey P. Bezos, Amazon's Executive Chairman and founder, dominated insider transaction activity in the first half of 2024 with massive stock sales of approximately $6.5 billion.",
+      "source_dataset": "insider_transactions",
+      "answer_type": "text",
+      "unit": "shares",
+      "difficulty": "easy",
+      "category": "finance",
+      "id": "x272hpoevb9o"
+    },
+    {
+      "question": "What was Bitcoin's daily price from January 12, 2023 to February 24, 2023?",
+      "answer": "[\n  {\n    \"datetime\": \"2023-01-24\",\n    \"open\": 22929.62695,\n    \"high\": 23134.011719,\n    \"low\": 22549.74414,\n    \"close\": 22636.46875,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2023-01-23\",\n    \"open\": 22721.087891,\n    \"high\": 23126.48633,\n    \"low\": 22654.30469,\n    \"close\": 22934.43164,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2023-01-22\",\n    \"open\": 22777.98633,\n    \"high\": 23056.73047,\n    \"low\": 22387.90039,\n    \"close\": 22720.41602,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2023-01-21\",\n    \"open\": 22677.42773,\n    \"high\": 23282.34766,\n    \"low\": 22511.83398,\n    \"close\": 22777.625,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2023-01-20\",\n    \"open\": 21085.37305,\n    \"high\": 22692.35742,\n    \"low\": 20919.12695,\n    \"close\": 22676.55273,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2023-01-19\",\n    \"open\": 20686.74609,\n    \"high\": 21163.011719,\n    \"low\": 20685.38086,\n    \"close\": 21086.79297,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2023-01-18\",\n    \"open\": 21161.050781,\n    \"high\": 21564.50195,\n    \"low\": 20541.54492,\n    \"close\": 20688.78125,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2023-01-17\",\n    \"open\": 21175.83398,\n    \"high\": 21438.66016,\n    \"low\": 20978.5332,\n    \"close\": 21161.51953,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2023-01-16\",\n    \"open\": 20882.22461,\n    \"high\": 21360.875,\n    \"low\": 20715.74609,\n    \"close\": 21169.63281,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2023-01-15\",\n    \"open\": 20977.48438,\n    \"high\": 20993.74805,\n    \"low\": 20606.98633,\n    \"close\": 20880.79883,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2023-01-14\",\n    \"open\": 19910.53711,\n    \"high\": 21075.14258,\n    \"low\": 19907.82812,\n    \"close\": 20976.29883,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2023-01-13\",\n    \"open\": 18868.90625,\n    \"high\": 19964.32227,\n    \"low\": 18753.16406,\n    \"close\": 19909.57422,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2023-01-12\",\n    \"open\": 18117.59375,\n    \"high\": 19030.087891,\n    \"low\": 17995.20312,\n    \"close\": 18869.58789,\n    \"volume\": 0\n  }\n]",
+      "source_dataset": "crypto",
+      "answer_type": "array",
+      "unit": "USD",
+      "difficulty": "easy",
+      "category": "finance",
+      "id": "oaedoecve6pr"
+    },
+    {
+      "question": "Can you show me Ethereum's daily prices between March 28, 2022 and April 9, 2022?",
+      "answer": "[\n  {\n    \"datetime\": \"2022-04-09\",\n    \"open\": 3200.93994,\n    \"high\": 3268.17993,\n    \"low\": 3181.92993,\n    \"close\": 3263.45996,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2022-04-08\",\n    \"open\": 3226.6499,\n    \"high\": 3306.3501,\n    \"low\": 3175.41992,\n    \"close\": 3193.87988,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2022-04-07\",\n    \"open\": 3167.44995,\n    \"high\": 3261.30005,\n    \"low\": 3143.8999,\n    \"close\": 3228.51001,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2022-04-06\",\n    \"open\": 3406.42993,\n    \"high\": 3406.42993,\n    \"low\": 3162.26001,\n    \"close\": 3169.37988,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2022-04-05\",\n    \"open\": 3519.01001,\n    \"high\": 3553.45996,\n    \"low\": 3399.57007,\n    \"close\": 3406.060059,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2022-04-04\",\n    \"open\": 3522.34009,\n    \"high\": 3545.91992,\n    \"low\": 3411.5,\n    \"close\": 3519.94995,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2022-04-03\",\n    \"open\": 3443.83008,\n    \"high\": 3579.37988,\n    \"low\": 3413.45996,\n    \"close\": 3521.52002,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2022-04-02\",\n    \"open\": 3455.11011,\n    \"high\": 3529.29004,\n    \"low\": 3435.070068,\n    \"close\": 3442.40991,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2022-04-01\",\n    \"open\": 3281.96997,\n    \"high\": 3481.1001,\n    \"low\": 3212.050049,\n    \"close\": 3455.070068,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2022-03-31\",\n    \"open\": 3385.53003,\n    \"high\": 3443.71997,\n    \"low\": 3262.13989,\n    \"close\": 3282.34009,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2022-03-30\",\n    \"open\": 3400.030029,\n    \"high\": 3447.02002,\n    \"low\": 3333.26001,\n    \"close\": 3385.93994,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2022-03-29\",\n    \"open\": 3334.080078,\n    \"high\": 3480.53003,\n    \"low\": 3332.65991,\n    \"close\": 3400.3999,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2022-03-28\",\n    \"open\": 3292.69995,\n    \"high\": 3429.31006,\n    \"low\": 3276.28003,\n    \"close\": 3333.12012,\n    \"volume\": 0\n  }\n]",
+      "source_dataset": "crypto",
+      "answer_type": "array",
+      "unit": "USD",
+      "difficulty": "easy",
+      "category": "finance",
+      "id": "5n8i4p40mgg1"
+    },
+    {
+      "question": "What were Chainlink's daily prices from September 5, 2023 to September 17, 2023?",
+      "answer": "[\n  {\n    \"datetime\": \"2023-09-17\",\n    \"open\": 6.2838,\n    \"high\": 6.2838,\n    \"low\": 6.0524,\n    \"close\": 6.1455,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2023-09-16\",\n    \"open\": 6.3715,\n    \"high\": 6.417,\n    \"low\": 6.19,\n    \"close\": 6.2814,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2023-09-15\",\n    \"open\": 6.1559,\n    \"high\": 6.3734,\n    \"low\": 6.1043,\n    \"close\": 6.3706,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2023-09-14\",\n    \"open\": 6.0212,\n    \"high\": 6.2061,\n    \"low\": 6.0127,\n    \"close\": 6.159,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2023-09-13\",\n    \"open\": 5.9577,\n    \"high\": 6.0724,\n    \"low\": 5.9289,\n    \"close\": 6.0192,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2023-09-12\",\n    \"open\": 5.8306,\n    \"high\": 6.0594,\n    \"low\": 5.8135,\n    \"close\": 5.9634,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2023-09-11\",\n    \"open\": 6.0148,\n    \"high\": 6.0293,\n    \"low\": 5.75,\n    \"close\": 5.8306,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2023-09-10\",\n    \"open\": 6.1616,\n    \"high\": 6.1616,\n    \"low\": 5.9518,\n    \"close\": 6.0146,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2023-09-09\",\n    \"open\": 6.2873,\n    \"high\": 6.2873,\n    \"low\": 6.163,\n    \"close\": 6.1648,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2023-09-08\",\n    \"open\": 6.3857,\n    \"high\": 6.3966,\n    \"low\": 6.1475,\n    \"close\": 6.2873,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2023-09-07\",\n    \"open\": 6.3017,\n    \"high\": 6.47,\n    \"low\": 6.2029,\n    \"close\": 6.3895,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2023-09-06\",\n    \"open\": 6.1375,\n    \"high\": 6.3286,\n    \"low\": 6.1,\n    \"close\": 6.3026,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2023-09-05\",\n    \"open\": 6.0155,\n    \"high\": 6.1464,\n    \"low\": 5.9232,\n    \"close\": 6.1365,\n    \"volume\": 0\n  }\n]",
+      "source_dataset": "crypto",
+      "answer_type": "array",
+      "unit": "USD",
+      "difficulty": "easy",
+      "category": "finance",
+      "id": "w103dgdzvgpm"
+    },
+    {
+      "question": "Show me Dogecoin's daily prices between June 15, 2024 and June 27, 2024?",
+      "answer": "[\n  {\n    \"datetime\": \"2024-06-27\",\n    \"open\": 0.12272,\n    \"high\": 0.12823001,\n    \"low\": 0.12055,\n    \"close\": 0.12692,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2024-06-26\",\n    \"open\": 0.12613,\n    \"high\": 0.1286,\n    \"low\": 0.12173,\n    \"close\": 0.12272,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2024-06-25\",\n    \"open\": 0.11893,\n    \"high\": 0.12831999,\n    \"low\": 0.11877,\n    \"close\": 0.12612,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2024-06-24\",\n    \"open\": 0.1221,\n    \"high\": 0.12379,\n    \"low\": 0.11413,\n    \"close\": 0.11896,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2024-06-23\",\n    \"open\": 0.12372,\n    \"high\": 0.12614,\n    \"low\": 0.12136,\n    \"close\": 0.1221,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2024-06-22\",\n    \"open\": 0.12409,\n    \"high\": 0.12547,\n    \"low\": 0.12283,\n    \"close\": 0.12372,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2024-06-21\",\n    \"open\": 0.12444,\n    \"high\": 0.12563001,\n    \"low\": 0.12134,\n    \"close\": 0.12409,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2024-06-20\",\n    \"open\": 0.12248,\n    \"high\": 0.1285,\n    \"low\": 0.12136,\n    \"close\": 0.12444,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2024-06-19\",\n    \"open\": 0.12218,\n    \"high\": 0.12651999,\n    \"low\": 0.12139,\n    \"close\": 0.12244,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2024-06-18\",\n    \"open\": 0.12876999,\n    \"high\": 0.12919,\n    \"low\": 0.11401,\n    \"close\": 0.1222,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2024-06-17\",\n    \"open\": 0.13704,\n    \"high\": 0.13811,\n    \"low\": 0.12617999,\n    \"close\": 0.12876999,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2024-06-16\",\n    \"open\": 0.13669001,\n    \"high\": 0.13754,\n    \"low\": 0.13471,\n    \"close\": 0.13704,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2024-06-15\",\n    \"open\": 0.13496,\n    \"high\": 0.13738,\n    \"low\": 0.13416,\n    \"close\": 0.13669001,\n    \"volume\": 0\n  }\n]",
+      "source_dataset": "crypto",
+      "answer_type": "array",
+      "unit": "USD",
+      "difficulty": "easy",
+      "category": "finance",
+      "id": "m82i1lr3pe29"
+    },
+    {
+      "question": "What was Solana's daily price from November 2, 2022 to November 14, 2022?",
+      "answer": "[\n  {\n    \"datetime\": \"2022-11-14\",\n    \"open\": 13.15,\n    \"high\": 14.97,\n    \"low\": 12.22,\n    \"close\": 13.96,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2022-11-13\",\n    \"open\": 14.53,\n    \"high\": 14.69,\n    \"low\": 13.01,\n    \"close\": 13.15,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2022-11-12\",\n    \"open\": 16.36,\n    \"high\": 16.36,\n    \"low\": 14.46,\n    \"close\": 14.53,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2022-11-11\",\n    \"open\": 17.6,\n    \"high\": 18.25,\n    \"low\": 15.15,\n    \"close\": 16.36,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2022-11-10\",\n    \"open\": 13.94,\n    \"high\": 19,\n    \"low\": 12.98,\n    \"close\": 17.59,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2022-11-09\",\n    \"open\": 24.3,\n    \"high\": 24.33,\n    \"low\": 12.33,\n    \"close\": 13.94,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2022-11-08\",\n    \"open\": 29.63,\n    \"high\": 31.65,\n    \"low\": 22.73,\n    \"close\": 24.23,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2022-11-07\",\n    \"open\": 32.68,\n    \"high\": 33.12,\n    \"low\": 28.24,\n    \"close\": 29.57,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2022-11-06\",\n    \"open\": 36.83,\n    \"high\": 37.049999,\n    \"low\": 32.35,\n    \"close\": 32.62,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2022-11-05\",\n    \"open\": 33.74,\n    \"high\": 38.7,\n    \"low\": 33.68,\n    \"close\": 36.75,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2022-11-04\",\n    \"open\": 30.86,\n    \"high\": 34.21,\n    \"low\": 30.66,\n    \"close\": 33.73,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2022-11-03\",\n    \"open\": 30.81,\n    \"high\": 32.23,\n    \"low\": 30.61,\n    \"close\": 30.86,\n    \"volume\": 0\n  },\n  {\n    \"datetime\": \"2022-11-02\",\n    \"open\": 32.21,\n    \"high\": 32.93,\n    \"low\": 30.24,\n    \"close\": 30.82,\n    \"volume\": 0\n  }\n]",
+      "source_dataset": "crypto",
+      "answer_type": "array",
+      "unit": "USD",
+      "difficulty": "easy",
+      "category": "finance",
+      "id": "gd8afpk054nz"
+    }
+  ]
+}

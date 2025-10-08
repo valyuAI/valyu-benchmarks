@@ -1,0 +1,1930 @@
+{
+    "dataset_info": {
+      "name": "Medical QA Benchmark",
+      "description": "Medical dataset",
+      "total_questions": 80,
+      "created_date": "2025-09-28T01:05:50.082427"
+    },
+    "questions": [
+      {
+        "id": "NCT00480220",
+        "question": "What recruitment status does ClinicalTrials.gov show for the Alzheimer's Disease study Specific Care and Assistance Plan for Alzheimer's Disease?",
+        "answer": "COMPLETED",
+        "source_dataset": "clinical_trials",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "status",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "NCT00480220",
+          "source_title": "Specific Care and Assistance Plan for Alzheimer's Disease",
+          "evidence": "COMPLETED",
+          "metadata": {
+            "field": "overallStatus"
+          },
+          "dataset_name": "Clinical Trials QA Dataset"
+        }
+      },
+      {
+        "id": "NCT00480220",
+        "question": "According to ClinicalTrials.gov, what phase is the Alzheimer's Disease trial Specific Care and Assistance Plan for Alzheimer's Disease?",
+        "answer": "NA",
+        "source_dataset": "clinical_trials",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "phase",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "NCT00480220",
+          "source_title": "Specific Care and Assistance Plan for Alzheimer's Disease",
+          "evidence": "NA",
+          "metadata": {
+            "field": "phases"
+          },
+          "dataset_name": "Clinical Trials QA Dataset"
+        }
+      },
+      {
+        "id": "NCT00480220",
+        "question": "What primary study purpose is documented for Specific Care and Assistance Plan for Alzheimer's Disease (NCT00480220)?",
+        "answer": "SUPPORTIVE_CARE",
+        "source_dataset": "clinical_trials",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "design",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "NCT00480220",
+          "source_title": "Specific Care and Assistance Plan for Alzheimer's Disease",
+          "evidence": "SUPPORTIVE_CARE",
+          "metadata": {
+            "field": "primaryPurpose"
+          },
+          "dataset_name": "Clinical Trials QA Dataset"
+        }
+      },
+      {
+        "id": "NCT00480220",
+        "question": "Report the enrollment total recorded for Specific Care and Assistance Plan for Alzheimer's Disease (NCT00480220).",
+        "answer": "1200",
+        "source_dataset": "clinical_trials",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "enrollment",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "NCT00480220",
+          "source_title": "Specific Care and Assistance Plan for Alzheimer's Disease",
+          "evidence": "1200",
+          "metadata": {
+            "field": "enrollmentInfo.count"
+          },
+          "dataset_name": "Clinical Trials QA Dataset"
+        }
+      },
+      {
+        "id": "NCT00480220",
+        "question": "Which organization serves as the lead sponsor for Specific Care and Assistance Plan for Alzheimer's Disease (NCT00480220)?",
+        "answer": "University Hospital, Toulouse",
+        "source_dataset": "clinical_trials",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "sponsor",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "NCT00480220",
+          "source_title": "Specific Care and Assistance Plan for Alzheimer's Disease",
+          "evidence": "University Hospital, Toulouse",
+          "metadata": {
+            "field": "leadSponsor.name"
+          },
+          "dataset_name": "Clinical Trials QA Dataset"
+        }
+      },
+      {
+        "id": "NCT00480220",
+        "question": "What type of intervention is being evaluated in Specific Care and Assistance Plan for Alzheimer's Disease (NCT00480220)?",
+        "answer": "Procedure",
+        "source_dataset": "clinical_trials",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "intervention",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "NCT00480220",
+          "source_title": "Specific Care and Assistance Plan for Alzheimer's Disease",
+          "evidence": "Procedure",
+          "metadata": {
+            "field": "interventions.type"
+          },
+          "dataset_name": "Clinical Trials QA Dataset"
+        }
+      },
+      {
+        "id": "NCT00480220",
+        "question": "According to NCT00480220, which condition is being studied?",
+        "answer": "Alzheimer's Disease",
+        "source_dataset": "clinical_trials",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "condition",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "NCT00480220",
+          "source_title": "Specific Care and Assistance Plan for Alzheimer's Disease",
+          "evidence": "Alzheimer's Disease",
+          "metadata": {
+            "field": "conditions"
+          },
+          "dataset_name": "Clinical Trials QA Dataset"
+        }
+      },
+      {
+        "id": "NCT00480220",
+        "question": "Where is the Hospital site for Specific Care and Assistance Plan for Alzheimer's Disease (NCT00480220) located?",
+        "answer": "Albi, France",
+        "source_dataset": "clinical_trials",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "location",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "NCT00480220",
+          "source_title": "Specific Care and Assistance Plan for Alzheimer's Disease",
+          "evidence": "Hospital — Albi, France",
+          "metadata": {
+            "field": "locations[0]"
+          },
+          "dataset_name": "Clinical Trials QA Dataset"
+        }
+      },
+      {
+        "id": "NCT00480220",
+        "question": "Name a primary outcome measure for Specific Care and Assistance Plan for Alzheimer's Disease.",
+        "answer": "Evaluate the efficacy of the specific care and assistance plan for Alzheimer's disease in a study randomised within each centre. The main aim of the care plan is to reduce loss of independence.",
+        "source_dataset": "clinical_trials",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "outcome",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "NCT00480220",
+          "source_title": "Specific Care and Assistance Plan for Alzheimer's Disease",
+          "evidence": "Evaluate the efficacy of the specific care and assistance plan for Alzheimer's disease in a study randomised within each centre. The main aim of the care plan is to reduce loss of independence.",
+          "metadata": {
+            "field": "primaryOutcomes[0].measure"
+          },
+          "dataset_name": "Clinical Trials QA Dataset"
+        }
+      },
+      {
+        "id": "NCT00480220",
+        "question": "For NCT00480220, outline the sex and age eligibility ranges.",
+        "answer": "Sex: ALL; Minimum age: 65 Years",
+        "source_dataset": "clinical_trials",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "eligibility",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "NCT00480220",
+          "source_title": "Specific Care and Assistance Plan for Alzheimer's Disease",
+          "evidence": "Sex: ALL; Minimum age: 65 Years",
+          "metadata": {
+            "field": "eligibilityModule"
+          },
+          "dataset_name": "Clinical Trials QA Dataset"
+        }
+      },
+      {
+        "id": "NCT01896778",
+        "question": "What is the current recruitment status of Body Warming in Improving Blood Flow and Oxygen Delivery to Tumors in Patients With Cancer (NCT01896778)?",
+        "answer": "COMPLETED",
+        "source_dataset": "clinical_trials",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "status",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "NCT01896778",
+          "source_title": "Body Warming in Improving Blood Flow and Oxygen Delivery to Tumors in Patients With Cancer",
+          "evidence": "COMPLETED",
+          "metadata": {
+            "field": "overallStatus"
+          },
+          "dataset_name": "Clinical Trials QA Dataset"
+        }
+      },
+      {
+        "id": "NCT01896778",
+        "question": "Which study phase best describes Body Warming in Improving Blood Flow and Oxygen Delivery to Tumors in Patients With Cancer (NCT01896778)?",
+        "answer": "NA",
+        "source_dataset": "clinical_trials",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "phase",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "NCT01896778",
+          "source_title": "Body Warming in Improving Blood Flow and Oxygen Delivery to Tumors in Patients With Cancer",
+          "evidence": "NA",
+          "metadata": {
+            "field": "phases"
+          },
+          "dataset_name": "Clinical Trials QA Dataset"
+        }
+      },
+      {
+        "id": "NCT01896778",
+        "question": "What primary study purpose is documented for Body Warming in Improving Blood Flow and Oxygen Delivery to Tumors in Patients With Cancer (NCT01896778)?",
+        "answer": "BASIC_SCIENCE",
+        "source_dataset": "clinical_trials",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "design",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "NCT01896778",
+          "source_title": "Body Warming in Improving Blood Flow and Oxygen Delivery to Tumors in Patients With Cancer",
+          "evidence": "BASIC_SCIENCE",
+          "metadata": {
+            "field": "primaryPurpose"
+          },
+          "dataset_name": "Clinical Trials QA Dataset"
+        }
+      },
+      {
+        "id": "NCT01896778",
+        "question": "What enrollment figure is reported for Body Warming in Improving Blood Flow and Oxygen Delivery to Tumors in Patients With Cancer?",
+        "answer": "9",
+        "source_dataset": "clinical_trials",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "enrollment",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "NCT01896778",
+          "source_title": "Body Warming in Improving Blood Flow and Oxygen Delivery to Tumors in Patients With Cancer",
+          "evidence": "9",
+          "metadata": {
+            "field": "enrollmentInfo.count"
+          },
+          "dataset_name": "Clinical Trials QA Dataset"
+        }
+      },
+      {
+        "id": "NCT01896778",
+        "question": "Identify the lead sponsor for NCT01896778.",
+        "answer": "Roswell Park Cancer Institute",
+        "source_dataset": "clinical_trials",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "sponsor",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "NCT01896778",
+          "source_title": "Body Warming in Improving Blood Flow and Oxygen Delivery to Tumors in Patients With Cancer",
+          "evidence": "Roswell Park Cancer Institute",
+          "metadata": {
+            "field": "leadSponsor.name"
+          },
+          "dataset_name": "Clinical Trials QA Dataset"
+        }
+      },
+      {
+        "id": "NCT01896778",
+        "question": "Which intervention category is reported for Body Warming in Improving Blood Flow and Oxygen Delivery to Tumors in Patients With Cancer?",
+        "answer": "Other, Procedure",
+        "source_dataset": "clinical_trials",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "intervention",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "NCT01896778",
+          "source_title": "Body Warming in Improving Blood Flow and Oxygen Delivery to Tumors in Patients With Cancer",
+          "evidence": "Other, Procedure",
+          "metadata": {
+            "field": "interventions.type"
+          },
+          "dataset_name": "Clinical Trials QA Dataset"
+        }
+      },
+      {
+        "id": "NCT01896778",
+        "question": "According to NCT01896778, which condition is being studied?",
+        "answer": "Adult Liver Carcinoma, Breast Carcinoma, Colon Carcinoma, Kidney Neoplasm, Lung Carcinoma, Malignant Head and Neck Neoplasm, Malignant Neoplasm, Melanoma, Ovarian Neoplasm, Soft Tissue Sarcoma",
+        "source_dataset": "clinical_trials",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "condition",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "NCT01896778",
+          "source_title": "Body Warming in Improving Blood Flow and Oxygen Delivery to Tumors in Patients With Cancer",
+          "evidence": "Adult Liver Carcinoma, Breast Carcinoma, Colon Carcinoma, Kidney Neoplasm, Lung Carcinoma, Malignant Head and Neck Neoplasm, Malignant Neoplasm, Melanoma, Ovarian Neoplasm, Soft Tissue Sarcoma",
+          "metadata": {
+            "field": "conditions"
+          },
+          "dataset_name": "Clinical Trials QA Dataset"
+        }
+      },
+      {
+        "id": "NCT01896778",
+        "question": "Identify the city and country for the Roswell Park Cancer Institute location in Body Warming in Improving Blood Flow and Oxygen Delivery to Tumors in Patients With Cancer (NCT01896778).",
+        "answer": "Buffalo, United States",
+        "source_dataset": "clinical_trials",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "location",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "NCT01896778",
+          "source_title": "Body Warming in Improving Blood Flow and Oxygen Delivery to Tumors in Patients With Cancer",
+          "evidence": "Roswell Park Cancer Institute — Buffalo, United States",
+          "metadata": {
+            "field": "locations[0]"
+          },
+          "dataset_name": "Clinical Trials QA Dataset"
+        }
+      },
+      {
+        "id": "NCT01896778",
+        "question": "For NCT01896778, identify one primary outcome measure.",
+        "answer": "Changes in tumor vascular (blood flow, blood volume)",
+        "source_dataset": "clinical_trials",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "outcome",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "NCT01896778",
+          "source_title": "Body Warming in Improving Blood Flow and Oxygen Delivery to Tumors in Patients With Cancer",
+          "evidence": "Changes in tumor vascular (blood flow, blood volume)",
+          "metadata": {
+            "field": "primaryOutcomes[0].measure"
+          },
+          "dataset_name": "Clinical Trials QA Dataset"
+        }
+      },
+      {
+        "id": "NCT01896778",
+        "question": "What eligibility demographics are noted for Body Warming in Improving Blood Flow and Oxygen Delivery to Tumors in Patients With Cancer (NCT01896778)?",
+        "answer": "Sex: ALL; Minimum age: 18 Years",
+        "source_dataset": "clinical_trials",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "eligibility",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "NCT01896778",
+          "source_title": "Body Warming in Improving Blood Flow and Oxygen Delivery to Tumors in Patients With Cancer",
+          "evidence": "Sex: ALL; Minimum age: 18 Years",
+          "metadata": {
+            "field": "eligibilityModule"
+          },
+          "dataset_name": "Clinical Trials QA Dataset"
+        }
+      },
+      {
+        "id": "NCT06280755",
+        "question": "What is the current recruitment status of Clinical Impact Through AI-assisted MS Care - A Retrospective Multi-center Observational Study. (NCT06280755)?",
+        "answer": "RECRUITING",
+        "source_dataset": "clinical_trials",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "status",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "NCT06280755",
+          "source_title": "Clinical Impact Through AI-assisted MS Care - A Retrospective Multi-center Observational Study.",
+          "evidence": "RECRUITING",
+          "metadata": {
+            "field": "overallStatus"
+          },
+          "dataset_name": "Clinical Trials QA Dataset"
+        }
+      },
+      {
+        "id": "NCT06280755",
+        "question": "Approximately how many participants were enrolled in the Multiple Sclerosis trial Clinical Impact Through AI-assisted MS Care - A Retrospective Multi-center Observational Study.?",
+        "answer": "7000",
+        "source_dataset": "clinical_trials",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "enrollment",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "NCT06280755",
+          "source_title": "Clinical Impact Through AI-assisted MS Care - A Retrospective Multi-center Observational Study.",
+          "evidence": "7000",
+          "metadata": {
+            "field": "enrollmentInfo.count"
+          },
+          "dataset_name": "Clinical Trials QA Dataset"
+        }
+      },
+      {
+        "id": "NCT06280755",
+        "question": "Which organization serves as the lead sponsor for Clinical Impact Through AI-assisted MS Care - A Retrospective Multi-center Observational Study. (NCT06280755)?",
+        "answer": "icometrix",
+        "source_dataset": "clinical_trials",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "sponsor",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "NCT06280755",
+          "source_title": "Clinical Impact Through AI-assisted MS Care - A Retrospective Multi-center Observational Study.",
+          "evidence": "icometrix",
+          "metadata": {
+            "field": "leadSponsor.name"
+          },
+          "dataset_name": "Clinical Trials QA Dataset"
+        }
+      },
+      {
+        "id": "NCT06280755",
+        "question": "According to NCT06280755, which condition is being studied?",
+        "answer": "Multiple Sclerosis, NMO Spectrum Disorder, Myelin Oligodendrocyte Glycoprotein Antibody-associated Disease, Radiologically Isolated Syndrome, Clinically Isolated Syndrome",
+        "source_dataset": "clinical_trials",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "condition",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "NCT06280755",
+          "source_title": "Clinical Impact Through AI-assisted MS Care - A Retrospective Multi-center Observational Study.",
+          "evidence": "Multiple Sclerosis, NMO Spectrum Disorder, Myelin Oligodendrocyte Glycoprotein Antibody-associated Disease, Radiologically Isolated Syndrome, Clinically Isolated Syndrome",
+          "metadata": {
+            "field": "conditions"
+          },
+          "dataset_name": "Clinical Trials QA Dataset"
+        }
+      },
+      {
+        "id": "NCT06280755",
+        "question": "In which city and country is the General University Hospital Prague site for NCT06280755?",
+        "answer": "Prague, Czechia",
+        "source_dataset": "clinical_trials",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "location",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "NCT06280755",
+          "source_title": "Clinical Impact Through AI-assisted MS Care - A Retrospective Multi-center Observational Study.",
+          "evidence": "General University Hospital Prague — Prague, Czechia",
+          "metadata": {
+            "field": "locations[0]"
+          },
+          "dataset_name": "Clinical Trials QA Dataset"
+        }
+      },
+      {
+        "id": "NCT06280755",
+        "question": "According to ClinicalTrials.gov, which primary outcome is recorded for the Multiple Sclerosis study Clinical Impact Through AI-assisted MS Care - A Retrospective Multi-center Observational Study.?",
+        "answer": "The number of patients from each institution who have contributed data to the database.",
+        "source_dataset": "clinical_trials",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "outcome",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "NCT06280755",
+          "source_title": "Clinical Impact Through AI-assisted MS Care - A Retrospective Multi-center Observational Study.",
+          "evidence": "The number of patients from each institution who have contributed data to the database.",
+          "metadata": {
+            "field": "primaryOutcomes[0].measure"
+          },
+          "dataset_name": "Clinical Trials QA Dataset"
+        }
+      },
+      {
+        "id": "NCT06280755",
+        "question": "What demographic criteria are reported for Clinical Impact Through AI-assisted MS Care - A Retrospective Multi-center Observational Study.?",
+        "answer": "Sex: ALL; Minimum age: 18 Years",
+        "source_dataset": "clinical_trials",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "eligibility",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "NCT06280755",
+          "source_title": "Clinical Impact Through AI-assisted MS Care - A Retrospective Multi-center Observational Study.",
+          "evidence": "Sex: ALL; Minimum age: 18 Years",
+          "metadata": {
+            "field": "eligibilityModule"
+          },
+          "dataset_name": "Clinical Trials QA Dataset"
+        }
+      },
+      {
+        "id": "NCT06155708",
+        "question": "How is Exogenous Ketone Supplementation in Females with Polycystic Ovary Syndrome (NCT06155708) listed on ClinicalTrials.gov in terms of recruitment?",
+        "answer": "RECRUITING",
+        "source_dataset": "clinical_trials",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "status",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "NCT06155708",
+          "source_title": "Exogenous Ketone Supplementation in Females with Polycystic Ovary Syndrome",
+          "evidence": "RECRUITING",
+          "metadata": {
+            "field": "overallStatus"
+          },
+          "dataset_name": "Clinical Trials QA Dataset"
+        }
+      },
+      {
+        "id": "NCT06155708",
+        "question": "What trial phase is Exogenous Ketone Supplementation in Females with Polycystic Ovary Syndrome currently classified under?",
+        "answer": "NA",
+        "source_dataset": "clinical_trials",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "phase",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "NCT06155708",
+          "source_title": "Exogenous Ketone Supplementation in Females with Polycystic Ovary Syndrome",
+          "evidence": "NA",
+          "metadata": {
+            "field": "phases"
+          },
+          "dataset_name": "Clinical Trials QA Dataset"
+        }
+      },
+      {
+        "id": "NCT06155708",
+        "question": "State the primary objective category for Exogenous Ketone Supplementation in Females with Polycystic Ovary Syndrome (NCT06155708).",
+        "answer": "TREATMENT",
+        "source_dataset": "clinical_trials",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "design",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "NCT06155708",
+          "source_title": "Exogenous Ketone Supplementation in Females with Polycystic Ovary Syndrome",
+          "evidence": "TREATMENT",
+          "metadata": {
+            "field": "primaryPurpose"
+          },
+          "dataset_name": "Clinical Trials QA Dataset"
+        }
+      },
+      {
+        "id": "NCT06155708",
+        "question": "How many participants does NCT06155708 list as enrolled?",
+        "answer": "60",
+        "source_dataset": "clinical_trials",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "enrollment",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "NCT06155708",
+          "source_title": "Exogenous Ketone Supplementation in Females with Polycystic Ovary Syndrome",
+          "evidence": "60",
+          "metadata": {
+            "field": "enrollmentInfo.count"
+          },
+          "dataset_name": "Clinical Trials QA Dataset"
+        }
+      },
+      {
+        "id": "NCT06155708",
+        "question": "Who is listed as the lead sponsor for Exogenous Ketone Supplementation in Females with Polycystic Ovary Syndrome?",
+        "answer": "McGill University",
+        "source_dataset": "clinical_trials",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "sponsor",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "NCT06155708",
+          "source_title": "Exogenous Ketone Supplementation in Females with Polycystic Ovary Syndrome",
+          "evidence": "McGill University",
+          "metadata": {
+            "field": "leadSponsor.name"
+          },
+          "dataset_name": "Clinical Trials QA Dataset"
+        }
+      },
+      {
+        "id": "NCT06155708",
+        "question": "Identify the intervention category described for Exogenous Ketone Supplementation in Females with Polycystic Ovary Syndrome (NCT06155708).",
+        "answer": "Dietary_Supplement",
+        "source_dataset": "clinical_trials",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "intervention",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "NCT06155708",
+          "source_title": "Exogenous Ketone Supplementation in Females with Polycystic Ovary Syndrome",
+          "evidence": "Dietary_Supplement",
+          "metadata": {
+            "field": "interventions.type"
+          },
+          "dataset_name": "Clinical Trials QA Dataset"
+        }
+      },
+      {
+        "id": "NCT06155708",
+        "question": "According to NCT06155708, which condition is being studied?",
+        "answer": "PCOS",
+        "source_dataset": "clinical_trials",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "condition",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "NCT06155708",
+          "source_title": "Exogenous Ketone Supplementation in Females with Polycystic Ovary Syndrome",
+          "evidence": "PCOS",
+          "metadata": {
+            "field": "conditions"
+          },
+          "dataset_name": "Clinical Trials QA Dataset"
+        }
+      },
+      {
+        "id": "NCT06155708",
+        "question": "What location is provided for the Cardiovascular Health and Autonomic Research Laboratory site associated with the PCOS trial Exogenous Ketone Supplementation in Females with Polycystic Ovary Syndrome?",
+        "answer": "Montreal, Canada",
+        "source_dataset": "clinical_trials",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "location",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "NCT06155708",
+          "source_title": "Exogenous Ketone Supplementation in Females with Polycystic Ovary Syndrome",
+          "evidence": "Cardiovascular Health and Autonomic Research Laboratory — Montreal, Canada",
+          "metadata": {
+            "field": "locations[0]"
+          },
+          "dataset_name": "Clinical Trials QA Dataset"
+        }
+      },
+      {
+        "id": "NCT06155708",
+        "question": "Provide one primary outcome measure tracked in Exogenous Ketone Supplementation in Females with Polycystic Ovary Syndrome (NCT06155708).",
+        "answer": "Glycemic responses to a 2-hr oral glucose tolerance test",
+        "source_dataset": "clinical_trials",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "outcome",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "NCT06155708",
+          "source_title": "Exogenous Ketone Supplementation in Females with Polycystic Ovary Syndrome",
+          "evidence": "Glycemic responses to a 2-hr oral glucose tolerance test",
+          "metadata": {
+            "field": "primaryOutcomes[0].measure"
+          },
+          "dataset_name": "Clinical Trials QA Dataset"
+        }
+      },
+      {
+        "id": "NCT06155708",
+        "question": "What demographic criteria are reported for Exogenous Ketone Supplementation in Females with Polycystic Ovary Syndrome?",
+        "answer": "Sex: ALL; Minimum age: 18 Years; Maximum age: 40 Years",
+        "source_dataset": "clinical_trials",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "eligibility",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "NCT06155708",
+          "source_title": "Exogenous Ketone Supplementation in Females with Polycystic Ovary Syndrome",
+          "evidence": "Sex: ALL; Minimum age: 18 Years; Maximum age: 40 Years",
+          "metadata": {
+            "field": "eligibilityModule"
+          },
+          "dataset_name": "Clinical Trials QA Dataset"
+        }
+      },
+      {
+        "id": "NCT05113368",
+        "question": "Has the trial titled Regorafenib Combined With Fulvestrant in Recurrent Low-Grade Serous Ovarian Cancer finished recruiting participants?",
+        "answer": "RECRUITING",
+        "source_dataset": "clinical_trials",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "status",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "NCT05113368",
+          "source_title": "Regorafenib Combined With Fulvestrant in Recurrent Low-Grade Serous Ovarian Cancer",
+          "evidence": "RECRUITING",
+          "metadata": {
+            "field": "overallStatus"
+          },
+          "dataset_name": "Clinical Trials QA Dataset"
+        }
+      },
+      {
+        "id": "NCT05113368",
+        "question": "What trial phase is Regorafenib Combined With Fulvestrant in Recurrent Low-Grade Serous Ovarian Cancer currently classified under?",
+        "answer": "PHASE2",
+        "source_dataset": "clinical_trials",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "phase",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "NCT05113368",
+          "source_title": "Regorafenib Combined With Fulvestrant in Recurrent Low-Grade Serous Ovarian Cancer",
+          "evidence": "PHASE2",
+          "metadata": {
+            "field": "phases"
+          },
+          "dataset_name": "Clinical Trials QA Dataset"
+        }
+      },
+      {
+        "id": "NCT05113368",
+        "question": "What primary study purpose is documented for Regorafenib Combined With Fulvestrant in Recurrent Low-Grade Serous Ovarian Cancer (NCT05113368)?",
+        "answer": "TREATMENT",
+        "source_dataset": "clinical_trials",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "design",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "NCT05113368",
+          "source_title": "Regorafenib Combined With Fulvestrant in Recurrent Low-Grade Serous Ovarian Cancer",
+          "evidence": "TREATMENT",
+          "metadata": {
+            "field": "primaryPurpose"
+          },
+          "dataset_name": "Clinical Trials QA Dataset"
+        }
+      },
+      {
+        "id": "af4e38a6-ad3f-480c-ae82-5ac6c7735b99",
+        "question": "What boxed warning is included in the TRULICITY (DULAGLUTIDE) INJECTION, SOLUTION prescribing information?",
+        "answer": "WARNING: RISK OF THYROID C-CELL TUMORS See full prescribing information for complete boxed warning.",
+        "source_dataset": "drug_labels",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "boxed_warning",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "af4e38a6-ad3f-480c-ae82-5ac6c7735b99",
+          "source_title": "TRULICITY (DULAGLUTIDE) INJECTION, SOLUTION",
+          "evidence": "WARNING: RISK OF THYROID C-CELL TUMORS See full prescribing information for complete boxed warning.",
+          "metadata": {
+            "section": "boxed_warning"
+          },
+          "dataset_name": "Drug Labels QA Dataset"
+        }
+      },
+      {
+        "id": "af4e38a6-ad3f-480c-ae82-5ac6c7735b99",
+        "question": "According to the TRULICITY (DULAGLUTIDE) INJECTION, SOLUTION label, state one approved indication.",
+        "answer": "TRULICITY ® is indicated: TRULICITY ® is a glucagon-like peptide-1 (GLP-1) receptor agonist indicated ( 1 ):",
+        "source_dataset": "drug_labels",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "indications",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "af4e38a6-ad3f-480c-ae82-5ac6c7735b99",
+          "source_title": "TRULICITY (DULAGLUTIDE) INJECTION, SOLUTION",
+          "evidence": "TRULICITY ® is indicated: TRULICITY ® is a glucagon-like peptide-1 (GLP-1) receptor agonist indicated ( 1 ):",
+          "metadata": {
+            "section": "indications"
+          },
+          "dataset_name": "Drug Labels QA Dataset"
+        }
+      },
+      {
+        "id": "d2d7da5d-ad07-4228-955f-cf7e355c8cc0",
+        "question": "What boxed warning is included in the MOUNJARO (TIRZEPATIDE) INJECTION, SOLUTION prescribing information?",
+        "answer": "WARNING: RISK OF THYROID C-CELL TUMORS See full prescribing information for complete boxed warning.",
+        "source_dataset": "drug_labels",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "boxed_warning",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "d2d7da5d-ad07-4228-955f-cf7e355c8cc0",
+          "source_title": "MOUNJARO (TIRZEPATIDE) INJECTION, SOLUTION",
+          "evidence": "WARNING: RISK OF THYROID C-CELL TUMORS See full prescribing information for complete boxed warning.",
+          "metadata": {
+            "section": "boxed_warning"
+          },
+          "dataset_name": "Drug Labels QA Dataset"
+        }
+      },
+      {
+        "id": "d2d7da5d-ad07-4228-955f-cf7e355c8cc0",
+        "question": "According to the MOUNJARO (TIRZEPATIDE) INJECTION, SOLUTION label, state one approved indication.",
+        "answer": "MOUNJARO ® is indicated as an adjunct to diet and exercise to improve glycemic control in adults with type 2 diabetes mellitus.",
+        "source_dataset": "drug_labels",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "indications",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "d2d7da5d-ad07-4228-955f-cf7e355c8cc0",
+          "source_title": "MOUNJARO (TIRZEPATIDE) INJECTION, SOLUTION",
+          "evidence": "MOUNJARO ® is indicated as an adjunct to diet and exercise to improve glycemic control in adults with type 2 diabetes mellitus. MOUNJARO ® is a glucose-dependent insulinotropic polypeptide (GIP) receptor and glucagon-like peptide-1 (GLP-1) receptor agonist indicated as an adjunct to diet and exercise to improve glycemic control in adults with type 2 diabetes mellitus. ( 1 )",
+          "metadata": {
+            "section": "indications"
+          },
+          "dataset_name": "Drug Labels QA Dataset"
+        }
+      },
+      {
+        "id": "43de75ac-1a37-4609-9edd-68bda2448a47",
+        "question": "What boxed warning is included in the IDACIO (ADALIMUMAB-AACF) KIT prescribing information?",
+        "answer": "WARNING: SERIOUS INFECTIONS and MALIGNANCY See full prescribing information for complete boxed warning.",
+        "source_dataset": "drug_labels",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "boxed_warning",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "43de75ac-1a37-4609-9edd-68bda2448a47",
+          "source_title": "IDACIO (ADALIMUMAB-AACF) KIT",
+          "evidence": "WARNING: SERIOUS INFECTIONS and MALIGNANCY See full prescribing information for complete boxed warning. SERIOUS INFECTIONS ( 5.1 , 6.1 ): MALIGNANCY ( 5.2 ) : SERIOUS INFECTIONS Patients treated with adalimumab products including IDACIO are at increased risk for developing serious infections that may lead to hospitalization or death [see Warnings and Precautions ( 5.1 )] . Most patients who developed these infections were taking concomitant immunosuppressants such as methotrexate or corticost...",
+          "metadata": {
+            "section": "boxed_warning"
+          },
+          "dataset_name": "Drug Labels QA Dataset"
+        }
+      },
+      {
+        "id": "43de75ac-1a37-4609-9edd-68bda2448a47",
+        "question": "According to the IDACIO (ADALIMUMAB-AACF) KIT label, state one approved indication.",
+        "answer": "IDACIO is a tumor necrosis factor (TNF) blocker indicated for: IDACIO is indicated for reducing signs and symptoms, inducing major clinical response, inhibiting the progression of structural damage, and improving physical function in adult patients with moderately to severely active rheumatoid arthritis.",
+        "source_dataset": "drug_labels",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "indications",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "43de75ac-1a37-4609-9edd-68bda2448a47",
+          "source_title": "IDACIO (ADALIMUMAB-AACF) KIT",
+          "evidence": "IDACIO is a tumor necrosis factor (TNF) blocker indicated for: IDACIO is indicated for reducing signs and symptoms, inducing major clinical response, inhibiting the progression of structural damage, and improving physical function in adult patients with moderately to severely active rheumatoid arthritis. IDACIO can be used alone or in combination with methotrexate or other non-biologic disease-modifying anti-rheumatic drugs (DMARDs). IDACIO is indicated for reducing signs and symptoms of mode...",
+          "metadata": {
+            "section": "indications"
+          },
+          "dataset_name": "Drug Labels QA Dataset"
+        }
+      },
+      {
+        "id": "6fa682c9-a312-4932-9831-f286908660ee",
+        "question": "According to the TECENTRIQ (ATEZOLIZUMAB) INJECTION, SOLUTION label, state one approved indication.",
+        "answer": "TECENTRIQ is a programmed death-ligand 1 (PD-L1) blocking antibody indicated: Non-Small Cell Lung Cancer (NSCLC) Small Cell Lung Cancer (SCLC) Hepatocellular Carcinoma (HCC) Melanoma Alveolar Soft Part Sarcoma (ASPS) TECENTRIQ, in combination with carboplatin and etoposide, is indicated for the first-line treatment of adult patients with extensi...",
+        "source_dataset": "drug_labels",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "indications",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "6fa682c9-a312-4932-9831-f286908660ee",
+          "source_title": "TECENTRIQ (ATEZOLIZUMAB) INJECTION, SOLUTION",
+          "evidence": "TECENTRIQ is a programmed death-ligand 1 (PD-L1) blocking antibody indicated: Non-Small Cell Lung Cancer (NSCLC) Small Cell Lung Cancer (SCLC) Hepatocellular Carcinoma (HCC) Melanoma Alveolar Soft Part Sarcoma (ASPS) TECENTRIQ, in combination with carboplatin and etoposide, is indicated for the first-line treatment of adult patients with extensive-stage small cell lung cancer (ES-SCLC). TECENTRIQ, in combination with bevacizumab, is indicated for the treatment of adult patients with unresecta...",
+          "metadata": {
+            "section": "indications"
+          },
+          "dataset_name": "Drug Labels QA Dataset"
+        }
+      },
+      {
+        "id": "6fa682c9-a312-4932-9831-f286908660ee",
+        "question": "What dosage or formulation instruction does the TECENTRIQ (ATEZOLIZUMAB) INJECTION, SOLUTION label highlight?",
+        "answer": "TECENTRIQ injection is a sterile, preservative-free, and colorless to slightly yellow solution for intravenous infusion supplied as a carton containing one 840 mg/14 mL single-dose vial (NDC 50242-918-01) or 1,200 mg/20 mL single-dose vial (NDC 50242-917-01).",
+        "source_dataset": "drug_labels",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "dosage",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "6fa682c9-a312-4932-9831-f286908660ee",
+          "source_title": "TECENTRIQ (ATEZOLIZUMAB) INJECTION, SOLUTION",
+          "evidence": "TECENTRIQ injection is a sterile, preservative-free, and colorless to slightly yellow solution for intravenous infusion supplied as a carton containing one 840 mg/14 mL single-dose vial (NDC 50242-918-01) or 1,200 mg/20 mL single-dose vial (NDC 50242-917-01). Store vials under refrigeration at 2°C to 8°C (36°F to 46°F) in original carton to protect from light. Do not freeze. Do not shake.",
+          "metadata": {
+            "section": "dosage"
+          },
+          "dataset_name": "Drug Labels QA Dataset"
+        }
+      },
+      {
+        "id": "4cd07a3c-9673-4aa0-b76a-d79df2399ee1",
+        "question": "What boxed warning is included in the CLOPIDOGREL (CLOPIDOGREL BISULFATE) TABLET, FILM COATED prescribing information?",
+        "answer": "WARNING: DIMINISHED ANTIPLATELET EFFECT IN PATIENTS WITH TWO LOSS-OF-FUNCTION ALLELES OF THE CYP2C19 GENE See full prescribing information for complete boxed warning.",
+        "source_dataset": "drug_labels",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "boxed_warning",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "4cd07a3c-9673-4aa0-b76a-d79df2399ee1",
+          "source_title": "CLOPIDOGREL (CLOPIDOGREL BISULFATE) TABLET, FILM COATED",
+          "evidence": "WARNING: DIMINISHED ANTIPLATELET EFFECT IN PATIENTS WITH TWO LOSS-OF-FUNCTION ALLELES OF THE CYP2C19 GENE See full prescribing information for complete boxed warning. The effectiveness of clopidogrel tablets results from its antiplatelet activity, which is dependent on its conversion to an active metabolite by the cytochrome P450 (CYP) system, principally CYP2C19 [see Warnings and Precautions ( 5.1 ), Clinical Pharmacology ( 12.3 )] . Clopidogrel tablets at recommended doses forms less of the...",
+          "metadata": {
+            "section": "boxed_warning"
+          },
+          "dataset_name": "Drug Labels QA Dataset"
+        }
+      },
+      {
+        "id": "4cd07a3c-9673-4aa0-b76a-d79df2399ee1",
+        "question": "According to the CLOPIDOGREL (CLOPIDOGREL BISULFATE) TABLET, FILM COATED label, state one approved indication.",
+        "answer": "Clopidogrel tablets are a P2Y 12 platelet inhibitor indicated for: - For patients with non-ST-segment elevation ACS (unstable angina [UA]/non-ST-elevation myocardial infarction [NSTEMI]), clopidogrel tablets has been shown to reduce the rate of myocardial infarction (MI) and stroke.",
+        "source_dataset": "drug_labels",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "indications",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "4cd07a3c-9673-4aa0-b76a-d79df2399ee1",
+          "source_title": "CLOPIDOGREL (CLOPIDOGREL BISULFATE) TABLET, FILM COATED",
+          "evidence": "Clopidogrel tablets are a P2Y 12 platelet inhibitor indicated for: - For patients with non-ST-segment elevation ACS (unstable angina [UA]/non-ST-elevation myocardial infarction [NSTEMI]), clopidogrel tablets has been shown to reduce the rate of myocardial infarction (MI) and stroke. ( 1.1 ) - For patients with ST-elevation myocardial infarction (STEMI), clopidogrel tablets has been shown to reduce the rate of MI and stroke. ( 1.1 ) In patients with established peripheral arterial disease or w...",
+          "metadata": {
+            "section": "indications"
+          },
+          "dataset_name": "Drug Labels QA Dataset"
+        }
+      },
+      {
+        "id": "4bba538b-cf7c-4310-ae8f-cb711ed21bcc",
+        "question": "According to the SOLIQUA 100/33 (INSULIN GLARGINE AND LIXISENATIDE) INJECTION, SOLUTION label, state one approved indication.",
+        "answer": "SOLIQUA 100/33 is a combination of insulin glargine and lixisenatide and is indicated as an adjunct to diet and exercise to improve glycemic control in adults with type 2 diabetes mellitus.",
+        "source_dataset": "drug_labels",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "indications",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "4bba538b-cf7c-4310-ae8f-cb711ed21bcc",
+          "source_title": "SOLIQUA 100/33 (INSULIN GLARGINE AND LIXISENATIDE) INJECTION, SOLUTION",
+          "evidence": "SOLIQUA 100/33 is a combination of insulin glargine and lixisenatide and is indicated as an adjunct to diet and exercise to improve glycemic control in adults with type 2 diabetes mellitus. SOLIQUA 100/33 is a combination of insulin glargine, an insulin analog, and lixisenatide, a glucagon-like peptide-1 (GLP-1) receptor agonist, indicated as an adjunct to diet and exercise to improve glycemic control in adults with type 2 diabetes mellitus. ( 1 ) Limitations of Use ( 1 ) : Limitations of Use :",
+          "metadata": {
+            "section": "indications"
+          },
+          "dataset_name": "Drug Labels QA Dataset"
+        }
+      },
+      {
+        "id": "4bba538b-cf7c-4310-ae8f-cb711ed21bcc",
+        "question": "What dosage or formulation instruction does the SOLIQUA 100/33 (INSULIN GLARGINE AND LIXISENATIDE) INJECTION, SOLUTION label highlight?",
+        "answer": "SOLIQUA 100/33 (insulin glargine and lixisenatide) injection is a clear, colorless to almost colorless solution in a 3 mL prefilled, disposable, single-patient-use pen: Needles are not included.",
+        "source_dataset": "drug_labels",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "dosage",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "4bba538b-cf7c-4310-ae8f-cb711ed21bcc",
+          "source_title": "SOLIQUA 100/33 (INSULIN GLARGINE AND LIXISENATIDE) INJECTION, SOLUTION",
+          "evidence": "SOLIQUA 100/33 (insulin glargine and lixisenatide) injection is a clear, colorless to almost colorless solution in a 3 mL prefilled, disposable, single-patient-use pen: Needles are not included. Only use needles that are compatible for use with SOLIQUA 100/33 prefilled pen. Dispense in the original sealed carton with the enclosed Instructions for Use. Prior to first use, SOLIQUA 100/33 pen should be stored in a refrigerator, 36°F–46°F (2°C–8°C). Do not freeze. Discard SOLIQUA 100/33 if it has...",
+          "metadata": {
+            "section": "dosage"
+          },
+          "dataset_name": "Drug Labels QA Dataset"
+        }
+      },
+      {
+        "id": "884cdbf6-0a52-4126-8e14-b0d7c9367e33",
+        "question": "What boxed warning is included in the WARFARIN SODIUM (WARFARIN) TABLET prescribing information?",
+        "answer": "WARNING: BLEEDING RISK See full prescribing information for complete boxed warning.",
+        "source_dataset": "drug_labels",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "boxed_warning",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "884cdbf6-0a52-4126-8e14-b0d7c9367e33",
+          "source_title": "WARFARIN SODIUM (WARFARIN) TABLET",
+          "evidence": "WARNING: BLEEDING RISK See full prescribing information for complete boxed warning.",
+          "metadata": {
+            "section": "boxed_warning"
+          },
+          "dataset_name": "Drug Labels QA Dataset"
+        }
+      },
+      {
+        "id": "884cdbf6-0a52-4126-8e14-b0d7c9367e33",
+        "question": "According to the WARFARIN SODIUM (WARFARIN) TABLET label, state one approved indication.",
+        "answer": "Warfarin sodium tablets are indicated for: Limitations of Use Warfarin sodium tablets have no direct effect on an established thrombus, nor does it reverse ischemic tissue damage.",
+        "source_dataset": "drug_labels",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "indications",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "884cdbf6-0a52-4126-8e14-b0d7c9367e33",
+          "source_title": "WARFARIN SODIUM (WARFARIN) TABLET",
+          "evidence": "Warfarin sodium tablets are indicated for: Limitations of Use Warfarin sodium tablets have no direct effect on an established thrombus, nor does it reverse ischemic tissue damage. Once a thrombus has occurred, however, the goals of anticoagulant treatment are to prevent further extension of the formed clot and to prevent secondary thromboembolic complications that may result in serious and possibly fatal sequelae. Warfarin sodium tablets are vitamin K antagonist indicated for: Limitations of Use",
+          "metadata": {
+            "section": "indications"
+          },
+          "dataset_name": "Drug Labels QA Dataset"
+        }
+      },
+      {
+        "id": "ee06186f-2aa3-4990-a760-757579d8f77b",
+        "question": "What boxed warning is included in the WEGOVY (SEMAGLUTIDE) INJECTION, SOLUTION prescribing information?",
+        "answer": "WARNING: RISK OF THYROID C-CELL TUMORS See full prescribing information for complete boxed warning.",
+        "source_dataset": "drug_labels",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "boxed_warning",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "ee06186f-2aa3-4990-a760-757579d8f77b",
+          "source_title": "WEGOVY (SEMAGLUTIDE) INJECTION, SOLUTION",
+          "evidence": "WARNING: RISK OF THYROID C-CELL TUMORS See full prescribing information for complete boxed warning.",
+          "metadata": {
+            "section": "boxed_warning"
+          },
+          "dataset_name": "Drug Labels QA Dataset"
+        }
+      },
+      {
+        "id": "ee06186f-2aa3-4990-a760-757579d8f77b",
+        "question": "According to the WEGOVY (SEMAGLUTIDE) INJECTION, SOLUTION label, state one approved indication.",
+        "answer": "WEGOVY is indicated in combination with a reduced calorie diet and increased physical activity: Limitations of Use WEGOVY contains semaglutide.",
+        "source_dataset": "drug_labels",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "indications",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "ee06186f-2aa3-4990-a760-757579d8f77b",
+          "source_title": "WEGOVY (SEMAGLUTIDE) INJECTION, SOLUTION",
+          "evidence": "WEGOVY is indicated in combination with a reduced calorie diet and increased physical activity: Limitations of Use WEGOVY contains semaglutide. Coadministration with other semaglutide-containing products or with any other GLP-1 receptor agonist is not recommended. WEGOVY is a glucagon-like peptide-1 (GLP-1) receptor agonist indicated in combination with a reduced calorie diet and increased physical activity: The indication for MASH is approved under accelerated approval based on improvement o...",
+          "metadata": {
+            "section": "indications"
+          },
+          "dataset_name": "Drug Labels QA Dataset"
+        }
+      },
+      {
+        "id": "71961ab1-951d-1493-f76c-2ff25cca2a85",
+        "question": "What boxed warning is included in the TRAZODONE HYDROCHLORIDE TABLET prescribing information?",
+        "answer": "Antidepressants increased the risk of suicidal thoughts and behaviors in pediatric and young adult patients in short-term studies.",
+        "source_dataset": "drug_labels",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "boxed_warning",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "71961ab1-951d-1493-f76c-2ff25cca2a85",
+          "source_title": "TRAZODONE HYDROCHLORIDE TABLET",
+          "evidence": "Antidepressants increased the risk of suicidal thoughts and behaviors in pediatric and young adult patients in short-term studies. Closely monitor all antidepressant-treated patients for clinical worsening, and for emergence of suicidal thoughts and behaviors [see Warnings and Precautions ( 5.1 )]. Trazodone hydrochloride tablets are not approved for use in pediatric patients [see Use in Specific Populations ( 8.4 )]. WARNING: SUICIDAL THOUGHTS AND BEHAVIORS See full prescribing information f...",
+          "metadata": {
+            "section": "boxed_warning"
+          },
+          "dataset_name": "Drug Labels QA Dataset"
+        }
+      },
+      {
+        "id": "71961ab1-951d-1493-f76c-2ff25cca2a85",
+        "question": "According to the TRAZODONE HYDROCHLORIDE TABLET label, state one approved indication.",
+        "answer": "Trazodone hydrochloride tablets are indicated for the treatment of major depressive disorder (MDD) in adults.",
+        "source_dataset": "drug_labels",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "indications",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "71961ab1-951d-1493-f76c-2ff25cca2a85",
+          "source_title": "TRAZODONE HYDROCHLORIDE TABLET",
+          "evidence": "Trazodone hydrochloride tablets are indicated for the treatment of major depressive disorder (MDD) in adults. Trazodone hydrochloride tablets are a selective serotonin reuptake inhibitor indicated for the treatment of major depressive disorder (MDD) ( 1 ).",
+          "metadata": {
+            "section": "indications"
+          },
+          "dataset_name": "Drug Labels QA Dataset"
+        }
+      },
+      {
+        "id": "a454cd24-0c6d-46e8-b1e4-197388606175",
+        "question": "What boxed warning is included in the ELIQUIS (APIXABAN) TABLET, FILM COATED prescribing information?",
+        "answer": "(A) PREMATURE DISCONTINUATION OF ELIQUIS INCREASES THE RISK OF THROMBOTIC EVENTS Premature discontinuation of any oral anticoagulant, including ELIQUIS, increases the risk of thrombotic events.",
+        "source_dataset": "drug_labels",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "boxed_warning",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "a454cd24-0c6d-46e8-b1e4-197388606175",
+          "source_title": "ELIQUIS (APIXABAN) TABLET, FILM COATED",
+          "evidence": "(A) PREMATURE DISCONTINUATION OF ELIQUIS INCREASES THE RISK OF THROMBOTIC EVENTS Premature discontinuation of any oral anticoagulant, including ELIQUIS, increases the risk of thrombotic events. If anticoagulation with ELIQUIS is discontinued for a reason other than pathological bleeding or completion of a course of therapy, consider coverage with another anticoagulant [see Dosage and Administration (2.5) , Warnings and Precautions (5.1) , and Clinical Studies (14.1) ] . (B) SPINAL/EPIDURAL HE...",
+          "metadata": {
+            "section": "boxed_warning"
+          },
+          "dataset_name": "Drug Labels QA Dataset"
+        }
+      },
+      {
+        "id": "a454cd24-0c6d-46e8-b1e4-197388606175",
+        "question": "According to the ELIQUIS (APIXABAN) TABLET, FILM COATED label, state one approved indication.",
+        "answer": "ELIQUIS is a factor Xa inhibitor indicated: ELIQUIS is indicated to reduce the risk of stroke and systemic embolism in adult patients with nonvalvular atrial fibrillation.",
+        "source_dataset": "drug_labels",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "indications",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "a454cd24-0c6d-46e8-b1e4-197388606175",
+          "source_title": "ELIQUIS (APIXABAN) TABLET, FILM COATED",
+          "evidence": "ELIQUIS is a factor Xa inhibitor indicated: ELIQUIS is indicated to reduce the risk of stroke and systemic embolism in adult patients with nonvalvular atrial fibrillation. ELIQUIS is indicated for the prophylaxis of deep vein thrombosis (DVT), which may lead to pulmonary embolism (PE), in adult patients who have undergone hip or knee replacement surgery. ELIQUIS is indicated for the treatment of adults with deep vein thrombosis (DVT). ELIQUIS is indicated for the treatment of adults with pulm...",
+          "metadata": {
+            "section": "indications"
+          },
+          "dataset_name": "Drug Labels QA Dataset"
+        }
+      },
+      {
+        "id": "77d34a3c-ccc6-420a-ad31-a1af55f7de76",
+        "question": "According to the ALBUTEROL SULATE HFA (ALBUTEROL SULFATE) AEROSOL, METERED label, state one approved indication.",
+        "answer": "Albuterol Sulfate HFA is a beta 2 -adrenergic agonist indicated for: Albuterol Sulfate HFA Inhalation Aerosol is indicated for the treatment or prevention of bronchospasm in adult and pediatric patients aged 4 years and older with reversible obstructive airway disease.",
+        "source_dataset": "drug_labels",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "indications",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "77d34a3c-ccc6-420a-ad31-a1af55f7de76",
+          "source_title": "ALBUTEROL SULATE HFA (ALBUTEROL SULFATE) AEROSOL, METERED",
+          "evidence": "Albuterol Sulfate HFA is a beta 2 -adrenergic agonist indicated for: Albuterol Sulfate HFA Inhalation Aerosol is indicated for the treatment or prevention of bronchospasm in adult and pediatric patients aged 4 years and older with reversible obstructive airway disease. Albuterol Sulfate HFA is indicated for the prevention of exercise-induced bronchospasm in adult and pediatric patients aged 4 years and older.",
+          "metadata": {
+            "section": "indications"
+          },
+          "dataset_name": "Drug Labels QA Dataset"
+        }
+      },
+      {
+        "id": "77d34a3c-ccc6-420a-ad31-a1af55f7de76",
+        "question": "What dosage or formulation instruction does the ALBUTEROL SULATE HFA (ALBUTEROL SULFATE) AEROSOL, METERED label highlight?",
+        "answer": "Albuterol Sulfate HFA Inhalation Aerosol is supplied in the following box of 1 as a pressurized aluminum canister fitted with a counter and supplied with a blue plastic actuator with a blue cap: NDC: 70518-2072-00 PACKAGING: 1 in 1 CARTON, 200 in INHALER, TYPE 2 Each inhaler is packaged with a Patient Information leaflet.",
+        "source_dataset": "drug_labels",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "dosage",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "77d34a3c-ccc6-420a-ad31-a1af55f7de76",
+          "source_title": "ALBUTEROL SULATE HFA (ALBUTEROL SULFATE) AEROSOL, METERED",
+          "evidence": "Albuterol Sulfate HFA Inhalation Aerosol is supplied in the following box of 1 as a pressurized aluminum canister fitted with a counter and supplied with a blue plastic actuator with a blue cap: NDC: 70518-2072-00 PACKAGING: 1 in 1 CARTON, 200 in INHALER, TYPE 2 Each inhaler is packaged with a Patient Information leaflet. The blue actuator supplied with Albuterol Sulfate HFA should not be used with any other product canisters, and actuators from other products should not be used with an Albut...",
+          "metadata": {
+            "section": "dosage"
+          },
+          "dataset_name": "Drug Labels QA Dataset"
+        }
+      },
+      {
+        "id": "834a3c5f-b723-4bcb-a560-dc305dd0d829",
+        "question": "What boxed warning is included in the DABIGATRAN ETEXILATE CAPSULE prescribing information?",
+        "answer": "(A) PREMATURE DISCONTINUATION OF DABIGATRAN ETEXILATE CAPSULES INCREASES THE RISK OF THROMBOTIC EVENTS Premature discontinuation of any oral anticoagulant, including dabigatran etexilate capsules , increases the risk of thrombotic events.",
+        "source_dataset": "drug_labels",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "boxed_warning",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "834a3c5f-b723-4bcb-a560-dc305dd0d829",
+          "source_title": "DABIGATRAN ETEXILATE CAPSULE",
+          "evidence": "(A) PREMATURE DISCONTINUATION OF DABIGATRAN ETEXILATE CAPSULES INCREASES THE RISK OF THROMBOTIC EVENTS Premature discontinuation of any oral anticoagulant, including dabigatran etexilate capsules , increases the risk of thrombotic events. If anticoagulation with dabigatran etexilate capsules a re discontinued for a reason other than pathological bleeding or completion of a course of therapy, consider coverage with another anticoagulant [see Dosage and Administration (2.6, 2.7, 2.8) and Warnin...",
+          "metadata": {
+            "section": "boxed_warning"
+          },
+          "dataset_name": "Drug Labels QA Dataset"
+        }
+      },
+      {
+        "id": "834a3c5f-b723-4bcb-a560-dc305dd0d829",
+        "question": "According to the DABIGATRAN ETEXILATE CAPSULE label, state one approved indication.",
+        "answer": "Dabigatran etexilate capsules are a direct thrombin inhibitor indicated: • To reduce the risk of stroke and systemic embolism in adult patients with non-valvular atrial fibrillation ( 1.1 ) • For the treatment of deep venous thrombosis (DVT) and pulmonary embolism (PE) in adult patients who have been treated with a parenteral anticoagulant for 5...",
+        "source_dataset": "drug_labels",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "indications",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "834a3c5f-b723-4bcb-a560-dc305dd0d829",
+          "source_title": "DABIGATRAN ETEXILATE CAPSULE",
+          "evidence": "Dabigatran etexilate capsules are a direct thrombin inhibitor indicated: • To reduce the risk of stroke and systemic embolism in adult patients with non-valvular atrial fibrillation ( 1.1 ) • For the treatment of deep venous thrombosis (DVT) and pulmonary embolism (PE) in adult patients who have been treated with a parenteral anticoagulant for 5 to 10 days ( 1.2 ) • To reduce the risk of recurrence of DVT and PE in adult patients who have been previously treated ( 1.3 ) • For the prophylaxis...",
+          "metadata": {
+            "section": "indications"
+          },
+          "dataset_name": "Drug Labels QA Dataset"
+        }
+      },
+      {
+        "id": "ac487ae2-e15f-4781-bae3-a03058cfcfe4",
+        "question": "According to the SPIRONOLACTONE TABLET label, state one approved indication.",
+        "answer": "Spironolactone tablets are an aldosterone antagonist indicated for: ● The treatment of NYHA Class III-IV heart failure and reduced ejection fraction to increase survival, manage edema, and to reduce the need for hospitalization for heart failure ( 1.1 ).",
+        "source_dataset": "drug_labels",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "indications",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "ac487ae2-e15f-4781-bae3-a03058cfcfe4",
+          "source_title": "SPIRONOLACTONE TABLET",
+          "evidence": "Spironolactone tablets are an aldosterone antagonist indicated for: ● The treatment of NYHA Class III-IV heart failure and reduced ejection fraction to increase survival, manage edema, and to reduce the need for hospitalization for heart failure ( 1.1 ). ● Use as an add-on therapy for the treatment of hypertension, to lower blood pressure. Lowering blood pressure reduces the risk of fatal and nonfatal cardiovascular events, primarily strokes and myocardial infarctions ( 1.2 ). ● The managemen...",
+          "metadata": {
+            "section": "indications"
+          },
+          "dataset_name": "Drug Labels QA Dataset"
+        }
+      },
+      {
+        "id": "ac487ae2-e15f-4781-bae3-a03058cfcfe4",
+        "question": "What dosage or formulation instruction does the SPIRONOLACTONE TABLET label highlight?",
+        "answer": "Spironolactone tablets USP 25 mg are yellow, film coated, round shaped biconvex tablets, debossed with \"54\" on one side and plain on the other side, supplied as: NDC Number Size 64980-706-01 bottle of 100 64980-706-50 bottle of 500 Spironolactone tablets USP 50 mg are orange, film coated, round shaped biconvex tablets, debossed with \"5\" above bi...",
+        "source_dataset": "drug_labels",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "dosage",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "ac487ae2-e15f-4781-bae3-a03058cfcfe4",
+          "source_title": "SPIRONOLACTONE TABLET",
+          "evidence": "Spironolactone tablets USP 25 mg are yellow, film coated, round shaped biconvex tablets, debossed with \"54\" on one side and plain on the other side, supplied as: NDC Number Size 64980-706-01 bottle of 100 64980-706-50 bottle of 500 Spironolactone tablets USP 50 mg are orange, film coated, round shaped biconvex tablets, debossed with \"5\" above bisect and \"5\" below bisect on one side and plain on the other side, supplied as: NDC Number Size 64980-707-01 bottle of 100 64980-707-50 bottle of 500...",
+          "metadata": {
+            "section": "dosage"
+          },
+          "dataset_name": "Drug Labels QA Dataset"
+        }
+      },
+      {
+        "id": "0f7fad2c-fc46-4ebc-b55b-6534da99e053",
+        "question": "According to the ROSUVASTATIN TABLET, FILM COATED label, state one approved indication.",
+        "answer": "Rosuvastatin tablets are indicated: • To reduce the risk of major adverse cardiovascular (CV) events (CV death, nonfatal myocardial infarction, nonfatal stroke, or an arterial revascularization procedure) in adults without established coronary heart disease who are at increased risk of CV disease based on age, high-sensitivity C-reactive protein...",
+        "source_dataset": "drug_labels",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "indications",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "0f7fad2c-fc46-4ebc-b55b-6534da99e053",
+          "source_title": "ROSUVASTATIN TABLET, FILM COATED",
+          "evidence": "Rosuvastatin tablets are indicated: • To reduce the risk of major adverse cardiovascular (CV) events (CV death, nonfatal myocardial infarction, nonfatal stroke, or an arterial revascularization procedure) in adults without established coronary heart disease who are at increased risk of CV disease based on age, high-sensitivity C-reactive protein (hsCRP) ≥2 mg/L, and at least one additional CV risk factor. • As an adjunct to diet to: • Reduce low-density lipoprotein cholesterol (LDL-C) in adul...",
+          "metadata": {
+            "section": "indications"
+          },
+          "dataset_name": "Drug Labels QA Dataset"
+        }
+      },
+      {
+        "id": "0f7fad2c-fc46-4ebc-b55b-6534da99e053",
+        "question": "What dosage or formulation instruction does the ROSUVASTATIN TABLET, FILM COATED label highlight?",
+        "answer": "Rosuvastatin Tablets USP are supplied as: 10 mg: Light pink to pink, round, bevel edged biconvex film coated tablets, debossed with ‘H’ on one side and ‘R4’ on the other side.",
+        "source_dataset": "drug_labels",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "dosage",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "0f7fad2c-fc46-4ebc-b55b-6534da99e053",
+          "source_title": "ROSUVASTATIN TABLET, FILM COATED",
+          "evidence": "Rosuvastatin Tablets USP are supplied as: 10 mg: Light pink to pink, round, bevel edged biconvex film coated tablets, debossed with ‘H’ on one side and ‘R4’ on the other side. They are supplied as follows. Overbagged with 10 film coated tablets per bag, NDC 55154-0158-0 WARNING: This Unit Dose package is not child resistant and is Intended for Institutional Use Only. Keep this and all drugs out of the reach of children. Dispensed in Unit Dose Package. For Institutional Use Only. Storage Store...",
+          "metadata": {
+            "section": "dosage"
+          },
+          "dataset_name": "Drug Labels QA Dataset"
+        }
+      },
+      {
+        "id": "8a99d6d6-fd9e-45bb-b1bf-48c7f761232a",
+        "question": "What boxed warning is included in the PAXLOVID (NIRMATRELVIR AND RITONAVIR) KIT prescribing information?",
+        "answer": "WARNING: SIGNIFICANT DRUG INTERACTIONS WITH PAXLOVID See full prescribing information for complete boxed warning.",
+        "source_dataset": "drug_labels",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "boxed_warning",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "8a99d6d6-fd9e-45bb-b1bf-48c7f761232a",
+          "source_title": "PAXLOVID (NIRMATRELVIR AND RITONAVIR) KIT",
+          "evidence": "WARNING: SIGNIFICANT DRUG INTERACTIONS WITH PAXLOVID See full prescribing information for complete boxed warning.",
+          "metadata": {
+            "section": "boxed_warning"
+          },
+          "dataset_name": "Drug Labels QA Dataset"
+        }
+      },
+      {
+        "id": "8a99d6d6-fd9e-45bb-b1bf-48c7f761232a",
+        "question": "According to the PAXLOVID (NIRMATRELVIR AND RITONAVIR) KIT label, state one approved indication.",
+        "answer": "PAXLOVID is indicated for the treatment of mild-to-moderate coronavirus disease 2019 (COVID-19) in adults who are at high risk for progression to severe COVID-19, including hospitalization or death.",
+        "source_dataset": "drug_labels",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "indications",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "8a99d6d6-fd9e-45bb-b1bf-48c7f761232a",
+          "source_title": "PAXLOVID (NIRMATRELVIR AND RITONAVIR) KIT",
+          "evidence": "PAXLOVID is indicated for the treatment of mild-to-moderate coronavirus disease 2019 (COVID-19) in adults who are at high risk for progression to severe COVID-19, including hospitalization or death. PAXLOVID which includes nirmatrelvir, a severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) main protease (M pro : also referred to as 3CL pro or nsp5 protease) inhibitor, and ritonavir, an HIV-1 protease inhibitor and CYP3A inhibitor, is indicated for the treatment of mild-to-moderate co...",
+          "metadata": {
+            "section": "indications"
+          },
+          "dataset_name": "Drug Labels QA Dataset"
+        }
+      },
+      {
+        "id": "b9c5e894-27d2-4245-a653-df986fed3c56",
+        "question": "What boxed warning is included in the TRAZIMERA prescribing information?",
+        "answer": "WARNING: CARDIOMYOPATHY, INFUSION REACTIONS, EMBRYO-FETAL TOXICITY, and PULMONARY TOXICITY See full prescribing information for complete boxed warning Cardiomyopathy: Trastuzumab products can result in subclinical and clinical cardiac failure manifesting as CHF, and decreased LVEF, with greatest risk when administered concurrently with anthracyc...",
+        "source_dataset": "drug_labels",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "boxed_warning",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "b9c5e894-27d2-4245-a653-df986fed3c56",
+          "source_title": "TRAZIMERA",
+          "evidence": "WARNING: CARDIOMYOPATHY, INFUSION REACTIONS, EMBRYO-FETAL TOXICITY, and PULMONARY TOXICITY See full prescribing information for complete boxed warning Cardiomyopathy: Trastuzumab products can result in subclinical and clinical cardiac failure manifesting as CHF, and decreased LVEF, with greatest risk when administered concurrently with anthracyclines. Evaluate cardiac function prior to and during treatment. Discontinue TRAZIMERA for cardiomyopathy. ( 2.5 , 5.1 ) Infusion Reactions, Pulmonary...",
+          "metadata": {
+            "section": "boxed_warning"
+          },
+          "dataset_name": "Drug Labels QA Dataset"
+        }
+      },
+      {
+        "id": "b9c5e894-27d2-4245-a653-df986fed3c56",
+        "question": "According to the TRAZIMERA label, state one approved indication.",
+        "answer": "TRAZIMERA is a HER2/neu receptor antagonist indicated in adults for: Select patients for therapy based on an FDA-approved companion diagnostic for a trastuzumab product.",
+        "source_dataset": "drug_labels",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "indications",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "b9c5e894-27d2-4245-a653-df986fed3c56",
+          "source_title": "TRAZIMERA",
+          "evidence": "TRAZIMERA is a HER2/neu receptor antagonist indicated in adults for: Select patients for therapy based on an FDA-approved companion diagnostic for a trastuzumab product. ( 1 , 2.2 ) TRAZIMERA is indicated in adults for adjuvant treatment of HER2-overexpressing node positive or node negative (ER/PR negative or with one high risk feature [see Clinical Studies (14.1) ] ) breast cancer Select patients for therapy based on an FDA-approved companion diagnostic for a trastuzumab product [see Dosage...",
+          "metadata": {
+            "section": "indications"
+          },
+          "dataset_name": "Drug Labels QA Dataset"
+        }
+      },
+      {
+        "id": "ad90fe42-8d52-403e-9b07-b8536fbf335a",
+        "question": "According to the OSELTAMIVIR PHOSPHATE CAPSULE label, state one approved indication.",
+        "answer": "Oseltamivir phosphate is an influenza neuraminidase inhibitor (NAI) indicated for: • Treatment of acute, uncomplicated influenza A and B in patients 2 weeks of age and older who have been symptomatic for no more than 48 hours.",
+        "source_dataset": "drug_labels",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "indications",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "ad90fe42-8d52-403e-9b07-b8536fbf335a",
+          "source_title": "OSELTAMIVIR PHOSPHATE CAPSULE",
+          "evidence": "Oseltamivir phosphate is an influenza neuraminidase inhibitor (NAI) indicated for: • Treatment of acute, uncomplicated influenza A and B in patients 2 weeks of age and older who have been symptomatic for no more than 48 hours. (1.1) • Prophylaxis of influenza A and B in patients 1 year and older. (1.2) Limitations of Use: • Not a substitute for annual influenza vaccination. (1.3) • Consider available information on influenza drug susceptibility patterns and treatment effects when deciding whe...",
+          "metadata": {
+            "section": "indications"
+          },
+          "dataset_name": "Drug Labels QA Dataset"
+        }
+      },
+      {
+        "id": "ad90fe42-8d52-403e-9b07-b8536fbf335a",
+        "question": "What dosage or formulation instruction does the OSELTAMIVIR PHOSPHATE CAPSULE label highlight?",
+        "answer": "Oseltamivir Phosphate Capsules USP, 75 mg (75 mg free base equivalent of the phosphate salt) are light yellow opaque cap/grey opaque body size ‘2’ hard gelatin capsules imprinted with ‘H’ on cap and ’5’ on body with blue ink, filled with white to off white granular powder.",
+        "source_dataset": "drug_labels",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "dosage",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "ad90fe42-8d52-403e-9b07-b8536fbf335a",
+          "source_title": "OSELTAMIVIR PHOSPHATE CAPSULE",
+          "evidence": "Oseltamivir Phosphate Capsules USP, 75 mg (75 mg free base equivalent of the phosphate salt) are light yellow opaque cap/grey opaque body size ‘2’ hard gelatin capsules imprinted with ‘H’ on cap and ’5’ on body with blue ink, filled with white to off white granular powder. They are supplied as follows: NDC: 70518-3247-00 PACKAGING: 10 in 1 CARTON, TYPE 0 Storage Store the capsules at 20o to 25ºC (68º to 77ºF) [see USP Controlled Room Temperature]. Repackaged and Distributed By: Remedy Repack,...",
+          "metadata": {
+            "section": "dosage"
+          },
+          "dataset_name": "Drug Labels QA Dataset"
+        }
+      },
+      {
+        "id": "f570b9c4-6846-4de2-abfa-4d0a4ae4e394",
+        "question": "According to the OPDIVO (NIVOLUMAB) INJECTION label, state one approved indication.",
+        "answer": "OPDIVO is a programmed death receptor-1 (PD-1)-blocking antibody indicated for the treatment of: Melanoma Non-Small Cell Lung Cancer (NSCLC) Malignant Pleural Mesothelioma Renal Cell Carcinoma (RCC) Classical Hodgkin Lymphoma (cHL) Squamous Cell Carcinoma of the Head and Neck (SCCHN) Urothelial Carcinoma Colorectal Cancer Hepatocellular Carcinom...",
+        "source_dataset": "drug_labels",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "indications",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "f570b9c4-6846-4de2-abfa-4d0a4ae4e394",
+          "source_title": "OPDIVO (NIVOLUMAB) INJECTION",
+          "evidence": "OPDIVO is a programmed death receptor-1 (PD-1)-blocking antibody indicated for the treatment of: Melanoma Non-Small Cell Lung Cancer (NSCLC) Malignant Pleural Mesothelioma Renal Cell Carcinoma (RCC) Classical Hodgkin Lymphoma (cHL) Squamous Cell Carcinoma of the Head and Neck (SCCHN) Urothelial Carcinoma Colorectal Cancer Hepatocellular Carcinoma (HCC) Esophageal Cancer Gastric Cancer, Gastroesophageal Junction Cancer, and Esophageal Adenocarcinoma a This indication is approved under accelera...",
+          "metadata": {
+            "section": "indications"
+          },
+          "dataset_name": "Drug Labels QA Dataset"
+        }
+      },
+      {
+        "id": "f570b9c4-6846-4de2-abfa-4d0a4ae4e394",
+        "question": "What dosage or formulation instruction does the OPDIVO (NIVOLUMAB) INJECTION label highlight?",
+        "answer": "OPDIVO ® (nivolumab) Injection is a clear to opalescent, colorless to pale-yellow solution in a single-dose vial available as follows: Carton Contents NDC 40 mg/4 mL (10 mg/mL) single-dose vial 0003-3772-11 100 mg/10 mL (10 mg/mL) single-dose vial 0003-3774-12 120 mg/12 mL (10 mg/mL) single-dose vial 0003-3756-14 240 mg/24 mL (10 mg/mL) single-d...",
+        "source_dataset": "drug_labels",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "dosage",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "f570b9c4-6846-4de2-abfa-4d0a4ae4e394",
+          "source_title": "OPDIVO (NIVOLUMAB) INJECTION",
+          "evidence": "OPDIVO ® (nivolumab) Injection is a clear to opalescent, colorless to pale-yellow solution in a single-dose vial available as follows: Carton Contents NDC 40 mg/4 mL (10 mg/mL) single-dose vial 0003-3772-11 100 mg/10 mL (10 mg/mL) single-dose vial 0003-3774-12 120 mg/12 mL (10 mg/mL) single-dose vial 0003-3756-14 240 mg/24 mL (10 mg/mL) single-dose vial 0003-3734-13 Store under refrigeration at 2°C to 8°C (36°F to 46°F). Protect from light by storing in the original package until time of use....",
+          "metadata": {
+            "section": "dosage"
+          },
+          "dataset_name": "Drug Labels QA Dataset"
+        }
+      },
+      {
+        "id": "01649d79-4677-4577-a3e4-e054f3f9fc3b",
+        "question": "According to the AZITHROMYCIN TABLET, FILM COATED label, state one approved indication.",
+        "answer": "Azithromycin tablets are a macrolide antibacterial drug indicated for mild to moderate infections caused by designated, susceptible bacteria: Limitation of Use: Azithromycin should not be used in patients with pneumonia who are judged to be inappropriate for oral therapy because of moderate to severe illness or risk factors.",
+        "source_dataset": "drug_labels",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "indications",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "01649d79-4677-4577-a3e4-e054f3f9fc3b",
+          "source_title": "AZITHROMYCIN TABLET, FILM COATED",
+          "evidence": "Azithromycin tablets are a macrolide antibacterial drug indicated for mild to moderate infections caused by designated, susceptible bacteria: Limitation of Use: Azithromycin should not be used in patients with pneumonia who are judged to be inappropriate for oral therapy because of moderate to severe illness or risk factors. ( 1.3 ) To reduce the development of drug-resistant bacteria and maintain the effectiveness of azithromycin tablets and other antibacterial drugs, azithromycin tablets sh...",
+          "metadata": {
+            "section": "indications"
+          },
+          "dataset_name": "Drug Labels QA Dataset"
+        }
+      },
+      {
+        "id": "01649d79-4677-4577-a3e4-e054f3f9fc3b",
+        "question": "What dosage or formulation instruction does the AZITHROMYCIN TABLET, FILM COATED label highlight?",
+        "answer": "Azithromycin tablets USP are supplied in the following strengths and package configurations: Azithromycin tablets USP, 250 mg are supplied as pink, oval shaped film-coated tablets, engraved with \"LU\" on one side and \"L04\" on the other side containing azithromycin dihydrate equivalent to 250 mg of azithromycin USP.",
+        "source_dataset": "drug_labels",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "dosage",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "01649d79-4677-4577-a3e4-e054f3f9fc3b",
+          "source_title": "AZITHROMYCIN TABLET, FILM COATED",
+          "evidence": "Azithromycin tablets USP are supplied in the following strengths and package configurations: Azithromycin tablets USP, 250 mg are supplied as pink, oval shaped film-coated tablets, engraved with \"LU\" on one side and \"L04\" on the other side containing azithromycin dihydrate equivalent to 250 mg of azithromycin USP. These are packaged in bottles and blister cards as follows: Bottles of 30 Tablets NDC 68180-861-06 Carton of 1 Blister Card (6 Tablets per Blister Card) [1 x 6 Tablets] NDC 68180-86...",
+          "metadata": {
+            "section": "dosage"
+          },
+          "dataset_name": "Drug Labels QA Dataset"
+        }
+      },
+      {
+        "id": "44d009ba-d4b8-410f-b2bc-71ab2d05ac9e",
+        "question": "According to the FLUTICASONE PROPIONATE DISKUS (FLUTICASONE PROPIONATE) POWDER, METERED label, state one approved indication.",
+        "answer": "Fluticasone Propionate DISKUS is indicated for the maintenance treatment of asthma as prophylactic therapy in patients aged 4 years and older.",
+        "source_dataset": "drug_labels",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "indications",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "44d009ba-d4b8-410f-b2bc-71ab2d05ac9e",
+          "source_title": "FLUTICASONE PROPIONATE DISKUS (FLUTICASONE PROPIONATE) POWDER, METERED",
+          "evidence": "Fluticasone Propionate DISKUS is indicated for the maintenance treatment of asthma as prophylactic therapy in patients aged 4 years and older. Important Limitation of Use Fluticasone Propionate DISKUS is NOT indicated for the relief of acute bronchospasm. Fluticasone Propionate DISKUS is an inhaled corticosteroid (ICS) indicated for: Important limitation:",
+          "metadata": {
+            "section": "indications"
+          },
+          "dataset_name": "Drug Labels QA Dataset"
+        }
+      },
+      {
+        "id": "44d009ba-d4b8-410f-b2bc-71ab2d05ac9e",
+        "question": "What dosage or formulation instruction does the FLUTICASONE PROPIONATE DISKUS (FLUTICASONE PROPIONATE) POWDER, METERED label highlight?",
+        "answer": "Fluticasone Propionate DISKUS 50 mcg is supplied as a disposable orange plastic inhaler containing a foil blister strip with 60 blisters.",
+        "source_dataset": "drug_labels",
+        "answer_type": "text",
+        "difficulty": "medium",
+        "category": "dosage",
+        "evaluation": {
+          "method": "exact",
+          "tolerance": 0.0,
+          "tolerance_type": null,
+          "additional_params": null
+        },
+        "source_metadata": {
+          "source_id": "44d009ba-d4b8-410f-b2bc-71ab2d05ac9e",
+          "source_title": "FLUTICASONE PROPIONATE DISKUS (FLUTICASONE PROPIONATE) POWDER, METERED",
+          "evidence": "Fluticasone Propionate DISKUS 50 mcg is supplied as a disposable orange plastic inhaler containing a foil blister strip with 60 blisters. The inhaler is packaged in a plastic-coated, moisture-protective foil pouch (NDC 66993-790-97). Fluticasone Propionate DISKUS 100 mcg is supplied as a disposable orange plastic inhaler containing a foil blister strip with 60 blisters. The inhaler is packaged in a plastic-coated, moisture-protective foil pouch (NDC 66993-791-97). Fluticasone Propionate DISKU...",
+          "metadata": {
+            "section": "dosage"
+          },
+          "dataset_name": "Drug Labels QA Dataset"
+        }
+      }
+    ]
+  }
