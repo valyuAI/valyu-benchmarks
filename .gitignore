@@ -162,6 +162,9 @@ scripts/
 archive/
 in_progress_*/
 
+# Benchmark datasets — fetched via download scripts
+datasets/draco.jsonl
+
 # macOS
 .DS_Store
 **/.DS_Store

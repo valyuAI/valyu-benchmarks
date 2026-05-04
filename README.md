@@ -30,6 +30,9 @@ draco/
 ```bash
 pip install -r requirements.txt
 
+# Download the DRACO dataset from HuggingFace into datasets/draco.jsonl
+python3 draco/download.py
+
 # Set your provider keys in .env.local (VALYU_API_KEY, PARALLEL_API_KEY,
 # YDC_API_KEY, TAVILY_API_KEY, EXA_API_KEY, GOOGLE_GENERATIVE_AI_API_KEY)
 export $(grep -v '^#' .env.local | xargs)
