@@ -1,0 +1,87 @@
+{
+  "benchmark": "DRACO",
+  "n_items": 100,
+  "judge_model": "gemini/gemini-3-pro-preview",
+  "runs_per_item": 1,
+  "rubric_library": "github.com/The-LLM-Data-Company/rubric (PerCriterionGrader)",
+  "dataset_source": "huggingface.co/datasets/perplexity-ai/draco",
+  "n_items_per_system": {
+    "_default": 100
+  },
+  "scores": {
+    "Valyu DeepResearch (Heavy)": 72.68,
+    "Perplexity DR (Opus 4.6)": 70.5,
+    "Claude Opus 4.6 (web+code)": 59.8,
+    "Gemini Deep Research": 59.0,
+    "You.com Research (exhaustive)": 53.0,
+    "OpenAI DR (o3)": 52.1,
+    "Parallel Ultra8x": 51.17,
+    "Claude Opus 4.5 (web+code)": 46.7,
+    "OpenAI DR (o4-mini)": 41.9,
+    "Tavily Research (pro)": 38.84,
+    "Exa Deep Reasoning": 25.87
+  },
+  "cost_per_query_usd": {
+    "Valyu DeepResearch (Heavy)": {
+      "value": 2.5,
+      "basis": "verifiable",
+      "source": "valyu.ai pricing"
+    },
+    "Perplexity DR (Opus 4.6)": {
+      "value": 5.5,
+      "basis": "high_end_estimate",
+      "source": "DRACO Table 10 tokens \u00d7 Anthropic Opus 4.6 list rate ($5/$25 per M) + tools + thinking"
+    },
+    "Claude Opus 4.6 (web+code)": {
+      "value": 5.5,
+      "basis": "high_end_estimate",
+      "source": "DRACO Table 10 tokens \u00d7 Anthropic Opus 4.6 list rate + extended thinking + Anthropic web search ($10/1K) + code exec"
+    },
+    "Claude Opus 4.5 (web+code)": {
+      "value": 4.0,
+      "basis": "high_end_estimate",
+      "source": "DRACO Table 10 tokens \u00d7 Anthropic Opus 4.5 list rate + extended thinking + tools"
+    },
+    "Gemini Deep Research": {
+      "value": 4.5,
+      "basis": "high_end_estimate",
+      "source": "DRACO Table 10 tokens \u00d7 Gemini 3 Pro long-context list rate (>200K: $4/$18 per M) + Google search grounding + thinking tokens at output rate"
+    },
+    "OpenAI DR (o3)": {
+      "value": 3.5,
+      "basis": "high_end_estimate",
+      "source": "DRACO Table 10 tokens \u00d7 o3-deep-research API rate ($10/$40 per M) + reasoning tokens at output rate + OpenAI web search ($25/1K)"
+    },
+    "OpenAI DR (o4-mini)": {
+      "value": 1.2,
+      "basis": "high_end_estimate",
+      "source": "DRACO Table 10 tokens \u00d7 o4-mini API rate ($1.10/$4.40 per M) + reasoning + tools"
+    },
+    "Parallel Ultra8x": {
+      "value": 2.4,
+      "basis": "verifiable",
+      "source": "parallel.ai/pricing \u2014 $2,400 per 1,000 ultra8x runs"
+    },
+    "You.com Research (exhaustive)": {
+      "value": 0.45,
+      "basis": "verifiable",
+      "source": "you.com/resources/research-api-by-you-com \u2014 $0.45/req exhaustive tier"
+    },
+    "Tavily Research (pro)": {
+      "value": 1.06,
+      "basis": "verifiable",
+      "source": "tavily.com pricing \u2014 pro tier 15-250 credits/req at $0.008/credit ($0.12-$2.00); midpoint of bound used."
+    },
+    "Exa Deep Reasoning": {
+      "value": 0.015,
+      "basis": "verifiable",
+      "source": "exa.ai/pricing \u2014 $15 per 1,000 deep-reasoning queries"
+    }
+  },
+  "cost_methodology_notes": [
+    "Verifiable: own product or public per-request API price.",
+    "High-end estimate: consumer platforms (Perplexity Pro/Max app, Claude.ai with tools, Gemini Ultra/Advanced, ChatGPT Pro/Plus) have no per-query SKU. We compute a defensible upper bound by multiplying the per-system input + output token counts published in DRACO Table 10 by each underlying model's public API list price, plus reasoning-token markup (Anthropic extended thinking, OpenAI reasoning models bill these at output rate), plus per-system tool overhead (web search at $10-$35 per 1K calls depending on vendor, code execution time, document processing).",
+    "These estimates represent what a developer would pay if these systems were exposed via public API at standard rates; the actual user-facing subscription price may be lower per-query if the user fully exhausts their monthly allowance (Perplexity Pro $20/mo with ~20 deep researches, ChatGPT Pro $200/mo with 250 deep researches, etc.).",
+    "Consumer plans likely subsidize compute below the underlying cost; the 'high-end estimate' is therefore an upper bound on what these systems cost their providers, not what the end user pays out-of-pocket per query."
+  ]
+}

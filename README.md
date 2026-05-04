@@ -1,161 +1,46 @@
-# Valyu Benchmarking Suite
+# Valyu Benchmarks
 
-Comprehensive benchmarking system comparing Valyu API against Google (SerpAPI), Exa, and Parallel AI across three evaluation frameworks.
+Open benchmarks for AI research and search systems. Every score in this repo traces back to a captured inference output and a per-criterion judge grading — scripts, raw outputs, and eval files are all included so anyone can verify or reproduce.
 
-## Overview
+## DRACO — long-form deep research synthesis
 
-This repository contains three benchmark suites:
+![DRACO leaderboard](draco/outputs/full/charts/draco_final_scatter.png)
 
-1. **Vertical Benchmarks** - Custom QA datasets for Finance, Medical, and Economics domains
-2. **FreshQA** - Dynamic questions requiring current world knowledge
-3. **SimpleQA** - Straightforward factual questions from OpenAI
+DRACO ([Perplexity, 2026](https://arxiv.org/abs/2602.11685)) is an expert-rubric benchmark of 100 long-form deep research tasks across 10 professional knowledge-work domains, graded against per-task rubrics of 30–60 weighted requirements.
 
-## Architecture
+**Valyu DeepResearch (Heavy)** leads at **72.7%**, ahead of every commercial deep research API tested, at less than half the cost of the next-best system.
 
-- **Response Generation**: Gemini 2.5 Pro with tool-augmented search
-- **Evaluation Judges**:
-  - Vertical Benchmarks: Gemini 2.5 Pro
-  - FreshQA: Claude Sonnet 4 (Anthropic API by default, Vertex AI optional)
-  - SimpleQA: OpenAI GPT-4.1
-- **Search Tools**: Valyu, Google (SerpAPI), Exa, Parallel AI
+Full methodology, the headline leaderboard, per-domain breakdown, and reproduction details: [`draco/outputs/full/README.md`](draco/outputs/full/README.md).
 
-## Quick Start
+## What's in this repo
 
-### Prerequisites
+```
+draco/
+├── outputs/full/        canonical results — README, scores.json, inference, grading, charts
+├── run.py               Valyu DeepResearch runner
+├── run_parallel.py      Parallel Task API runner
+├── run_youcom.py        You.com Research API runner
+├── run_tavily.py        Tavily Research API runner
+├── run_exa.py           Exa Deep Reasoning runner
+└── eval/rubric_eval.py  per-criterion judge (gemini/gemini-3-pro-preview)
+```
 
-- Python 3.10+
-- Node.js 18+
-- API keys for search tools and AI models
-
-### Installation
+## Reproducing
 
 ```bash
-# Install Python dependencies
 pip install -r requirements.txt
 
-# Install Node.js dependencies
-npm install
-```
+# Download the DRACO dataset from HuggingFace into datasets/draco.jsonl
+python3 draco/download.py
 
-### Environment Setup
+# Set your provider keys in .env.local (VALYU_API_KEY, PARALLEL_API_KEY,
+# YDC_API_KEY, TAVILY_API_KEY, EXA_API_KEY, GOOGLE_GENERATIVE_AI_API_KEY)
+export $(grep -v '^#' .env.local | xargs)
 
-Create a `.env` file in each benchmark directory:
+# Run a provider (Valyu, Parallel, You.com, Tavily, Exa)
+python3 draco/run.py
+python3 draco/run_parallel.py --processor ultra8x
 
-```bash
-# Search Tool API Keys
-VALYU_API_KEY=your_valyu_api_key
-SERPAPI_KEY=your_serpapi_key
-EXA_API_KEY=your_exa_api_key
-PARALLEL_API_KEY=your_parallel_api_key
-
-# Google Gemini API
-GOOGLE_GENERATIVE_AI_API_KEY=your_gemini_api_key
-
-# For FreshQA (Claude evaluation via Anthropic API - default)
-ANTHROPIC_API_KEY=your_anthropic_api_key
-
-# For FreshQA (Claude evaluation via Vertex AI - optional)
-GOOGLE_CLOUD_PROJECT=your-gcp-project-id
-GOOGLE_CLOUD_LOCATION=us-east5
-GOOGLE_APPLICATION_CREDENTIALS=/path/to/service-account.json
-
-# For SimpleQA (OpenAI grading)
-OPENAI_API_KEY=your_openai_api_key
-```
-
-## Usage
-
-### Vertical Benchmarks
-
-```bash
-cd vertical_benchmarks
-
-# Run with Valyu on finance dataset
-python benchmark.py --tool valyu --dataset finance --sample 10
-
-# Run with Google on medical dataset
-python benchmark.py --tool google --dataset medical
-
-# Resume interrupted benchmark
-python benchmark.py --tool valyu --dataset finance --resume
-```
-
-**Output**: `results/benchmark_results_{dataset_type}_{tool}.json`
-
-### FreshQA
-
-```bash
-cd freshqa
-
-# Run with Valyu (all 600+ questions)
-python benchmark.py --tool valyu
-
-# Run with Exa (sample 50 questions)
-python benchmark.py --tool exa --sample 50
-
-# Use Vertex AI for Claude evaluation (instead of default Anthropic API)
-python benchmark.py --tool valyu --use-vertex true
-```
-
-**Output**: `fresheval_results_{tool}.csv`, `fresheval_comprehensive_{tool}.csv`, `fresheval_simple_{tool}.csv`
-
-### SimpleQA
-
-```bash
-cd simple-qa
-
-# Run with Valyu (default)
-python -m simple-qa.simple_qa
-
-# Run with Google search tool
-python -m simple-qa.simple_qa --tool google
-
-# Run with limited examples for testing
-python -m simple-qa.simple_qa --tool google --sample 10
-```
-
-**Output**: `results/simpleqa_agentsearch_{timestamp}_{tool}.json`
-
-## Benchmark Details
-
-### Vertical Benchmarks
-- **Datasets**: Finance, Medical, Economics
-- **Features**: Parallel processing (10 workers), checkpoint/resume, domain-specific prompts
-- **Evaluation**: Gemini 2.5 Pro judges correctness (correct/partially correct/incorrect)
-
-### FreshQA
-- **Dataset**: 600+ weekly-updated questions on current events
-- **Features**: Parallel processing (5 workers), relaxed evaluation criteria
-- **Evaluation**: Claude Sonnet 4 (Anthropic API default, Vertex AI optional) with detailed reasoning and TRUE/FALSE ratings
-
-### SimpleQA
-- **Dataset**: Straightforward factual questions
-- **Features**: Multiple model variants, timestamp-based results
-- **Evaluation**: OpenAI GPT-4.1 with accuracy metrics
-
-## Search Tools
-
-| Tool | Description |
-|------|-------------|
-| **Valyu** | Deep search across academic papers, web content, market data, SEC filings |
-| **Google** | Organic search results via SerpAPI |
-| **Exa** | Live web crawling for up-to-date information |
-| **Parallel** | Comprehensive multi-source search |
-
-## Results Format
-
-Each benchmark produces structured results with:
-- Response accuracy and correctness metrics
-- Judge evaluation reasoning
-- Processing time and performance statistics
-- Tool-specific metadata and outputs
-
-## Citation
-
-If you use FreshQA in your research:
-```
-Tu Vu, Mohit Iyyer, Xuezhi Wang, Noah Constant, Jerry Wei, Jason Wei,
-Chris Tar, Yun-Hsuan Sung, Denny Zhou, Quoc Le, Thang Luong.
-FreshLLMs: Refreshing Large Language Models with Search Engine Augmentation.
-arXiv:2310.03214, 2023.
+# Grade with the same per-criterion judge used for our results
+python3 draco/eval/rubric_eval.py --input draco/outputs/full/inference/<system>.jsonl
 ```
